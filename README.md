@@ -20,7 +20,7 @@ This collection repository allows you to get an overview of the components neces
 ## Protocols
 * [*Sofie* Ember+ Connection](https://github.com/nrkno/tv-automation-emberplus-connection) Lawo's Ember+ control protocol for Node.
 
-##Gateways
+## Gateways
 * [*Sofie* MOS Gateway](https://github.com/nrkno/tv-automation-mos-gateway) Gateway between *Server Core* and MOS devices.
 * [*Sofie* Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) Data exchange between *Server Core* and play-out devices.
 
