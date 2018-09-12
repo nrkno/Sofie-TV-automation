@@ -13,20 +13,20 @@ This collection repository allows you to get an overview of the components neces
 * [*Sofie* Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) Data exchange between *Server Core* and play-out devices.
 
 ## Libraries
+* [*Sofie* Timeline State Resolver](https://github.com/nrkno/tv-automation-state-timeline-resolver) Orchestrates and controls different devices.
 * [*Sofie* Server Core Integration](https://github.com/nrkno/tv-automation-server-core-integration) Used to connect to the Server Core (https://github.com/nrkno/tv-automation-server-core) from other Node processes.
-* [*Sofie* Lawo State](https://github.com/nrkno/tv-automation-lawo-state/) Simple state model for basic Lawo audio mixer features, designed for Ember+ compliance.
+* [*SuperFly.tv* CasparCG Connection library](https://github.com/SuperFlyTV/casparcg-connection) Connect and interact with CasparCG Servers via Node.
+* [*SuperFly.tv* CasparCG State library](https://github.com/superflytv/casparcg-state) 
+* [*Sofie* MOS Connection library](https://github.com/nrkno/tv-automation-mos-connection/) Library for connecting to a MOS device.
 * [*Sofie* ATEM State library](https://github.com/nrkno/tv-automation-atem-state) Compares two ATEM states.
 * [*Sofie* ATEM Connection library](https://github.com/nrkno/tv-automation-atem-connection) Library for connecting to BlackmagicDesign ATEM devices.
-* [*Sofie* MOS Connection library](https://github.com/nrkno/tv-automation-mos-connection/) Library for connecting to a MOS device.
-* [*Sofie* Timeline State Resolver](https://github.com/nrkno/tv-automation-state-timeline-resolver) Orchestrates and controls different devices.
-* [CasparCG Connection library](https://github.com/SuperFlyTV/casparcg-connection) Connect and interact with CasparCG Servers via Node.
+* [*Sofie* Lawo State](https://github.com/nrkno/tv-automation-lawo-state/) Simple state model for basic Lawo audio mixer features, designed for Ember+ compliance. *Not used at the moment.*
+* [*Sofie* Ember+ Connection library](https://github.com/nrkno/tv-automation-emberplus-connection) Lawo's Ember+ control protocol for Node.
 
-## Protocols
-* [*Sofie* Ember+ Connection](https://github.com/nrkno/tv-automation-emberplus-connection) Lawo's Ember+ control protocol for Node.
 
 ## Helpers
 * [*Sofie* CasparCG Launcher](https://github.com/nrkno/tv-automation-casparcg-launcher) Launcher, controller, and logger for CasparCG Server.
-* [SuperFly-Timeline](https://github.com/SuperFlyTV/supertimeline) Resolver and rules for placing objects on a virtual timeline.
+* [*SuperFly.tv* SuperFly-Timeline](https://github.com/SuperFlyTV/supertimeline) Resolver and rules for placing objects on a virtual timeline.
 
 ---
 
