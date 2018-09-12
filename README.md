@@ -16,7 +16,7 @@ This collection repository allows you to get an overview of the components neces
 * [*Sofie* Timeline State Resolver](https://github.com/nrkno/tv-automation-state-timeline-resolver) Orchestrates and controls different devices.
 * [*Sofie* Server Core Integration](https://github.com/nrkno/tv-automation-server-core-integration) Used to connect to the Server Core (https://github.com/nrkno/tv-automation-server-core) from other Node processes.
 * [*SuperFly.tv* CasparCG Connection library](https://github.com/SuperFlyTV/casparcg-connection) Connect and interact with CasparCG Servers via Node.
-* [*SuperFly.tv* CasparCG State library](https://github.com/superflytv/casparcg-state) 
+* [*SuperFly.tv* CasparCG State library](https://github.com/superflytv/casparcg-state) Tracks the state of CasparCG Servers.
 * [*Sofie* MOS Connection library](https://github.com/nrkno/tv-automation-mos-connection/) Library for connecting to a MOS device.
 * [*Sofie* ATEM State library](https://github.com/nrkno/tv-automation-atem-state) Compares two ATEM states.
 * [*Sofie* ATEM Connection library](https://github.com/nrkno/tv-automation-atem-connection) Library for connecting to BlackmagicDesign ATEM devices.
