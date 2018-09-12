@@ -4,7 +4,7 @@ This collection repository allows you to get an overview of the components neces
 
 
 ## Applications
-* [Sofie Server Core](https://github.com/nrkno/tv-automation-server-core) Main application of the Sofie system.
+* [*Sofie* Server Core](https://github.com/nrkno/tv-automation-server-core) Main application of the Sofie system.
 * [CasparCG Server (NRK fork)](https://github.com/nrkno/tv-automation-casparcg-server) Sofie-specific fork of CasparCG Server 2.1.
 * [CasparCG Media Scanner (NRK fork)](https://github.com/nrkno/tv-automation-casparcg-server) Sofie-specific fork of CasparCG Server 2.2 Media Scanner.
 
