@@ -27,7 +27,6 @@ This collection repository allows you to get an overview of the components neces
 ## Helpers
 * [*Sofie* CasparCG Launcher](https://github.com/nrkno/tv-automation-casparcg-launcher) Launcher, controller, and logger for CasparCG Server.
 * [SuperFly-Timeline](https://github.com/SuperFlyTV/supertimeline) Resolver and rules for placing objects on a virtual timeline.
-* [*Sofie* ]()
 
 ---
 
