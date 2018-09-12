@@ -8,6 +8,10 @@ This collection repository allows you to get an overview of the components neces
 * [CasparCG Server (NRK fork)](https://github.com/nrkno/tv-automation-casparcg-server) Sofie-specific fork of CasparCG Server 2.1.
 * [CasparCG Media Scanner (NRK fork)](https://github.com/nrkno/tv-automation-casparcg-server) Sofie-specific fork of CasparCG Server 2.2 Media Scanner.
 
+## Gateways
+* [*Sofie* MOS Gateway](https://github.com/nrkno/tv-automation-mos-gateway) Gateway between *Server Core* and MOS devices.
+* [*Sofie* Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) Data exchange between *Server Core* and play-out devices.
+
 ## Libraries
 * [*Sofie* Server Core Integration](https://github.com/nrkno/tv-automation-server-core-integration) Used to connect to the Server Core (https://github.com/nrkno/tv-automation-server-core) from other Node processes.
 * [*Sofie* Lawo State](https://github.com/nrkno/tv-automation-lawo-state/) Simple state model for basic Lawo audio mixer features, designed for Ember+ compliance.
@@ -19,10 +23,6 @@ This collection repository allows you to get an overview of the components neces
 
 ## Protocols
 * [*Sofie* Ember+ Connection](https://github.com/nrkno/tv-automation-emberplus-connection) Lawo's Ember+ control protocol for Node.
-
-## Gateways
-* [*Sofie* MOS Gateway](https://github.com/nrkno/tv-automation-mos-gateway) Gateway between *Server Core* and MOS devices.
-* [*Sofie* Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) Data exchange between *Server Core* and play-out devices.
 
 ## Helpers
 * [*Sofie* CasparCG Launcher](https://github.com/nrkno/tv-automation-casparcg-launcher) Launcher, controller, and logger for CasparCG Server.
