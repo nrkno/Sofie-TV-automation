@@ -2,6 +2,7 @@
 
 This collection repository allows you to get an overview of the components necessary to assemble the *Sofie* system.
 
+![alt text](https://raw.githubusercontent.com/nrkno/Sofie-TV-automation/master/Ny%20GUI.jpg "User interface")
 
 ## Applications
 * [*Sofie* Server Core](https://github.com/nrkno/tv-automation-server-core) Main application of the Sofie system.
