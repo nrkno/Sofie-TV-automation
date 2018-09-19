@@ -10,12 +10,12 @@ This collection repository allows you to get an overview of the components neces
 * [CasparCG Media Scanner (NRK fork)](https://github.com/nrkno/tv-automation-casparcg-server) Sofie-specific fork of CasparCG Server 2.2 Media Scanner.
 
 ## Gateways
-* [*Sofie* MOS Gateway](https://github.com/nrkno/tv-automation-mos-gateway) Gateway between *Server Core* and MOS devices.
+* [*Sofie* MOS Gateway](https://github.com/nrkno/tv-automation-mos-gateway) A (MOS protocol)[http://mosprotocol.com/] gateway between *Server Core* and MOS devices.
 * [*Sofie* Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) Data exchange between *Server Core* and play-out devices.
 
 ## Libraries
 * [*Sofie* Timeline State Resolver](https://github.com/nrkno/tv-automation-state-timeline-resolver) Orchestrates and controls different devices.
-* [*Sofie* Server Core Integration](https://github.com/nrkno/tv-automation-server-core-integration) Used to connect to the Server Core (https://github.com/nrkno/tv-automation-server-core) from other Node processes.
+* [*Sofie* Server Core Integration](https://github.com/nrkno/tv-automation-server-core-integration) Used to connect to the [Sofie Server Core](https://github.com/nrkno/tv-automation-server-core) from other Node processes.
 * [*SuperFly.tv* CasparCG Connection library](https://github.com/SuperFlyTV/casparcg-connection) Connect and interact with CasparCG Servers via Node.
 * [*SuperFly.tv* CasparCG State library](https://github.com/superflytv/casparcg-state) Tracks the state of CasparCG Servers.
 * [*Sofie* MOS Connection library](https://github.com/nrkno/tv-automation-mos-connection/) Library for connecting to a MOS device.
