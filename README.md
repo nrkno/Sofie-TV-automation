@@ -1,6 +1,8 @@
 # Sofie: The Modern TV News Studio Automation System
 
-This collection repository allows you to get an overview of the components necessary to assemble the *Sofie* system.
+This collection repository allows you to get an overview of the components necessary to assemble the state-based TV news automation system **Sofie**.
+
+
 
 ![alt text](https://raw.githubusercontent.com/nrkno/Sofie-TV-automation/master/Ny%20GUI.jpg "User interface")
 
