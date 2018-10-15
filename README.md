@@ -25,6 +25,7 @@ This collection repository allows you to get an overview of the components neces
 * [**Sofie ATEM Connection**](https://github.com/nrkno/tv-automation-atem-connection) Library for connecting to BlackmagicDesign ATEM devices.
 * [**Sofie Lawo State**](https://github.com/nrkno/tv-automation-lawo-state/) Simple state model for basic Lawo audio mixer features, designed for Ember+ compliance. *Not used at the moment.*
 * [**Sofie Ember+ Connection**](https://github.com/nrkno/tv-automation-emberplus-connection) Lawo's *Ember+* control protocol for Node.
+* [**Sofie Hyperdeck Connection**](https://github.com/nrkno/tv-automation-hyperdeck-connection) Library for connecting to BlackmagicDesign Hyperdeck devices.
 
 
 ## Helpers
