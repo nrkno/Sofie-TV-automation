@@ -33,7 +33,7 @@ This collection repository allows you to get an overview of the components neces
 * [**SuperFly.tv SuperFly-Timeline**](https://github.com/SuperFlyTV/supertimeline) Resolver and rules for placing objects on a virtual timeline.
 
 ## System Overview
-![alt text](https://raw.githubusercontent.com/nrkno/Sofie-TV-automation/master/Sofie_NRK_Nov_2018.png "Sofie System Overview")
+![Alt text](Sofie_NRK_Nov_2018.png "Sofie System Overview") 
 ---
 
 *The NRK logo is a registered trademark of Norsk rikskringkasting AS. The license does not grant any right to use, in any way, any trademarks, service marks or logos of Norsk rikskringkasting AS.*
