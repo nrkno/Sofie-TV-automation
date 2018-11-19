@@ -1,7 +1,8 @@
 # Sofie: The Modern TV News Studio Automation System
 
-This collection repository allows you to get an overview of the components necessary to assemble the state-based TV news automation system **Sofie**.
+This collection repository allows you to get an overview of the components necessary to assemble the state-based TV news automation system **Sofie**. 
 
+[5-minute presentation from the EBU booth at IBC 2018](https://www.youtube.com/watch?v=LeJxtTA3zms).
 
 
 ![alt text](https://raw.githubusercontent.com/nrkno/Sofie-TV-automation/master/Sofie_GUI_example.jpg "Sofie User Interface example")
