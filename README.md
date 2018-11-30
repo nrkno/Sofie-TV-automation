@@ -20,6 +20,7 @@ This collection repository allows you to get an overview of the components neces
 * [**Sofie MOS Connection**](https://github.com/nrkno/tv-automation-mos-connection/) A [MOS protocol](http://mosprotocol.com/) library for connecting to a MOS device.
 * [**Sofie Timeline State Resolver**](https://github.com/nrkno/tv-automation-state-timeline-resolver) Orchestrates and controls different devices.
 * [**Sofie Server Core Integration**](https://github.com/nrkno/tv-automation-server-core-integration) Used to connect to the [Sofie Server Core](https://github.com/nrkno/tv-automation-server-core) from other Node processes.
+* [**Sofie Blueprints Integration**](https://github.com/nrkno/tv-automation-sofie-blueprints-integration) Common types and interfaces used by both server-core and the user defined blueprints.
 * [**SuperFly.tv CasparCG Connection**](https://github.com/SuperFlyTV/casparcg-connection) Connect and interact with CasparCG Servers via Node.
 * [**SuperFly.tv CasparCG State**](https://github.com/superflytv/casparcg-state) Tracks the state of CasparCG Servers.
 * [**Sofie ATEM State**](https://github.com/nrkno/tv-automation-atem-state) Compares two ATEM states.
