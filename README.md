@@ -11,6 +11,7 @@ This collection repository allows you to get an overview of the components neces
 * [**Sofie Server Core**](https://github.com/nrkno/tv-automation-server-core) Main application of the Sofie system.
 * [**CasparCG Server** (NRK fork)](https://github.com/nrkno/tv-automation-casparcg-server) Sofie-specific fork of CasparCG Server 2.1.
 * [**CasparCG Media Scanner** (NRK fork)](https://github.com/nrkno/tv-automation-casparcg-server) Sofie-specific fork of CasparCG Server 2.2 Media Scanner.
+* [**Sofie Media Manager**](https://github.com/nrkno/tv-automation-media-management) Media file management for pulling new files and deleting expired files on play-out devices.
 
 ## Gateways
 * [**Sofie MOS Gateway**](https://github.com/nrkno/tv-automation-mos-gateway) A [MOS protocol](http://mosprotocol.com/) gateway between *Server Core* and MOS devices.
