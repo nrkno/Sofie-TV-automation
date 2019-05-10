@@ -1,6 +1,6 @@
 # Sofie: The Modern TV News Studio Automation System
 
-This collection repository allows you to get an overview of the components necessary to assemble the state-based TV news automation system **Sofie**. 
+This collection repository allows you to get an overview of the components necessary to assemble the state-based studio automation system **Sofie**, used in live TV news production by Norwegian public service broadcaster **NRK** since September 2018. 
 
 [5-minute presentation from the EBU booth at IBC 2018](https://www.youtube.com/watch?v=LeJxtTA3zms).
 
@@ -28,7 +28,7 @@ This collection repository allows you to get an overview of the components neces
 * [**Sofie ATEM Connection**](https://github.com/nrkno/tv-automation-atem-connection) Library for connecting to BlackmagicDesign ATEM devices.
 * [**Sofie Lawo State**](https://github.com/nrkno/tv-automation-lawo-state/) Simple state model for basic Lawo audio mixer features, designed for Ember+ compliance. *Not used at the moment.*
 * [**Sofie Ember+ Connection**](https://github.com/nrkno/tv-automation-emberplus-connection) Lawo's *Ember+* control protocol for Node.
-* [**Sofie Hyperdeck Connection**](https://github.com/nrkno/tv-automation-hyperdeck-connection) Library for connecting to BlackmagicDesign Hyperdeck devices.
+* [**Sofie HyperDeck Connection**](https://github.com/nrkno/tv-automation-hyperdeck-connection) Library for connecting to BlackmagicDesign Hyperdeck devices.
 
 
 ## Helpers
