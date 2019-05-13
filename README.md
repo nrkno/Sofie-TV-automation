@@ -5,7 +5,7 @@ This collection repository allows you to get an overview of the components neces
 [5-minute presentation from the EBU booth at IBC 2018](https://www.youtube.com/watch?v=LeJxtTA3zms).
 
 
-![alt text](https://raw.githubusercontent.com/nrkno/Sofie-TV-automation/master/Sofie_GUI_example.jpg "Sofie User Interface example")
+![alt text](https://raw.githubusercontent.com/nrkno/Sofie-TV-automation/master/images/Sofie_GUI_example.jpg "Sofie User Interface example")
 
 ## Applications
 * [**Sofie Server Core**](https://github.com/nrkno/tv-automation-server-core) Main application of the Sofie system.
@@ -36,7 +36,7 @@ This collection repository allows you to get an overview of the components neces
 * [**SuperFly.tv SuperFly-Timeline**](https://github.com/SuperFlyTV/supertimeline) Resolver and rules for placing objects on a virtual timeline.
 
 ## System Overview and the Current Integrations
-![Alt text](Sofie_NRK_May_10_2019.png "Sofie System Overview") 
+![Alt text](https://raw.githubusercontent.com/nrkno/Sofie-TV-automation/master/images/Sofie_NRK_May_10_2019.png "Sofie System Overview") 
 ---
 
 *The NRK logo is a registered trademark of Norsk rikskringkasting AS. The license does not grant any right to use, in any way, any trademarks, service marks or logos of Norsk rikskringkasting AS.*
