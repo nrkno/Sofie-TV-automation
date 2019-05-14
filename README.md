@@ -2,7 +2,7 @@
 
 This is the documentation for the state-based studio automation system **Sofie**, used in live TV news production by the Norwegian public service broadcaster **NRK** since September 2018.
 
-The documentation for the latest release of _Sofie_ is intended to be browsed at [https://sofie.gitbook.io/sofie-tv-automation](https://sofie.gitbook.io/sofie-tv-automation) while documentation for older releases can be found at [https://github.com/nrkno/Sofie-TV-automation/releases](https://github.com/nrkno/Sofie-TV-automation/releases)
+The documentation for the latest release of _Sofie_ is intended to be browsed at [https://sofie.gitbook.io/sofie-tv-automation/documentation](https://sofie.gitbook.io/sofie-tv-automation/documentation) while documentation for older releases can be found at [https://github.com/nrkno/Sofie-TV-automation/releases](https://github.com/nrkno/Sofie-TV-automation/releases)
 
 [5-minute presentation from the EBU booth at IBC 2018](https://www.youtube.com/watch?v=LeJxtTA3zms).
 
