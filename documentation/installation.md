@@ -18,8 +18,8 @@ Note that although this gives you a full installation of all core components, yo
 11. Run `yarn` in the `tv-automation-playout-gateway` directory.
 12. Run `yarn buildstart` in the `tv-automation-playout-gateway` directory.
 13. `cd ..` out of the`tv-automation-playout-gateway` directory.
-14. Clone tv-automation-mos-gateway
-15. cd into `tv-automation-mos-gateway`
-16. run `yarn` in mos gateway directory
-17. run `yarn buildstart` in mos gateway directory
+14. Clone the [tv-automation-mos-gateway](https://github.com/nrkno/tv-automation-mos-gateway) repository.
+15. `cd` into the `tv-automation-mos-gateway` directory.
+16. Run `yarn` in the `tv-automation-mos-gateway` directory.
+17. Run `yarn buildstart`
 
