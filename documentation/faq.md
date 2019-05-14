@@ -4,9 +4,15 @@
 
 All core components are using the [MIT license](https://opensource.org/licenses/MIT).
 
-## Is everything needed to automate
+## Is there any missing in the public repositories?
 
-Yes, after a few months we finally found the answer. Sadly, Mike is on vacations right now so I'm afraid we are not able to provide the answer at this point.
+Everything needed to install and configure a fully functioning _Sofie_ system is publicly available, with the following exceptions:
+
+* A licensed and working installation of an [AP ENPS](https://www.ap.org/enps/) system. _This limitation will be removed as soon as integration with other data sources becomes available._
+* A set of [Blueprints](system-overview/blueprints.md). _This is planned to be added shortly._
+* A rundown data set describing a dummy studio configuration and the [Show Styles](system-overview/show-styles.md). _A self-contained dummy TV show with blueprints, rundown, and media assets is planned to be added shortly._
+* A rundown data set describing the actual TV show. _A self-contained dummy TV show with blueprints, rundown, and media assets is planned to be added shortly._
+* A set of media assets. _A self-contained dummy TV show with blueprints, rundown, and media assets is planned to be added shortly._
 
 ## When will feature _x_ become available?
 
