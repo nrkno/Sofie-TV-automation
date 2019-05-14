@@ -2,11 +2,11 @@
 
 * [NRK Sofie TV Automation](README.md)
 * [Sofie Documentation](documentation/README.md)
+  * [Requirements](documentation/requirements.md)
   * [Installation](documentation/installation.md)
   * [Getting Started](documentation/getting-started.md)
   * [FAQ](documentation/faq.md)
   * [Releases](documentation/releases.md)
-  * [Requirements](documentation/requirements.md)
   * [Development Roadmap](documentation/roadmap.md)
   * [Components](documentation/system-overview/README.md)
     * [Sofie Server Core](documentation/system-overview/sofie-server-core.md)
