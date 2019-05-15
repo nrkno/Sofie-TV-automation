@@ -6,6 +6,10 @@ description: >-
 
 # Sofie MOS Gateway
 
+{% hint style="info" %}
+Please note that this documentation is being actively developed during Q2 2019, and that the content and links are likely to undergo drastic changes from day to day. 
+{% endhint %}
+
 ## MOS Protocol
 
 Read more about the MOS Protocol at [www.mosprotocol.com](http://mosprotocol.com/). Sofie MOS Gateway uses MOS Protocol v2.8.4.
