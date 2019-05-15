@@ -1,5 +1,9 @@
 # Sofie Timeline State Resolver
 
+{% hint style="info" %}
+Please note that this documentation is being actively developed during Q2 2019, and that the content and links are likely to undergo drastic changes from day to day.
+{% endhint %}
+
 ## Abstract
 
 This library orchestrates and controls different devices. Its input is a [supertimeline](../helpers/superfly.tv-superfly-timeline.md) data structure and a layer-to-device-map. Using the input, it resolves the expected state, diffs the state against current state and sends commands where necessary.
