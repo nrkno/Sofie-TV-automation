@@ -1,6 +1,6 @@
 # Installation
 
-Note that although this gives you a full installation of all core components, you cannot do any actual playout yet. Please see the [FAQ](faq.md#is-there-any-missing-in-the-public-repositories).
+Note that although this gives you a full installation of all core components, you cannot do any actual playout yet. Please see the [FAQ](../faq.md#is-there-any-missing-in-the-public-repositories).
 
 1. Install [Meteor](https://www.meteor.com/).
 2. Install [Node.js](https://nodejs.org/), version 8 \(LTS\).

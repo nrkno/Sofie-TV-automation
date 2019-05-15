@@ -8,7 +8,7 @@ description: Sofie - TV Automation uses the following applications
 
 The main application of the Sofie system
 
-## \*\*\*\*[**CasparCG Server** \(NRK Fork\)](casparcg-server-nrk-fork.md)
+## \*\*\*\*[**CasparCG Server** \(NRK Fork\)](../../installation/casparcg-server-installation.md)
 
 Sofie-specific fork of CasparCG Server 2.1
 
