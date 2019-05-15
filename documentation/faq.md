@@ -1,5 +1,9 @@
 # FAQ
 
+{% hint style="info" %}
+Please note that this documentation is being actively developed during Q2 2019, and that the content and links are likely to undergo drastic changes from day to day. 
+{% endhint %}
+
 ## What software license does the system use?
 
 All core components are using the [MIT license](https://opensource.org/licenses/MIT).

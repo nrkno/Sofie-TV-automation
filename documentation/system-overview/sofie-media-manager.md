@@ -6,6 +6,10 @@ description: >-
 
 # Sofie Media Manager
 
+{% hint style="info" %}
+Please note that this documentation is being actively developed during Q2 2019, and that the content and links are likely to undergo drastic changes from day to day. 
+{% endhint %}
+
 The system allows to use local ingest, expected media items based on the Running Order contents, and simple watch folder mirroring workflows. Supported storage handlers include local folders and CIFS shares. Target platform for the system is Windows and the application is expected to be controlled using the Caspar CG Launcher, but the architecture is architecture-agnostic.
 
 ## Usage
