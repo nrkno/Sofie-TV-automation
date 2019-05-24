@@ -8,22 +8,23 @@ Note that although this gives you a full installation of all core components, yo
 
 1. Install [Meteor](https://www.meteor.com/).
 2. Install [Node.js](https://nodejs.org/), version 8 \(LTS\).
-3. Install **yarn** \(package manager, similar to **npm**\) by running `npm install --global yarn`
-4. Clone the [tv-automation-server-core](https://github.com/nrkno/tv-automation-server-core) repository.
-5. `cd` into the `tv-automation-server-core/meteor` directory.
-6. Run `meteor npm install` in the `tv-automation-server-core`
+3. If on windows, install the build tools by running `npm install --global --production windows-build-tools`
+4. Install **yarn** \(package manager, similar to **npm**\) by running `npm install --global yarn`
+5. Clone the [tv-automation-server-core](https://github.com/nrkno/tv-automation-server-core) repository.
+6. `cd` into the `tv-automation-server-core/meteor` directory.
+7. Run `meteor npm install` in the `tv-automation-server-core`
 
     directory.
 
-7. Run `meteor`
-8. `cd ..` out of the `tv-automation-server-core` directory.
-9. Clone the [tv-automation-playout-gateway](https://github.com/nrkno/tv-automation-playout-gateway) repository.
-10. `cd` into the `tv-automation-playout-gateway` directory.
-11. Run `yarn` in the `tv-automation-playout-gateway` directory.
-12. Run `yarn buildstart` in the `tv-automation-playout-gateway` directory.
-13. `cd ..` out of the`tv-automation-playout-gateway` directory.
-14. Clone the [tv-automation-mos-gateway](https://github.com/nrkno/tv-automation-mos-gateway) repository.
-15. `cd` into the `tv-automation-mos-gateway` directory.
-16. Run `yarn` in the `tv-automation-mos-gateway` directory.
-17. Run `yarn buildstart`
+8. Run `meteor`
+9. `cd ..` out of the `tv-automation-server-core` directory.
+10. Clone the [tv-automation-playout-gateway](https://github.com/nrkno/tv-automation-playout-gateway) repository.
+11. `cd` into the `tv-automation-playout-gateway` directory.
+12. Run `yarn` in the `tv-automation-playout-gateway` directory.
+13. Run `yarn buildstart` in the `tv-automation-playout-gateway` directory.
+14. `cd ..` out of the`tv-automation-playout-gateway` directory.
+15. Clone the [tv-automation-mos-gateway](https://github.com/nrkno/tv-automation-mos-gateway) repository.
+16. `cd` into the `tv-automation-mos-gateway` directory.
+17. Run `yarn` in the `tv-automation-mos-gateway` directory.
+18. Run `yarn buildstart`
 
