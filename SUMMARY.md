@@ -11,6 +11,7 @@
   * [Development Roadmap](documentation/roadmap.md)
   * [Components](documentation/system-overview/README.md)
     * [Sofie Server Core](documentation/system-overview/sofie-server-core.md)
+    * [Sofie GUI](documentation/system-overview/sofie-gui.md)
     * [Sofie Media Manager](documentation/system-overview/sofie-media-manager.md)
     * [Blueprints](documentation/system-overview/blueprints.md)
     * [Show Styles](documentation/system-overview/show-styles.md)
