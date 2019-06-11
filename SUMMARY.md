@@ -9,7 +9,7 @@
   * [FAQ](documentation/faq.md)
   * [Releases](documentation/releases.md)
   * [Development Roadmap](documentation/roadmap.md)
-  * [Components](documentation/system-overview/README.md)
+  * [Under the Hood](documentation/system-overview/README.md)
     * [Sofie Server Core](documentation/system-overview/sofie-server-core.md)
     * [Sofie GUI](documentation/system-overview/sofie-gui.md)
     * [Sofie Media Manager](documentation/system-overview/sofie-media-manager.md)
