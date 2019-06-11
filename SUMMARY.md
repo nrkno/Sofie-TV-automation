@@ -15,6 +15,7 @@
     * [Sofie Media Manager](documentation/system-overview/sofie-media-manager.md)
     * [Blueprints](documentation/system-overview/blueprints.md)
     * [Show Styles](documentation/system-overview/show-styles.md)
+    * [Contribution Guidelines](documentation/system-overview/contribution-guidelines.md)
     * [Play-out Devices](documentation/system-overview/applications/README.md)
       * [CasparCG Server \(NRK Fork\)](documentation/system-overview/applications/casparcg-server-nrk-fork.md)
       * [CasparCG Media Scanner \(NRK Fork\)](documentation/system-overview/applications/casparcg-media-scanner-nrk-fork.md)
