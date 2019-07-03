@@ -6,17 +6,21 @@ description: >-
 
 # Releases
 
+
+
 {% hint style="info" %}
 Please note that this documentation is being actively developed during Q2 2019, and that the content and links are likely to undergo drastic changes from day to day. 
 {% endhint %}
 
-## Release 11
+Current stable version: [Release 9](releases.md#release-9)
+
+## _Release 11 \(work in progress\)_
 
 Upcoming release, see the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/4) for details
 
-## Release 10
+## Release 10 \(work in progress\)
 
-Release date: _2019-07-05 \(upcoming\)_
+Expected release date: _2019-07-05_
 
 ### Main Features
 
