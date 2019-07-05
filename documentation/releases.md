@@ -14,13 +14,36 @@ Please note that this documentation is being actively developed during Q2 2019, 
 
 Current stable version: [Release 9](releases.md#release-9)
 
+## _Upcoming: Release 12 \(work in progress\)_
+
+See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/5) for details __
+
 ## _Release 11 \(work in progress\)_
 
-Upcoming release, see the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/4) for details
+Status: Currently in testing, expected release date: mid-_August 2019_
 
-## Release 10 \(work in progress\)
+### Main Features
 
-Expected release date: _2019-07-05_
+ This release is a maintenance release, with only minor features.
+
+* \*\*\*\*
+
+See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/4) for details
+
+### Components
+
+| Component | Version | Changelog |
+| :--- | :--- | :--- |
+| [Core](https://github.com/nrkno/tv-automation-server-core) | 0.26.0 \(TBD\) | _Changelog_ |
+| [Blueprints API \( Core \)](https://www.npmjs.com/package/tv-automation-sofie-blueprints-integration) | TBD |  |
+| [Blueprints API \( TSR \)](https://www.npmjs.com/package/timeline-state-resolver-types) | TBD |  |
+| [Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) | TBD |  |
+| [Mos Gateway](https://github.com/nrkno/tv-automation-mos-gateway) | TBD |  |
+| [Media Manager](https://github.com/nrkno/tv-automation-media-management) | TBD |  |
+
+## Release 10
+
+Release date: _2019-07-05_
 
 ### Main Features
 
@@ -46,7 +69,7 @@ See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/
 
 | Component | Version | Changelog |
 | :--- | :--- | :--- |
-| [Core](https://github.com/nrkno/tv-automation-server-core) | 0.25.0 | _Changelog_ |
+| [Core](https://github.com/nrkno/tv-automation-server-core) | 0.25.0 | \_\_[_Changelog_](https://github.com/nrkno/tv-automation-server-core/blob/master/meteor/CHANGELOG.md#0250-2019-07-05)\_\_ |
 | [Blueprints API \( Core \)](https://www.npmjs.com/package/tv-automation-sofie-blueprints-integration) | 0.23.0 |  |
 | [Blueprints API \( TSR \)](https://www.npmjs.com/package/timeline-state-resolver-types) | 3.0.1 |  |
 | [Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) | 0.20.0 |  |
@@ -118,7 +141,7 @@ Release date: 2019-03-15
 
 ## Release 6
 
-Release date: 2019-02-05
+_---This release was discarded due to stability issues and replaced by Release 7---_
 
 See [Core changelog](https://github.com/nrkno/tv-automation-server-core/blob/master/meteor/CHANGELOG.md#0210-0-2019-02-05) for details
 
@@ -138,7 +161,7 @@ Release date: 2018-12-17
 
 See [Core changelog](https://github.com/nrkno/tv-automation-server-core/blob/master/meteor/CHANGELOG.md#0181-2018-12-11) for details
 
-Core version: 0.18.1
+Core version: ~~0.18.1~~ patched by 0.19.0
 
 ## Release 3
 
