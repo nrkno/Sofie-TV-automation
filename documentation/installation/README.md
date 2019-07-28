@@ -1,7 +1,7 @@
 # Installation
 
 {% hint style="info" %}
-Please note that this documentation is being actively developed during Q2 2019, and that the content and links are likely to undergo drastic changes from day to day. 
+Please note that this documentation is a work in progress, and that the content and links are likely to undergo drastic changes. 
 {% endhint %}
 
 Note that although this gives you a full installation of all core components, you cannot do any actual playout yet. Please see the [FAQ](../faq.md#is-there-any-missing-in-the-public-repositories).

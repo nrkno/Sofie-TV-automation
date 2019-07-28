@@ -5,7 +5,7 @@ description: This is an implementation of Lawo's Ember+ control protocol for Nod
 # Sofie Ember+ Connection
 
 {% hint style="info" %}
-Please note that this documentation is being actively developed during Q2 2019, and that the content and links are likely to undergo drastic changes from day to day.
+Please note that this documentation is a work in progress, and that the content and links are likely to undergo drastic changes.
 {% endhint %}
 
 One of Node's great strengths is the ready availability of frameworks for various communication protocols and user interfaces; this module allows those to be integrated with Ember+ somewhat more easily than the reference libember C++ implementation.
