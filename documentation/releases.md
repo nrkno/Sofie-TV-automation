@@ -1,32 +1,37 @@
 ---
 description: >-
-  A release specifies a set of versions of the components that make up a Sofie
-  system.
+  A release is made up from a collection of components and their versions that
+  together make up the Sofie system.
 ---
 
 # Releases
 
+| Release | Status |
+| :--- | :--- |
+| Release 12 | _Upcoming_ |
+| [Release 11](releases.md#release-11-in-development) | _In development_ |
+| [Release 10](releases.md#release-10) | Released 2019-07-05 **Current stable version** |
+| [Release 9](releases.md#release-9) | Released 2019-05-16 |
+| [Release 8](releases.md#release-8) | Released 2019-04-08 |
+| [Release 7](releases.md#release-7) | Released 2019-03-15 |
 
+## _Upcoming: Release 12 \(_in development_\)_
 
-{% hint style="info" %}
-Please note that this documentation is a work in progress, and that the content and links are likely to undergo drastic changes. 
-{% endhint %}
+See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/5) for details 
 
-Current stable version: [Release 9](releases.md#release-9)
-
-## _Upcoming: Release 12 \(work in progress\)_
-
-See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/5) for details __
-
-## _Release 11 \(work in progress\)_
+## _Release 11_
 
 Status: Currently in testing, expected release date: mid-_August 2019_
 
 ### Main Features
 
- This release is a maintenance release, with only minor features.
+This release is a maintenance release, with only minor features.
 
-* \*\*\*\*
+* Core: Blueprint.onGenerateTimeline improvements
+* Core: REST API, a first version, allowing basic control of playout
+* Playout-gateway: CommandError callback: report to Core when a command fails
+
+
 
 See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/4) for details
 
@@ -34,12 +39,12 @@ See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/
 
 | Component | Version | Changelog |
 | :--- | :--- | :--- |
-| [Core](https://github.com/nrkno/tv-automation-server-core) | 0.26.0 \(TBD\) | _Changelog_ |
-| [Blueprints API \( Core \)](https://www.npmjs.com/package/tv-automation-sofie-blueprints-integration) | TBD |  |
-| [Blueprints API \( TSR \)](https://www.npmjs.com/package/timeline-state-resolver-types) | TBD |  |
-| [Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) | TBD |  |
-| [Mos Gateway](https://github.com/nrkno/tv-automation-mos-gateway) | TBD |  |
-| [Media Manager](https://github.com/nrkno/tv-automation-media-management) | TBD |  |
+| [Core](https://github.com/nrkno/tv-automation-server-core) | 0.26.0 \(expected\) | _Changelog_ |
+| [Blueprints API \( Core \)](https://www.npmjs.com/package/tv-automation-sofie-blueprints-integration) | 0.24.0 |  |
+| [Blueprints API \( TSR \)](https://www.npmjs.com/package/timeline-state-resolver-types) | 3.1.1 |  |
+| [Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) | 0.21.0 \(expected\) |  |
+| [Mos Gateway](https://github.com/nrkno/tv-automation-mos-gateway) | 0.8.0 |  |
+| [Media Manager](https://github.com/nrkno/tv-automation-media-management) | 0.2.1 \(expected\) |  |
 
 ## Release 10
 
@@ -47,7 +52,7 @@ Release date: _2019-07-05_
 
 ### Main Features
 
- This release features a BIG refactoring and a lot of renamings. _Therefore, this release is NOT backwards compatible._
+This release features a BIG refactoring and a lot of renamings. _Therefore, this release is NOT backwards compatible._
 
 * **The Big Renaming** _A big refactoring and renaming of variables and data structures._
 
@@ -59,7 +64,7 @@ Release date: _2019-07-05_
   * _SegmentLine -&gt; Part_
   * _SegmentLineItem -&gt; Piece_
 
-* **New ingest data pipeline** _****This is a step on the way to support different types of sources of input data._
+* **New ingest data pipeline** _\*\*This is a step on the way to support different types of sources of input data._
 * **New Timeline**  _This release also features the new_ [_Timeline_ ](https://www.npmjs.com/package/superfly-timeline)_\(version 7.0\), which gives better control and performance_
 * **Unit tests & CI** _In order to achieve a safer development environment, higher code quality and catching bugs earlier, we've added Jest as test framework._
 

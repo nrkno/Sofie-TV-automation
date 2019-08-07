@@ -1,6 +1,6 @@
 # NRK Sofie TV Automation
 
-_Please note that this documentation is a work in progress, and that the content and links are likely to undergo drastic changes._ 
+_Please note that this documentation is a work in progress, and that the content and links are likely to undergo drastic changes._
 
 This is the documentation for the state-based studio automation system **Sofie**, used in live TV news production by the Norwegian public service broadcaster **NRK** since September 2018.
 
@@ -9,8 +9,6 @@ The documentation for the latest release of _Sofie_ is intended to be browsed at
 ## Video
 
 [5-minute presentation from the EBU booth at IBC 2018](https://www.youtube.com/watch?v=LeJxtTA3zms).
-
-
 
 ![Sofie User Interface example](https://raw.githubusercontent.com/nrkno/Sofie-TV-automation/master/images/Sofie_GUI_example.jpg)
 

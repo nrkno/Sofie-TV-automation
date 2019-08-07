@@ -1,7 +1,7 @@
 # Installation
 
 {% hint style="info" %}
-Please note that this documentation is a work in progress, and that the content and links are likely to undergo drastic changes. 
+Please note that this documentation is a work in progress, and that the content and links are likely to undergo drastic changes.
 {% endhint %}
 
 Note that although this gives you a full installation of all core components, you cannot do any actual playout yet. Please see the [FAQ](../faq.md#is-there-any-missing-in-the-public-repositories).
@@ -14,7 +14,7 @@ Note that although this gives you a full installation of all core components, yo
 6. `cd` into the `tv-automation-server-core/meteor` directory.
 7. Run `meteor npm install` in the `tv-automation-server-core`
 
-    directory.
+   directory.
 
 8. Run `meteor`
 9. `cd ..` out of the `tv-automation-server-core` directory.
