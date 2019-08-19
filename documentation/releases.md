@@ -8,20 +8,51 @@ description: >-
 
 | Release | Status |
 | :--- | :--- |
-| Release 12 | _Upcoming_ |
-| [Release 11](releases.md#release-11-in-development) | _In development_ |
-| [Release 10](releases.md#release-10) | Released 2019-07-05 **Current stable version** |
+| [Release 13](https://github.com/nrkno/Sofie-TV-automation/issues/6) | _Upcoming_ |
+| [Release 12](https://github.com/nrkno/Sofie-TV-automation/issues/5) | _In development_ |
+| [Release 11](releases.md#release-11-in-development) | _Released 2019-08-19 **Current stable version**_ |
+| [Release 10](releases.md#release-10) | Released 2019-07-05 |
 | [Release 9](releases.md#release-9) | Released 2019-05-16 |
 | [Release 8](releases.md#release-8) | Released 2019-04-08 |
 | [Release 7](releases.md#release-7) | Released 2019-03-15 |
 
-## _Upcoming: Release 12 \(_in development_\)_
+## _Upcoming: Release 13 \(_in development_\)_
 
 See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/5) for details 
 
+## _Release 12_
+
+Status: Currently in testing, expected release date: mid-September _2019_
+
+### Main Features
+
+This release features a few improvements and support for a few new playout devoces:
+
+* Playout-gateway: Support for the Quantel video server, via the [Quantel Gateway](https://github.com/nrkno/tv-automation-quantel-gateway)
+* Playout-gateway: Support for the [Sisyfos audio controller](https://github.com/olzzon/sisyfos-audio-controller)
+* Playout-gateway: Generic TCP-controlled device
+* Playout-gateway: Hyperdeck monitoring disk usage, and ba able format slots
+
+
+
+See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/5) for details
+
+### Components
+
+| Component | Version | Changelog |
+| :--- | :--- | :--- |
+| [Core](https://github.com/nrkno/tv-automation-server-core) | 1.0.0 \(expected\) | _Changelog_ |
+| [Blueprints API \( Core \)](https://www.npmjs.com/package/tv-automation-sofie-blueprints-integration) | 0.24.0 |  |
+| [Blueprints API \( TSR \)](https://www.npmjs.com/package/timeline-state-resolver-types) | 3.5.0 \(Expected\) |  |
+| [Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) | 1.0.0 \(expected\) |  |
+| [Mos Gateway](https://github.com/nrkno/tv-automation-mos-gateway) | 1.0.0 |  |
+| [Media Manager](https://github.com/nrkno/tv-automation-media-management) | 1.0.0 \(expected\) |  |
+
+## 
+
 ## _Release 11_
 
-Status: Currently in testing, expected release date: mid-_August 2019_
+Release date: _2019-08-19_
 
 ### Main Features
 
@@ -39,12 +70,12 @@ See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/
 
 | Component | Version | Changelog |
 | :--- | :--- | :--- |
-| [Core](https://github.com/nrkno/tv-automation-server-core) | 0.26.0 \(expected\) | _Changelog_ |
-| [Blueprints API \( Core \)](https://www.npmjs.com/package/tv-automation-sofie-blueprints-integration) | 0.24.0 |  |
+| [Core](https://github.com/nrkno/tv-automation-server-core) | 0.26.0 | \_\_[_Changelog_](https://github.com/nrkno/tv-automation-server-core/blob/master/meteor/CHANGELOG.md#0260-2019-08-19)\_\_ |
+| [Blueprints API \( Core \)](https://www.npmjs.com/package/tv-automation-sofie-blueprints-integration) | 0.24.1 |  |
 | [Blueprints API \( TSR \)](https://www.npmjs.com/package/timeline-state-resolver-types) | 3.1.1 |  |
-| [Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) | 0.21.0 \(expected\) |  |
+| [Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) | 0.21.0 |  |
 | [Mos Gateway](https://github.com/nrkno/tv-automation-mos-gateway) | 0.8.0 |  |
-| [Media Manager](https://github.com/nrkno/tv-automation-media-management) | 0.2.1 \(expected\) |  |
+| [Media Manager](https://github.com/nrkno/tv-automation-media-management) | 0.2.1 |  |
 
 ## Release 10
 
@@ -74,7 +105,7 @@ See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/
 
 | Component | Version | Changelog |
 | :--- | :--- | :--- |
-| [Core](https://github.com/nrkno/tv-automation-server-core) | 0.25.0 | \_\_[_Changelog_](https://github.com/nrkno/tv-automation-server-core/blob/master/meteor/CHANGELOG.md#0250-2019-07-05)\_\_ |
+| [Core](https://github.com/nrkno/tv-automation-server-core) | 0.25.0 | [_Changelog_](https://github.com/nrkno/tv-automation-server-core/blob/master/meteor/CHANGELOG.md#0250-2019-07-05) |
 | [Blueprints API \( Core \)](https://www.npmjs.com/package/tv-automation-sofie-blueprints-integration) | 0.23.0 |  |
 | [Blueprints API \( TSR \)](https://www.npmjs.com/package/timeline-state-resolver-types) | 3.0.1 |  |
 | [Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) | 0.20.0 |  |
@@ -97,7 +128,7 @@ Release date: 2019-05-16
 
 | Component | Version | Changelog |
 | :--- | :--- | :--- |
-| [Core](https://github.com/nrkno/tv-automation-server-core) | 0.24.0 | \_\_[_Changelog_](https://github.com/nrkno/tv-automation-server-core/blob/master/meteor/CHANGELOG.md#0240-2019-05-16)\_\_ |
+| [Core](https://github.com/nrkno/tv-automation-server-core) | 0.24.0 | [_Changelog_](https://github.com/nrkno/tv-automation-server-core/blob/master/meteor/CHANGELOG.md#0240-2019-05-16) |
 | [Blueprints API \( Core \)](https://www.npmjs.com/package/tv-automation-sofie-blueprints-integration) | 0.19.0 |  |
 | [Blueprints API \( TSR \)](https://www.npmjs.com/package/timeline-state-resolver-types) | 2.2.0 |  |
 | [Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) | 0.19.1 |  |
@@ -119,7 +150,7 @@ Release date: 2019-04-08
 
 | Component | Version | Changelog |
 | :--- | :--- | :--- |
-| [Core](https://github.com/nrkno/tv-automation-server-core) | 0.23.0 | \_\_[_Changelog_](https://github.com/nrkno/tv-automation-server-core/blob/master/meteor/CHANGELOG.md#0230-2019-04-08)\_\_ |
+| [Core](https://github.com/nrkno/tv-automation-server-core) | 0.23.0 | [_Changelog_](https://github.com/nrkno/tv-automation-server-core/blob/master/meteor/CHANGELOG.md#0230-2019-04-08) |
 | [Blueprints API \( Core \)](https://www.npmjs.com/package/tv-automation-sofie-blueprints-integration) | 0.16.0 |  |
 | [Blueprints API \( TSR \)](https://www.npmjs.com/package/timeline-state-resolver-types) | 2.0.1 |  |
 | [Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) | 0.18.0 |  |
@@ -135,7 +166,7 @@ Release date: 2019-03-15
 
 | Component | Version | Changelog |
 | :--- | :--- | :--- |
-| [Core](https://github.com/nrkno/tv-automation-server-core) | 0.22.0 | \_\_[_Changelog_](https://github.com/nrkno/tv-automation-server-core/blob/master/meteor/CHANGELOG.md#0220-2019-03-15)\_\_ |
+| [Core](https://github.com/nrkno/tv-automation-server-core) | 0.22.0 | [_Changelog_](https://github.com/nrkno/tv-automation-server-core/blob/master/meteor/CHANGELOG.md#0220-2019-03-15) |
 | [Blueprints API \( Core \)](https://www.npmjs.com/package/tv-automation-sofie-blueprints-integration) | 0.13.0 |  |
 | [Blueprints API \( TSR \)](https://www.npmjs.com/package/timeline-state-resolver-types) | 1.6.3 |  |
 | [Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) | 0.17.0 |  |
