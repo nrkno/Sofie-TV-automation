@@ -1,30 +1,13 @@
-# Installation
+# Installation & setup
 
-{% hint style="info" %}
-Please note that this documentation is a work in progress, and that the content and links are likely to undergo drastic changes.
-{% endhint %}
+The Sofie system consists of several applications that work together \(read more at [Applications & Libraries](../system-overview/libraries.md)\).
 
-Note that although this gives you a full installation of all core components, you cannot do any actual playout yet. Please see the [FAQ](../faq.md#is-there-any-missing-in-the-public-repositories).
+Which applications to install depends a bit on what functionality you want.
 
-1. Install [Meteor](https://www.meteor.com/).
-2. Install [Node.js](https://nodejs.org/), version 8 \(LTS\).
-3. If on windows, install the build tools by running `npm install --global --production windows-build-tools`
-4. Install **yarn** \(package manager, similar to **npm**\) by running `npm install --global yarn`
-5. Clone the [tv-automation-server-core](https://github.com/nrkno/tv-automation-server-core) repository.
-6. `cd` into the `tv-automation-server-core/meteor` directory.
-7. Run `meteor npm install` in the `tv-automation-server-core`
+* **Sofie with Google Spreadsheet support** _This installation allows you to use Sofie in its simplest form. Using Google spreadsheets to create rundowns and CasparCG to play videos and graphics, this is the quickest way to get started._ Read the full article here: [Installing Sofie with Google Spreadsheet support](installing-sofie-with-google-spreadsheet-support.md)
+* **Sofie with MOS / ENPS and MAM support** This installation uses ENPS over the MOS protocol to ingest rundowns. It also uses the [_**Media Manager**_](../system-overview/libraries.md) to transfer media files and monitor media statuses. Read the full article here: \[Article-to-be-written\]
 
-   directory.
+\_\_
 
-8. Run `meteor`
-9. `cd ..` out of the `tv-automation-server-core` directory.
-10. Clone the [tv-automation-playout-gateway](https://github.com/nrkno/tv-automation-playout-gateway) repository.
-11. `cd` into the `tv-automation-playout-gateway` directory.
-12. Run `yarn` in the `tv-automation-playout-gateway` directory.
-13. Run `yarn buildstart` in the `tv-automation-playout-gateway` directory.
-14. `cd ..` out of the`tv-automation-playout-gateway` directory.
-15. Clone the [tv-automation-mos-gateway](https://github.com/nrkno/tv-automation-mos-gateway) repository.
-16. `cd` into the `tv-automation-mos-gateway` directory.
-17. Run `yarn` in the `tv-automation-mos-gateway` directory.
-18. Run `yarn buildstart`
+
 

@@ -1,0 +1,62 @@
+# This is NOT recommended to be used for a production deployment. It aims to quickly get an evaluation version of sofie running and serve as a basis for how to setup a production deployment
+version: "3.3"
+services:
+
+  db:
+    hostname: mongo
+    image: mongo:3.4
+    restart: always
+    # command: --replSet mock-repl
+
+    ports:
+      - "3001:27017" # Expose mongo on the same port as dev meteor does
+    volumes:
+      - db-data:/data/db
+    networks:
+      - sofie
+
+  core:
+    hostname: core
+    image: sofietv/tv-automation-server-core:develop
+    restart: always
+    ports:
+      - "3000:3000" # Same port as meteor uses by default
+    environment:
+      PORT: "3000"
+      MONGO_URL: "mongodb://db:27017/meteor"
+      # TODO - what is the impact of not having MONGO_OPLOG_URL set?
+      # MONGO_OPLOG_URL: "mongodb://db:27017/local"
+      ROOT_URL: "http://localhost:3000"
+    networks:
+      - sofie
+    volumes:
+      - snapshots:/mnt/snapshots
+    depends_on:
+      - db
+
+  playout-gateway:
+    image: sofietv/tv-automation-playout-gateway:develop
+    restart: always
+    command: yarn start -host core -port 3000
+    networks:
+      - sofie
+    depends_on:
+      - core
+
+  ingest-gateway:
+    # Choose one of the following images, depending on which ingest gateway is wanted
+    image: superflytv/sofie-spreadsheet-gateway:develop
+    # image: sofietv/tv-automation-mos-gateway:develop
+    restart: always
+    command: yarn start -host core -port 3000
+    networks:
+      - sofie
+    depends_on:
+      - core
+
+networks:
+  sofie:
+
+volumes:
+  db-data:
+  snapshots:
