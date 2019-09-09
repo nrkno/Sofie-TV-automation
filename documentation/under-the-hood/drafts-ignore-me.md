@@ -1,6 +1,14 @@
-# Concepts & Architecture
+# Drafts \(ignore this\)
 
-## 
+{% hint style="danger" %}
+This page contains loose notes, which will be refactored, rewritten, removed or relocated to other parts in the documentation.
+
+Please ignore this page, or \(t\)read carefully :\)
+{% endhint %}
+
+
+
+
 
 ## User Interface
 

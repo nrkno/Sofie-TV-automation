@@ -51,10 +51,12 @@ You should be presented with the Sofie GUI. Head over to [Getting started](../ge
 8. Run `meteor`
 9. `cd ..` out of the `tv-automation-server-core` directory
 
-The web interface is available at [http://127.0.0.1:3000](http://127.0.0.1:3000), if you need to access the database \(MongoDB\) directly \(we recomend [Robomongo](https://robomongo.org/)\), it'll be accessible at the meteor port +1, i.e. `3001`.  
+The web interface is available at [http://127.0.0.1:3000](http://127.0.0.1:3000), if you need to access the database \(MongoDB\) directly \(we recommend [Robomongo](https://robomongo.org/)\), it'll be accessible at the meteor port +1, i.e. `3001`.  
 
 
-Head over to [Getting started](../getting-started.md) for more instructions
+After Server Core is installed, check out the Getting started guide on how set it up!
+
+{% page-ref page="../getting-started.md" %}
 
 
 

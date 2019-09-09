@@ -8,17 +8,17 @@ description: >-
 
 | Release | Status |
 | :--- | :--- |
-| [Release 13](https://github.com/nrkno/Sofie-TV-automation/issues/6) | _Upcoming_ |
-| [Release 12](https://github.com/nrkno/Sofie-TV-automation/issues/5) | _In development_ |
-| [Release 11](releases.md#release-11-in-development) | _Released 2019-08-19 **Current stable version**_ |
+| [Release 13](releases.md#upcoming-release-13) | _Upcoming_ |
+| [Release 12](releases.md#release-12) | _In development_ |
+| [Release 11](releases.md#release-11-in-development) | _Released 2019-08-19_  |
 | [Release 10](releases.md#release-10) | Released 2019-07-05 |
-| [Release 9](releases.md#release-9) | Released 2019-05-16 |
+| [Release 9](releases.md#release-9) | Released 2019-05-16 _**Current stable version**_ |
 | [Release 8](releases.md#release-8) | Released 2019-04-08 |
 | [Release 7](releases.md#release-7) | Released 2019-03-15 |
 
-## _Upcoming: Release 13 \(_in development_\)_
+## _Upcoming: Release 13_
 
-See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/5) for details 
+See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/6) for details 
 
 ## _Release 12_
 

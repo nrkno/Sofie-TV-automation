@@ -1,6 +1,8 @@
 # Installing a Gateway
 
-Note; these instructions are written with the Playout Gateway in mind, but all of the [Gateways ](../system-overview/libraries.md#gateways)are installed in mostly the same fashion.
+{% hint style="info" %}
+Note: These instructions are written with the Playout Gateway in mind, but all of the [Gateways ](../under-the-hood/libraries.md#gateways)are installed in mostly the same fashion.
+{% endhint %}
 
 ## Installation
 

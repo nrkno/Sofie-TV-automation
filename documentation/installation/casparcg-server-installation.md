@@ -4,11 +4,8 @@ description: Sofie specific fork of CasparCG Server 2.1
 
 # Installing CasparCG Server for Sofie
 
-{% hint style="info" %}
-Please note that this documentation is a work in progress, and that the content and links are likely to undergo drastic changes.
-{% endhint %}
-
-Step-by-step-guide to install a fresh copy of CasparCG Server to be used together with Sofie.
+This is a step-by-step-guide to install a fresh copy of CasparCG Server to be used together with Sofie.  
+Sofie is compatible with [CasparCG Server 2.1 - NRK version](https://github.com/nrkno/tv-automation-casparcg-server/releases/) for playout.
 
 ## Hardware
 
