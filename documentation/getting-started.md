@@ -2,7 +2,11 @@
 
 ## Getting Started
 
-We recommend that you begin by [installing Sofie with Google Spreadsheet support](installation/installing-sofie-with-google-spreadsheet-support.md).
+{% hint style="info" %}
+Sofie can be installed in many different ways, depending on which platforms, needs and features is desired.
+
+For a quick getting-started setup, we recommend that you begin by [installing Sofie with Google Spreadsheet support](installation/installing-sofie-with-google-spreadsheet-support.md).
+{% endhint %}
 
 After having installed the Sofie Server Core, navigate to [`http://localhost:3000`](http://127.0.0.1:3000)
 

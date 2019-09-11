@@ -4,18 +4,6 @@
 Please note that this documentation is being actively developed during Q3 2019, the content and links are likely to undergo drastic changes from day to day.
 {% endhint %}
 
-## Contents
-
-{% page-ref page="getting-started.md" %}
-
-{% page-ref page="faq.md" %}
-
-{% page-ref page="releases.md" %}
-
-{% page-ref page="installation/" %}
-
-{% page-ref page="under-the-hood/" %}
-
 ## Key features
 
 ### Web based GUI
@@ -34,14 +22,14 @@ _TODO: add examples of the GUI here:_
 * _Prompter_
 * _Host-view_
 
-![Warnings and notes are displayed to the user in the GUI](../.gitbook/assets/image%20%283%29.png)
+![Warnings and notifications are displayed to the user in the GUI](../.gitbook/assets/image%20%283%29.png)
 
 ![The Host view, displaying time information and countdowns](../.gitbook/assets/image%20%285%29.png)
 
 ![The prompter view](../.gitbook/assets/image%20%282%29.png)
 
 {% hint style="info" %}
-The different web-views \(such as the host-view and the prompter\) can easily be transmitted over an SDI-signal using html-producer in [CasparCG](installation/casparcg-server-installation.md)
+The different web-views \(such as the host-view and the prompter\) can easily be transmitted over an SDI-signal using the html-producer in [CasparCG](installation/casparcg-server-installation.md)
 {% endhint %}
 
 ### Modular device control
@@ -52,16 +40,30 @@ Playout Gateway controls the devices and keeps track of their state and statuses
 ### _State-based play-out_
 
 Sofie is using a state-based architecture to control play-out. This means that each element in the show can be programmed independently - there's no need to take into account what has happened previously in the show; Sofie will make sure that the video is loaded, that the audio fader is tuned into the correct position, no matter what was loaded previously.  
-This allows the producer to skip ahead or move backwards in a show, without any fear of things going wrong on air.
+This allows the producer to skip ahead or move backwards in a show, without the fear of things going wrong on air.
 
 ### Modular data ingest
 
-Sofie sports a modular ingest data-flow, allowing multiple types of input data to be used to base rundowns on. Currently there is support for [MOS-based](http://mosprotocol.com) systems and Google Spreadsheets, but more are in development.
+Sofie features a modular ingest data-flow, allowing multiple types of input data to be used to base rundowns on. Currently there is support for [MOS-based](http://mosprotocol.com) systems and Google Spreadsheets, but more are in development.
 
 ### Blueprints
 
 The Blueprints are plugins to Sofie, which allows for customization and tailor-made show designs.  
 The blueprints are made different depending on how the input data \(rundowns\) look like, how the show-design look like, and what devices to control.
+
+## Dokumentation
+
+{% page-ref page="getting-started.md" %}
+
+{% page-ref page="faq.md" %}
+
+{% page-ref page="releases.md" %}
+
+{% page-ref page="installation/" %}
+
+{% page-ref page="under-the-hood/" %}
+
+
 
 ## System Overview and the Current Integrations
 

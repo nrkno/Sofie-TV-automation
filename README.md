@@ -14,11 +14,11 @@ Sofie is used in daily live TV news productions by the Norwegian public service 
 * Modular data-ingest architecture, supports MOS and Google spreadsheets, read more
 * Plug-in architecture for programming shows \(using Blueprints\), _read more_
 
-[5-minute presentation from the EBU booth at IBC 2018](https://www.youtube.com/watch?v=LeJxtTA3zms)
+[Youtube: 5-minute presentation from the EBU booth at IBC 2018](https://www.youtube.com/watch?v=LeJxtTA3zms)
 
 ## Documentation
 
-\*\*\*\*[**The documentation is available here**](https://sofie.gitbook.io/sofie-tv-automation/documentation)\*\*\*\*
+[The documentation is available here](https://sofie.gitbook.io/sofie-tv-automation/documentation)
 
 ## 
 

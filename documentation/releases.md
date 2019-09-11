@@ -22,16 +22,18 @@ See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/
 
 ## _Release 12_
 
-Status: Currently in testing, expected release date: mid-September _2019_
+Release date: 2019-09-11
 
 ### Main Features
 
-This release features a few improvements and support for a few new playout devoces:
+This release features many bug fixes and support for a few new playout devoces:
 
 * Playout-gateway: Support for the Quantel video server, via the [Quantel Gateway](https://github.com/nrkno/tv-automation-quantel-gateway)
 * Playout-gateway: Support for the [Sisyfos audio controller](https://github.com/olzzon/sisyfos-audio-controller)
 * Playout-gateway: Generic TCP-controlled device
-* Playout-gateway: Hyperdeck monitoring disk usage, and ba able format slots
+* Playout-gateway: Hyperdeck monitoring disk usage, and be able to format slots
+* Core: Support for shotbox-like buttons in the shelf
+* ..and fixes for many, many bugs introduced in R10 and R11.
 
 
 
@@ -41,12 +43,12 @@ See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/
 
 | Component | Version | Changelog |
 | :--- | :--- | :--- |
-| [Core](https://github.com/nrkno/tv-automation-server-core) | 1.0.0 \(expected\) | _Changelog_ |
+| [Core](https://github.com/nrkno/tv-automation-server-core) | 1.0.0 | \_\_[_Changelog_](https://github.com/nrkno/tv-automation-server-core/blob/master/meteor/CHANGELOG.md#100-2019-09-11)\_\_ |
 | [Blueprints API \( Core \)](https://www.npmjs.com/package/tv-automation-sofie-blueprints-integration) | 0.24.0 |  |
-| [Blueprints API \( TSR \)](https://www.npmjs.com/package/timeline-state-resolver-types) | 3.5.0 \(Expected\) |  |
-| [Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) | 1.0.0 \(expected\) |  |
+| [Blueprints API \( TSR \)](https://www.npmjs.com/package/timeline-state-resolver-types) | 3.8.3 |  |
+| [Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) | 1.0.0 |  |
 | [Mos Gateway](https://github.com/nrkno/tv-automation-mos-gateway) | 1.0.0 |  |
-| [Media Manager](https://github.com/nrkno/tv-automation-media-management) | 1.0.0 \(expected\) |  |
+| [Media Manager](https://github.com/nrkno/tv-automation-media-management) | 1.0.0 |  |
 
 ## 
 

@@ -9,16 +9,16 @@ description: >-
 
 ## Installation of Sofie
 
-1. Begin by [**installing the Server Core**](installing-sofie-server-core.md) ****and start it up.
+1. Begin by [installing the Server Core](installing-sofie-server-core.md) ****and start it up.
 2. Follow the [Getting started Guide](../getting-started.md) to setup up the basic of the studio and show-styles.
 3. Install the [**Spreadsheet gateway**](https://github.com/SuperFlyTV/spreadsheet-gateway) **\(**[instructions](installing-a-gateway.md)\)
 4. Install the [**Playout gateway**](https://github.com/nrkno/tv-automation-playout-gateway) \([instructions](installing-a-gateway.md)\)
 
-## Setting up the Spreadsheets support
+## Setting up Sofie to support Spreadsheets
 
 {% hint style="info" %}
 The Spreadsheet support comes in two halves:  
-The **Spreadsheet Gateway;** which reads _spreadsheets_ from Google Drive and inputs them as rundowns into Sofie,  
+The **Spreadsheet Gateway;** which reads _spreadsheets_ from Google Drive and inputs them as rundowns into Sofie  
 and **Blueprints**; which transforms the rundowns into playable elements.
 {% endhint %}
 
