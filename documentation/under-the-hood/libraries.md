@@ -4,7 +4,7 @@ description: Sofie - TV Automation makes use of the following libraries.
 
 # Applications & Libraries
 
-Sofie - TV Automation consists of the [**Sofie Server Core**](https://github.com/nrkno/tv-automation-server-core) which is the core application that serves the web-UI and handles the core logic.
+Sofie - TV Automation consists of the [**Sofie Server Core**](https://github.com/nrkno/tv-automation-server-core) which is the core application that serves the web-GUI and handles the core logic.
 
 ## Gateways
 
@@ -19,23 +19,23 @@ Together with the Server Core there are the **Gateways** which are separate appl
 
 There are a number of libraries used in the Sofie ecosystem, some of them are:
 
-* [**MOS Connection**](https://github.com/nrkno/tv-automation-mos-connection/) ****A [MOS protocol](http://mosprotocol.com/) library for acting as a MOS device and connecting to an newroom control system.
-* [**Timeline**](https://github.com/SuperFlyTV/supertimeline) ****[_by SuperFly.tv_](https://github.com/SuperFlyTV) ****Resolver and rules for placing objects on a virtual timeline.
-* [**Timeline State Resolver**](https://github.com/nrkno/tv-automation-state-timeline-resolver) \(**TSR** for short\) ****The main driver in **Playout Gateway,** handles connections to playout-devices and sends commands based on a **Timeline** received from **Core**.
+* [**MOS Connection**](https://github.com/nrkno/tv-automation-mos-connection/) ****A [MOS protocol](http://mosprotocol.com/) library for acting as a MOS device and connecting to an newsroom control system.
+* [**Timeline**](https://github.com/SuperFlyTV/supertimeline) ****developed by ****[_SuperFly.tv_](https://github.com/SuperFlyTV) ****Resolver and rules for placing objects on a virtual timeline.
+* [**Timeline State Resolver**](https://github.com/nrkno/tv-automation-state-timeline-resolver) \(TSR for short\) ****The main driver in **Playout Gateway,** handles connections to playout-devices and sends commands based on a **Timeline** received from **Core**.
 * [**Server Core Integration**](https://github.com/nrkno/tv-automation-server-core-integration) ****Used to connect to the [Sofie Server Core](https://github.com/nrkno/tv-automation-server-core) by the Gateways.
 * [**Blueprints Integration**](https://github.com/nrkno/tv-automation-sofie-blueprints-integration) Common types and interfaces used by both server-core and the user defined blueprints.
-* [**CasparCG Connection**](https://github.com/SuperFlyTV/casparcg-connection) ****[_by SuperFly.tv_](https://github.com/SuperFlyTV) ****Library to connect and interact with CasparCG Servers.
-* [**ATEM Connection**](https://github.com/nrkno/tv-automation-atem-connection) ****Library for communicating with BlackmagicDesign ATEM devices.
-* [**Ember+ Connection**](https://github.com/nrkno/tv-automation-emberplus-connection) ****Libary to communicate with_Ember+_ control protocol 
-* [**HyperDeck Connection**](https://github.com/nrkno/tv-automation-hyperdeck-connection) Library for connecting to BlackmagicDesign Hyperdeck devices.
-* [**CasparCG State**](https://github.com/superflytv/casparcg-state) ****[_by SuperFly.tv_](https://github.com/SuperFlyTV) ****Used in TSR to tracks the state of CasparCG Servers and generate commands to control them.
+* [**CasparCG Connection**](https://github.com/SuperFlyTV/casparcg-connection) ****developed by ****[_SuperFly.tv_](https://github.com/SuperFlyTV) ****Library to connect and interact with CasparCG Servers.
+* [**ATEM Connection**](https://github.com/nrkno/tv-automation-atem-connection) ****Library for communicating with Blackmagic Design ATEM mixers.
+* [**Ember+ Connection**](https://github.com/nrkno/tv-automation-emberplus-connection) ****Library to communicate with _Ember+_ control protocol 
+* [**HyperDeck Connection**](https://github.com/nrkno/tv-automation-hyperdeck-connection) Library for connecting to Blackmagic Design Hyperdeck recorders.
+* [**CasparCG State**](https://github.com/superflytv/casparcg-state) ****developed by ****[_SuperFly.tv_](https://github.com/SuperFlyTV) ****Used in TSR to tracks the state of CasparCG Servers and generate commands to control them.
 * [**ATEM State**](https://github.com/nrkno/tv-automation-atem-state)  Used in TSR to tracks the state of ATEM:s and generate commands to control them.
-* [**ThreadedClass** ](https://github.com/nytamin/threadedClass)\_\_[_by Nytamin_](https://github.com/nytamin) Used in TSR to spawn device controllers in separate processes.
+* [**ThreadedClass** ](https://github.com/nytamin/threadedClass)developed by ****[_Nytamin_](https://github.com/nytamin) Used in TSR to spawn device controllers in separate processes.
 
 There are also a few typings-only libraries that define interfaces between applications:
 
-* \*\*\*\*[**Timeline State Resolver types**](https://www.npmjs.com/package/timeline-state-resolver-types) Defines the interface between **Blueprints** and the timeline that will be fed into **TSR** for play-out.
-* \*\*\*\*[**Blueprints integration**](https://www.npmjs.com/package/tv-automation-sofie-blueprints-integration) Defines the interface between **Blueprints** and **Server Core**
+* \*\*\*\*[**Timeline State Resolver types**](https://www.npmjs.com/package/timeline-state-resolver-types) Defines the interface between [**Blueprints**](dictionary.md#blueprints) ****and the timeline that will be fed into **TSR** for play-out.
+* \*\*\*\*[**Blueprints integration**](https://www.npmjs.com/package/tv-automation-sofie-blueprints-integration) Defines the interface between [**Blueprints** ](dictionary.md#blueprints)and [**Sofie Core**](dictionary.md#sofie-core)**.**
 
 ## Other Applications
 

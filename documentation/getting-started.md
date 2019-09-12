@@ -56,3 +56,15 @@ The blueprints consists of separate, webpacked js-files which is uploaded into S
 * The Studio Blueprint is uploaded and assigned to a studio.
 * The Showstyle Blueprint is uploaded and assigned to a Showstyle.
 
+## Further reading
+
+{% page-ref page="under-the-hood/libraries.md" %}
+
+{% page-ref page="under-the-hood/concepts-and-architecture.md" %}
+
+{% page-ref page="under-the-hood/dictionary.md" %}
+
+
+
+
+
