@@ -4,9 +4,7 @@ description: Please follow these guidelines when contributing code to the Sofie 
 
 # Contribution Guidelines
 
-
-
-We at the Sofie team happily encourage contributions to the Sofie project!
+The Sofie team happily encourage contributions to the Sofie project.
 
 We are currently looking into, and figuring out the best way to handle contributions, communicating road maps, etc.
 

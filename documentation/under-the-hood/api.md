@@ -8,7 +8,7 @@ The documentation is minimal at the moment, but the API-endpoints are listed in 
 
 ## DDP - Core-integration
 
-If you're planning to build NodeJS applications that talk to Sofie Core, we recommend using the [core-integration](https://github.com/nrkno/tv-automation-server-core-integration) library, which exposes a number of callable methods and allows for subscribing to data the same way the Gateways does it.
+If you're planning to build NodeJS applications that talk to Sofie Core, we recommend using the [core-integration](https://github.com/nrkno/tv-automation-server-core-integration) library, which exposes a number of callable methods and allows for subscribing to data the same way the [Gateways ](dictionary.md#gateways)does it.
 
 
 

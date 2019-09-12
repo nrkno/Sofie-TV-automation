@@ -64,7 +64,7 @@ The [Playout Gateway](libraries.md#gateways) picks up the timeline from Sofie Co
 
 The Sofie system is made to work with a modern web- and IT-based approach in mind. Therefore, the Sofie Core can be run either on-site, or in an off-site cloud.
 
-![Sofie Core can run in the cloud](../../.gitbook/assets/sofie-web-architecture.png)
+![Sofie Core can run in the cloud](../../.gitbook/assets/sofie-web-architecture%20%281%29.png)
 
 One drawback of running in a cloud over the public internet is the sometimes unpredictable latency. The Timeline overcomes this by moving all the immediate control of the play-out devices to the Playout Gateway, which is intended to run on a local network, close to the hardware it controls.  
 This also gives the system a simple way of load-balancing - since the number of web-clients or load on Sofie Core won't affect the play-out.
@@ -101,10 +101,10 @@ The TSR then...
 * The commands are then put on queue and sent to the devices at the correct time.
 
 {% hint style="info" %}
-For more information about what play-out devices the TSR supports, and examples of the timeline-objects, see the [README of TSR](https://github.com/nrkno/tv-automation-state-timeline-resolver)
+For more information about what play-out devices the TSR supports, and examples of the timeline-objects, see the [README of TSR](https://github.com/nrkno/tv-automation-state-timeline-resolver#timeline-state-resolver)
 {% endhint %}
 
 {% hint style="info" %}
-For more information about how to program timeline-objects, see the [README of the timeline-library](https://github.com/SuperFlyTV/supertimeline)
+For more information about how to program timeline-objects, see the [README of the timeline-library](https://github.com/SuperFlyTV/supertimeline#superfly-timeline)
 {% endhint %}
 
