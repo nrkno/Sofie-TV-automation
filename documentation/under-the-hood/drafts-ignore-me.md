@@ -8,7 +8,25 @@ Please ignore this page, or \(t\)read carefully :\)
 
 
 
+## On front page:
 
+_TODO: add examples of the GUI:_
+
+* _Producer's view_
+* _Details in the GUI_
+  * _Next and Current line as gif / webm_
+  * _hover-scrub as animated gif / webm_
+  * _media-details, such as end-of-file and freeze-frames_
+  * _Warnings from blueprints_
+  * \_\_
+* _Prompter_
+* _Host-view_
+
+## System Overview and the Current Integrations
+
+_TODO: make new overview_
+
+## ![Sofie System Overview](https://raw.githubusercontent.com/nrkno/Sofie-TV-automation/master/images/Sofie_NRK_May_10_2019.png)
 
 ## User Interface
 

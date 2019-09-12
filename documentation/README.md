@@ -10,18 +10,6 @@ Please note that this documentation is being actively developed during Q3 2019, 
 
 ![Producer&apos;s view](https://raw.githubusercontent.com/nrkno/Sofie-TV-automation/master/images/Sofie_GUI_example.jpg)
 
-_TODO: add examples of the GUI here:_
-
-* _Producer's view_
-* _Details in the GUI_
-  * _Next and Current line as gif / webm_
-  * _hover-scrub as animated gif / webm_
-  * _media-details, such as end-of-file and freeze-frames_
-  * _Warnings from blueprints_
-  * \_\_
-* _Prompter_
-* _Host-view_
-
 ![Warnings and notifications are displayed to the user in the GUI](../.gitbook/assets/image%20%283%29.png)
 
 ![The Host view, displaying time information and countdowns](../.gitbook/assets/image%20%285%29.png)
@@ -62,12 +50,4 @@ The blueprints are made different depending on how the input data \(rundowns\) l
 {% page-ref page="installation/" %}
 
 {% page-ref page="under-the-hood/" %}
-
-
-
-## System Overview and the Current Integrations
-
-_TODO: make new overview_
-
-## ![Sofie System Overview](https://raw.githubusercontent.com/nrkno/Sofie-TV-automation/master/images/Sofie_NRK_May_10_2019.png)
 
