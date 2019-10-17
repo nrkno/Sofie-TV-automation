@@ -8,24 +8,47 @@ description: >-
 
 | Release | Status |
 | :--- | :--- |
-| [Release 14](releases.md#in-planning-release-14) | _In planning_ |
-| [Release 13](releases.md#in-development-release-13) | _In development_ |
-| [Release 12](releases.md#release-12) | _Released 2019-09-11 **Current stable version**_ |
+| [Release 15](releases.md#in-planning-release-15) | _In Planning_ |
+| [Release 14](releases.md#in-planning-release-14) | _In development_ |
+| [Release 13](releases.md#in-development-release-13) | _Released 2019-10-17 **Current stable version**_ |
+| [Release 12](releases.md#release-12) | _Released 2019-09-11_ |
 | [Release 11](releases.md#release-11-in-development) | _Released 2019-08-19_  |
 | [Release 10](releases.md#release-10) | Released 2019-07-05 |
 | [Release 9](releases.md#release-9) | Released 2019-05-16  |
 | [Release 8](releases.md#release-8) | Released 2019-04-08 |
 | [Release 7](releases.md#release-7) | Released 2019-03-15 |
 
-## _In planning: Release 14_
+## _In planning: Release 15_
+
+See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/10) for details 
+
+## _In development: Release 14_
 
 See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/8) for details 
 
-\_\_
-
 ## _In development: Release 13_
 
+Release date: 2019-10-17
+
+### Main Features
+
+This release features several bug fixes and a few features:
+
+* Support for remote system messages management
+* Preview of HTML-graphics in the hover-scrub in GUI
+
 See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/6) for details 
+
+### Components
+
+| Component | Version | Changelog |
+| :--- | :--- | :--- |
+| [Core](https://github.com/nrkno/tv-automation-server-core) | 1.1.0 | \_\_[_Changelog_](https://github.com/nrkno/tv-automation-server-core/blob/master/meteor/CHANGELOG.md)\_\_ |
+| [Blueprints API \( Core \)](https://www.npmjs.com/package/tv-automation-sofie-blueprints-integration) | 1.1.0 |  |
+| [Blueprints API \( TSR \)](https://www.npmjs.com/package/timeline-state-resolver-types) | 3.12.0 |  |
+| [Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) | 1.1.0 |  |
+| [Mos Gateway](https://github.com/nrkno/tv-automation-mos-gateway) | 1.0.0 |  |
+| [Media Manager](https://github.com/nrkno/tv-automation-media-management) | 1.0.0 |  |
 
 ## _Release 12_
 
