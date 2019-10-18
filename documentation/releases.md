@@ -34,8 +34,14 @@ Release date: 2019-10-17
 
 This release features several bug fixes and a few features:
 
-* Support for remote system messages management
+* Support for remote system messages management _Allowing an external manager to send out a system message to a whole fleet of Sofie-cores._
 * Preview of HTML-graphics in the hover-scrub in GUI
+* GUI: Errors and possible issues are highlighted in the settings pages
+* GUI: Initial getting-started-tour in GUI \(activated by [/?help=1](http://localhost:3000/?help=1)\)
+* GUI: Improved visualization of device hierarchy in status page
+* GUI: Improved navigation and links between studio/showstyles and blueprints in settings
+* User is now able to undo a Hold \(by pressing Shift+H\)
+* User can now restart the Quantel-Gateway device
 
 See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/6) for details 
 
