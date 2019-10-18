@@ -26,7 +26,7 @@ See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/
 
 See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/8) for details 
 
-## _In development: Release 13_
+## _Release 13_
 
 Release date: 2019-10-17
 
