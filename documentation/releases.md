@@ -28,7 +28,7 @@ See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/
 
 ## _Release 13_
 
-Release date: 2019-10-17
+Release date: 2019-10-17 _\(patched 2019-11-01\)_
 
 ### Main Features
 
@@ -49,7 +49,7 @@ See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/
 
 | Component | Version | Changelog |
 | :--- | :--- | :--- |
-| [Core](https://github.com/nrkno/tv-automation-server-core) | 1.1.0 | \_\_[_Changelog_](https://github.com/nrkno/tv-automation-server-core/blob/master/meteor/CHANGELOG.md)\_\_ |
+| [Core](https://github.com/nrkno/tv-automation-server-core) | 1.1.2 \(patched!\) | \_\_[_Changelog_](https://github.com/nrkno/tv-automation-server-core/blob/master/meteor/CHANGELOG.md)\_\_ |
 | [Blueprints API \( Core \)](https://www.npmjs.com/package/tv-automation-sofie-blueprints-integration) | 1.1.0 |  |
 | [Blueprints API \( TSR \)](https://www.npmjs.com/package/timeline-state-resolver-types) | 3.12.0 |  |
 | [Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) | 1.1.0 |  |
