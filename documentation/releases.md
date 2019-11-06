@@ -9,9 +9,9 @@ description: >-
 | Release | Status |
 | :--- | :--- |
 | [Release 16](releases.md#in-planning-release-16) | _In planning_ |
-| \_\_[Release 15](releases.md#in-planning-release-15) | _In development_ |
-| [Release 14](releases.md#in-planning-release-14) | _Released 2019-11-06 **Current stable version**_ |
-| [Release 13](releases.md#in-development-release-13) | _Released 2019-10-17_  |
+| \_\_[Release 15](releases.md#in-development-release-15) | _In development_ |
+| [Release 14](releases.md#release-14) | _Released 2019-11-06 **Current stable version**_ |
+| [Release 13](releases.md#release-13) | _Released 2019-10-17_  |
 | [Release 12](releases.md#release-12) | _Released 2019-09-11_ |
 | [Release 11](releases.md#release-11-in-development) | _Released 2019-08-19_  |
 | [Release 10](releases.md#release-10) | Released 2019-07-05 |
