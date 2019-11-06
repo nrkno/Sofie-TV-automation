@@ -8,9 +8,10 @@ description: >-
 
 | Release | Status |
 | :--- | :--- |
-| [Release 15](releases.md#in-planning-release-15) | _In Planning_ |
-| [Release 14](releases.md#in-planning-release-14) | _In development_ |
-| [Release 13](releases.md#in-development-release-13) | _Released 2019-10-17 **Current stable version**_ |
+| [Release 16](releases.md#in-planning-release-16) | _In planning_ |
+| \_\_[Release 15](releases.md#in-planning-release-15) | _In development_ |
+| [Release 14](releases.md#in-planning-release-14) | _Released 2019-11-06 **Current stable version**_ |
+| [Release 13](releases.md#in-development-release-13) | _Released 2019-10-17_  |
 | [Release 12](releases.md#release-12) | _Released 2019-09-11_ |
 | [Release 11](releases.md#release-11-in-development) | _Released 2019-08-19_  |
 | [Release 10](releases.md#release-10) | Released 2019-07-05 |
@@ -18,13 +19,41 @@ description: >-
 | [Release 8](releases.md#release-8) | Released 2019-04-08 |
 | [Release 7](releases.md#release-7) | Released 2019-03-15 |
 
-## _In planning: Release 15_
+## _In planning: Release 16_
+
+See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/11) for details 
+
+## _In development: Release 15_
 
 See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/10) for details 
 
-## _In development: Release 14_
+## _Release 14_
+
+Release date: 2019-11-06
+
+### Main Features
+
+This release contains mainly bug fixes and code maintenance.
+
+Notable features:
+
+* Add more unit-tests in Core \(code maintenance\)
+* Playout Gateway now monitoring the Hyperdeck recording status. \(Raising the alarm if recording isn't working\)
+* Streamdeck view \([more info in PR](https://github.com/nrkno/tv-automation-server-core/pull/106)\)
+* Blueprint config parameter can now be a "table"
 
 See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/8) for details 
+
+### Components
+
+| Component | Version | Changelog |
+| :--- | :--- | :--- |
+| [Core](https://github.com/nrkno/tv-automation-server-core) | 1.2.0 | \_\_[_Changelog_](https://github.com/nrkno/tv-automation-server-core/blob/master/meteor/CHANGELOG.md#120-2019-11-06)\_\_ |
+| [Blueprints API \( Core \)](https://www.npmjs.com/package/tv-automation-sofie-blueprints-integration) | 1.1.0 |  |
+| [Blueprints API \( TSR \)](https://www.npmjs.com/package/timeline-state-resolver-types) | 3.13.1 |  |
+| [Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) | 1.2.0 |  |
+| [Mos Gateway](https://github.com/nrkno/tv-automation-mos-gateway) | 1.0.1 |  |
+| [Media Manager](https://github.com/nrkno/tv-automation-media-management) | 1.0.1 |  |
 
 ## _Release 13_
 
@@ -54,7 +83,7 @@ See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/
 | [Blueprints API \( TSR \)](https://www.npmjs.com/package/timeline-state-resolver-types) | 3.12.0 |  |
 | [Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) | 1.1.0 |  |
 | [Mos Gateway](https://github.com/nrkno/tv-automation-mos-gateway) | 1.0.0 |  |
-| [Media Manager](https://github.com/nrkno/tv-automation-media-management) | 1.0.0 |  |
+| [Media Manager](https://github.com/nrkno/tv-automation-media-management) | 1.0.1 |  |
 
 ## _Release 12_
 
