@@ -1,14 +1,32 @@
 ---
-description: Please follow these guidelines when contributing code to the Sofie project.
+description: >-
+  The Sofie team happily encourage contributions to the Sofie project, and
+  kindly ask you to observe these guidelines when doing so.
 ---
 
 # Contribution Guidelines
 
-The Sofie team happily encourage contributions to the Sofie project.
+### Reporting bugs
 
-We are currently looking into, and figuring out the best way to handle contributions, communicating road maps, etc.
+If you think you have found a bug in Sofie, we appreciate bug reports as GitHub issues.
 
-At the moment, if you have a small addition that you'd like to contribute to Sofie, fork the repository on Github and please submit a PR!
+As a minimum a bug report should include the following:
 
-If you're considering a larger contribution, we would love to have a chat about it to make sure it fits nicely into or own development. Please contact us directly or open an issue for discussion over at [https://github.com/nrkno/Sofie-TV-automation/issues](https://github.com/nrkno/Sofie-TV-automation/issues)
+1. **Steps to reproduce:** a detailed description of what input or interaction caused the problem you are experiencing. This will help us greatly in reproducing the error situation ourselves, so that we can observe and analyze the problem.
+2. **Expected behavior or result:** Following the steps given, what was it that you expected to happen?
+3. **Actual behavior or result:** Following the steps given, what was it that actually happened?
+
+Feel free to include additional information if you have it.
+
+Issues should be reported in our main repository: [https://github.com/nrkno/Sofie-TV-automation/issues](https://github.com/nrkno/Sofie-TV-automation/issues)
+
+### Contributing code
+
+#### Minor improvements and bug fixes
+
+If you believe you have a minor improvement or a bug fix that can be added to the project you are welcome to contribute it as a pull request via GitHub.
+
+#### New features or bigger changes
+
+If you're considering a larger contribution, we would love to have a chat beforehand about it to make sure it fits nicely into our own development. Please contact us directly or open an issue for discussion over at [https://github.com/nrkno/Sofie-TV-automation/issues](https://github.com/nrkno/Sofie-TV-automation/issues)
 
