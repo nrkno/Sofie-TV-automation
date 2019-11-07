@@ -51,7 +51,7 @@ See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/
 | [Core](https://github.com/nrkno/tv-automation-server-core) | 1.2.0 | \_\_[_Changelog_](https://github.com/nrkno/tv-automation-server-core/blob/master/meteor/CHANGELOG.md#120-2019-11-06)\_\_ |
 | [Blueprints API \( Core \)](https://www.npmjs.com/package/tv-automation-sofie-blueprints-integration) | 1.1.0 |  |
 | [Blueprints API \( TSR \)](https://www.npmjs.com/package/timeline-state-resolver-types) | 3.13.1 |  |
-| [Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) | 1.2.0 |  |
+| [Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) | 1.2.1 _\(patched\)_ |  |
 | [Mos Gateway](https://github.com/nrkno/tv-automation-mos-gateway) | 1.0.1 |  |
 | [Media Manager](https://github.com/nrkno/tv-automation-media-management) | 1.0.1 |  |
 
