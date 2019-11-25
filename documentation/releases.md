@@ -8,9 +8,9 @@ description: >-
 
 | Release | Status |
 | :--- | :--- |
-| [Release 16](releases.md#in-planning-release-16) | _In planning_ |
-| \_\_[Release 15](releases.md#in-development-release-15) | _In development_ |
-| [Release 14](releases.md#release-14) | _Released 2019-11-06 **Current stable version**_ |
+| [Release 16](releases.md#in-development-release-16) | _In planning_ |
+| \_\_[Release 15](releases.md#release-15) | _Released 2019-11-25 **Current stable version**_ |
+| [Release 14](releases.md#release-14) | _Released 2019-11-06_ |
 | [Release 13](releases.md#release-13) | _Released 2019-10-17_  |
 | [Release 12](releases.md#release-12) | _Released 2019-09-11_ |
 | [Release 11](releases.md#release-11-in-development) | _Released 2019-08-19_  |
@@ -19,13 +19,35 @@ description: >-
 | [Release 8](releases.md#release-8) | Released 2019-04-08 |
 | [Release 7](releases.md#release-7) | Released 2019-03-15 |
 
-## _In planning: Release 16_
+## _In development: Release 16_
 
 See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/11) for details 
 
-## _In development: Release 15_
+## _Release 15_
+
+Release date: 2019-11-25
+
+### Main Features
+
+This release contains mainly bug fixes and code maintenance.
+
+Notable features:
+
+* Basic Prompter, running in web window, controlled by Contour-Xpress, keyboard or mouse.
+* Various bug fixes
 
 See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/10) for details 
+
+### Components
+
+| Component | Version | Changelog |
+| :--- | :--- | :--- |
+| [Core](https://github.com/nrkno/tv-automation-server-core) | 1.3.0 | \_\_[_Changelog_](https://github.com/nrkno/tv-automation-server-core/blob/master/meteor/CHANGELOG.md#120-2019-11-06)\_\_ |
+| [Blueprints API \( Core \)](https://www.npmjs.com/package/tv-automation-sofie-blueprints-integration) | 1.2.1 |  |
+| [Blueprints API \( TSR \)](https://www.npmjs.com/package/timeline-state-resolver-types) | 3.14.0 |  |
+| [Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) | 1.3.0 |  |
+| [Mos Gateway](https://github.com/nrkno/tv-automation-mos-gateway) | 1.0.1 \(unchanged\) |  |
+| [Media Manager](https://github.com/nrkno/tv-automation-media-management) | 1.0.2? \(TBD\) |  |
 
 ## _Release 14_
 
