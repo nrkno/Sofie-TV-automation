@@ -1,4 +1,4 @@
-# Under the hood
+# Under the Hood
 
 {% hint style="warning" %}
 These resources are mainly intended for developers and system maintainers

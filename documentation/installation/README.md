@@ -1,4 +1,4 @@
-# Installation & setup
+# Installation & Setup
 
 The Sofie system consists of several applications that work together \(read more at [Applications & Libraries](../under-the-hood/libraries.md)\).
 

@@ -1,10 +1,10 @@
 ---
-description: Sofie - TV Automation makes use of the following libraries.
+description: Source Code for the Sofie System
 ---
 
 # Applications & Libraries
 
-Sofie - TV Automation consists of the [**Sofie Server Core**](https://github.com/nrkno/tv-automation-server-core) which is the core application that serves the web-GUI and handles the core logic.
+The Sofie TV Automation system consists of the [**Sofie Server Core**](https://github.com/nrkno/tv-automation-server-core) which is the core application that serves the web GUI and handles the core logic.
 
 ## Gateways
 
