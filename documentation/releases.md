@@ -8,7 +8,7 @@ description: >-
 
 | Release | Status |
 | :--- | :--- |
-| [Release 16](releases.md#in-development-release-16) | _In planning_ |
+| [Release 16](releases.md#release-16) | _In testing_ |
 | \_\_[Release 15](releases.md#release-15) | _Released 2019-11-25 **Current stable version**_ |
 | [Release 14](releases.md#release-14) | _Released 2019-11-06_ |
 | [Release 13](releases.md#release-13) | _Released 2019-10-17_  |
@@ -19,9 +19,36 @@ description: >-
 | [Release 8](releases.md#release-8) | Released 2019-04-08 |
 | [Release 7](releases.md#release-7) | Released 2019-03-15 |
 
-## _In development: Release 16_
+## \_\_
+
+## _Release 16_
+
+Release date: TBD
+
+### Main Features
+
+This release contains mainly bug fixes and code maintenance.
+
+Notable features:
+
+* **autorewind:** auto rewind leaving segment \([b88ea43](https://github.com/nrkno/tv-automation-server-core/commit/b88ea43)\)
+* Invalid Reason information on invalid parts \([\#129](https://github.com/nrkno/tv-automation-server-core/issues/129)\) \([b4f5126](https://github.com/nrkno/tv-automation-server-core/commit/b4f5126)\)
+* restart core from status view \([\#131](https://github.com/nrkno/tv-automation-server-core/issues/131)\) \([154f999](https://github.com/nrkno/tv-automation-server-core/commit/154f999)\)
 
 See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/11) for details 
+
+### Components
+
+| Component | Version | Changelog |
+| :--- | :--- | :--- |
+| [Core](https://github.com/nrkno/tv-automation-server-core) | 1.4.0 | \_\_[_Changelog_](https://github.com/nrkno/tv-automation-server-core/blob/master/meteor/CHANGELOG.md#120-2019-11-06)\_\_ |
+| [Blueprints API \( Core \)](https://www.npmjs.com/package/tv-automation-sofie-blueprints-integration) | 1.5.0 |  |
+| [Blueprints API \( TSR \)](https://www.npmjs.com/package/timeline-state-resolver-types) | 3.15.1 |  |
+| [Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) | 1.4.0 |  |
+| [Mos Gateway](https://github.com/nrkno/tv-automation-mos-gateway) | 1.0.1 \(unchanged\) |  |
+| [Media Manager](https://github.com/nrkno/tv-automation-media-management) | 1.0.2 \(unchanged\) |  |
+
+
 
 ## _Release 15_
 
@@ -47,7 +74,7 @@ See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/
 | [Blueprints API \( TSR \)](https://www.npmjs.com/package/timeline-state-resolver-types) | 3.14.0 |  |
 | [Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) | 1.3.0 |  |
 | [Mos Gateway](https://github.com/nrkno/tv-automation-mos-gateway) | 1.0.1 \(unchanged\) |  |
-| [Media Manager](https://github.com/nrkno/tv-automation-media-management) | 1.0.2? \(TBD\) |  |
+| [Media Manager](https://github.com/nrkno/tv-automation-media-management) | 1.0.2 |  |
 
 ## _Release 14_
 
