@@ -8,8 +8,9 @@ description: >-
 
 | Release | Status |
 | :--- | :--- |
-| [Release 16](releases.md#release-16) | _In testing_ |
-| \_\_[Release 15](releases.md#release-15) | _Released 2019-11-25 **Current stable version**_ |
+| [Release 17](releases.md#release-17) | _In development_ |
+| [Release 16](releases.md#release-16) | _Released 2020-01-02 **Current stable version**_ |
+| \_\_[Release 15](releases.md#release-15) | _Released 2019-11-25_ |
 | [Release 14](releases.md#release-14) | _Released 2019-11-06_ |
 | [Release 13](releases.md#release-13) | _Released 2019-10-17_  |
 | [Release 12](releases.md#release-12) | _Released 2019-09-11_ |
@@ -19,11 +20,28 @@ description: >-
 | [Release 8](releases.md#release-8) | Released 2019-04-08 |
 | [Release 7](releases.md#release-7) | Released 2019-03-15 |
 
-## \_\_
+## _Release 17_
+
+Release date: TBD
+
+### Main Features
+
+_To be announced_
+
+### Components
+
+| Component | Version | Changelog |
+| :--- | :--- | :--- |
+| [Core](https://github.com/nrkno/tv-automation-server-core) | TBD | \_\_[_Changelog_](https://github.com/nrkno/tv-automation-server-core/blob/master/meteor/CHANGELOG.md#120-2019-11-06)\_\_ |
+| [Blueprints API \( Core \)](https://www.npmjs.com/package/tv-automation-sofie-blueprints-integration) | TBD |  |
+| [Blueprints API \( TSR \)](https://www.npmjs.com/package/timeline-state-resolver-types) | TBD |  |
+| [Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) | TBD |  |
+| [Mos Gateway](https://github.com/nrkno/tv-automation-mos-gateway) | TBD |  |
+| [Media Manager](https://github.com/nrkno/tv-automation-media-management) | TBD |  |
 
 ## _Release 16_
 
-Release date: TBD
+Release date: 2020-01-02
 
 ### Main Features
 
@@ -47,8 +65,6 @@ See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/
 | [Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) | 1.4.0 |  |
 | [Mos Gateway](https://github.com/nrkno/tv-automation-mos-gateway) | 1.0.1 \(unchanged\) |  |
 | [Media Manager](https://github.com/nrkno/tv-automation-media-management) | 1.0.2 \(unchanged\) |  |
-
-
 
 ## _Release 15_
 
