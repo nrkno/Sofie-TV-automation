@@ -14,7 +14,7 @@ description: >-
 | [Release 14](releases.md#release-14) | _Released 2019-11-06_ |
 | [Release 13](releases.md#release-13) | _Released 2019-10-17_  |
 | [Release 12](releases.md#release-12) | _Released 2019-09-11_ |
-| [Release 11](releases.md#release-11-in-development) | _Released 2019-08-19_  |
+| [Release 11](releases.md#release-11) | _Released 2019-08-19_  |
 | [Release 10](releases.md#release-10) | Released 2019-07-05 |
 | [Release 9](releases.md#release-9) | Released 2019-05-16  |
 | [Release 8](releases.md#release-8) | Released 2019-04-08 |
