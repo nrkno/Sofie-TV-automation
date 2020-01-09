@@ -8,7 +8,8 @@ description: >-
 
 | Release | Status |
 | :--- | :--- |
-| [Release 17](releases.md#release-17) | _In development_ |
+| [Release 18](releases.md#release-18) | _In development_ |
+| [Release 17](releases.md#release-17) | _In testing_ |
 | [Release 16](releases.md#release-16) | _Released 2020-01-02 **Current stable version**_ |
 | \_\_[Release 15](releases.md#release-15) | _Released 2019-11-25_ |
 | [Release 14](releases.md#release-14) | _Released 2019-11-06_ |
@@ -20,13 +21,13 @@ description: >-
 | [Release 8](releases.md#release-8) | Released 2019-04-08 |
 | [Release 7](releases.md#release-7) | Released 2019-03-15 |
 
-## _Release 17_
+## _Release 18_
 
-Release date: TBD
+Release date: to be released in mid-January 2020
 
 ### Main Features
 
-_To be announced_
+_Features are still in planning_
 
 ### Components
 
@@ -38,6 +39,31 @@ _To be announced_
 | [Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) | TBD |  |
 | [Mos Gateway](https://github.com/nrkno/tv-automation-mos-gateway) | TBD |  |
 | [Media Manager](https://github.com/nrkno/tv-automation-media-management) | TBD |  |
+
+## _Release 17_
+
+Release date: to be released in mid-January 2020
+
+### Main Features
+
+Notable features:
+
+* Allow devices to provide a configuration manifest, thus decoupling the core from understanding the specifics of each of the devices. This will ease adding new features to the device modules.
+* Allow blueprints to specify that a media object status for a given Piece should be ignored. Useful for static assets that may intentionally contain content otherwise considered problematic \(black frames, freeze frames, etc.\)
+* Various bugfixes
+
+See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/13) for details 
+
+### Components
+
+| Component | Version | Changelog |
+| :--- | :--- | :--- |
+| [Core](https://github.com/nrkno/tv-automation-server-core) | 1.5.0 | \_\_[_Changelog_](https://github.com/nrkno/tv-automation-server-core/blob/master/meteor/CHANGELOG.md#120-2019-11-06)\_\_ |
+| [Blueprints API \( Core \)](https://www.npmjs.com/package/tv-automation-sofie-blueprints-integration) | 1.7.0 |  |
+| [Blueprints API \( TSR \)](https://www.npmjs.com/package/timeline-state-resolver-types) | 3.17.0 |  |
+| [Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) | 1.5.0 |  |
+| [Mos Gateway](https://github.com/nrkno/tv-automation-mos-gateway) | 1.1.0 |  |
+| [Media Manager](https://github.com/nrkno/tv-automation-media-management) | 1.1.0 |  |
 
 ## _Release 16_
 
