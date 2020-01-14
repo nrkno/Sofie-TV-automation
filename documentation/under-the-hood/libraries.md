@@ -20,7 +20,7 @@ Together with the Server Core there are the **Gateways** which are separate appl
 There are a number of libraries used in the Sofie ecosystem, some of them are:
 
 * [**MOS Connection**](https://github.com/nrkno/tv-automation-mos-connection/) ****A [MOS protocol](http://mosprotocol.com/) library for acting as a MOS device and connecting to an newsroom control system.
-* [**Timeline**](https://github.com/SuperFlyTV/supertimeline) ****developed by ****[_SuperFly.tv_](https://github.com/SuperFlyTV) ****Resolver and rules for placing objects on a virtual timeline.
+* [**SuperFly-Timeline**](https://github.com/SuperFlyTV/supertimeline) ****developed by ****[_SuperFly.tv_](https://github.com/SuperFlyTV) ****Resolver and rules for placing objects on a virtual timeline.
 * [**Timeline State Resolver**](https://github.com/nrkno/tv-automation-state-timeline-resolver) \(TSR for short\) ****The main driver in **Playout Gateway,** handles connections to playout-devices and sends commands based on a **Timeline** received from **Core**.
 * [**Server Core Integration**](https://github.com/nrkno/tv-automation-server-core-integration) ****Used to connect to the [Sofie Server Core](https://github.com/nrkno/tv-automation-server-core) by the Gateways.
 * [**Blueprints Integration**](https://github.com/nrkno/tv-automation-sofie-blueprints-integration) Common types and interfaces used by both server-core and the user defined blueprints.
