@@ -61,7 +61,7 @@ See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/
 
 | Component | Version | Changelog |
 | :--- | :--- | :--- |
-| [Core](https://github.com/nrkno/tv-automation-server-core) | 1.5.0 | \_\_[_Changelog_](https://github.com/nrkno/tv-automation-server-core/blob/master/meteor/CHANGELOG.md#120-2019-11-06)\_\_ |
+| [Core](https://github.com/nrkno/tv-automation-server-core) | 1.5.0 | \_\_[_Changelog_](https://github.com/nrkno/tv-automation-server-core/blob/master/meteor/CHANGELOG.md#150-2020-01-24)\_\_ |
 | [Blueprints API \( Core \)](https://www.npmjs.com/package/tv-automation-sofie-blueprints-integration) | 1.7.0 | \_\_[_Changelog_](https://github.com/nrkno/tv-automation-sofie-blueprints-integration/blob/master/CHANGELOG.md#170-2020-01-07)\_\_ |
 | [Blueprints API \( TSR \)](https://www.npmjs.com/package/timeline-state-resolver-types) | 3.17.0 | \_\_[_Changelog_](https://github.com/nrkno/tv-automation-state-timeline-resolver/blob/master/CHANGELOG.md#3170-2020-01-08)\_\_ |
 | [Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) | 1.5.0 | \_\_[_Changelog_](https://github.com/nrkno/tv-automation-playout-gateway/blob/master/CHANGELOG.md#150-2020-01-24)\_\_ |
