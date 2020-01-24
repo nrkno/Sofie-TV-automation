@@ -9,8 +9,8 @@ description: >-
 | Release | Status |
 | :--- | :--- |
 | [Release 18](releases.md#release-18) | _In development_ |
-| [Release 17](releases.md#release-17) | _In testing_ |
-| [Release 16](releases.md#release-16) | _Released 2020-01-02 **Current stable version**_ |
+| [Release 17](releases.md#release-17) | _Released 2020-01-24 **Current stable version**_ |
+| [Release 16](releases.md#release-16) | _Released 2020-01-02_ |
 | \_\_[Release 15](releases.md#release-15) | _Released 2019-11-25_ |
 | [Release 14](releases.md#release-14) | _Released 2019-11-06_ |
 | [Release 13](releases.md#release-13) | _Released 2019-10-17_  |
@@ -23,11 +23,13 @@ description: >-
 
 ## _Release 18_
 
-Release date: to be released in mid-January 2020
+Release date: to be released in early February 2020
 
 ### Main Features
 
 _Features are still in planning_
+
+See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/14) for details 
 
 ### Components
 
@@ -42,7 +44,7 @@ _Features are still in planning_
 
 ## _Release 17_
 
-Release date: to be released in mid-January 2020
+Release date: 2020-01-24
 
 ### Main Features
 
@@ -50,6 +52,7 @@ Notable features:
 
 * Allow devices to provide a configuration manifest, thus decoupling the core from understanding the specifics of each of the devices. This will ease adding new features to the device modules.
 * Allow blueprints to specify that a media object status for a given Piece should be ignored. Useful for static assets that may intentionally contain content otherwise considered problematic \(black frames, freeze frames, etc.\)
+* Improve prompter performance
 * Various bugfixes
 
 See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/13) for details 
@@ -59,11 +62,11 @@ See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/
 | Component | Version | Changelog |
 | :--- | :--- | :--- |
 | [Core](https://github.com/nrkno/tv-automation-server-core) | 1.5.0 | \_\_[_Changelog_](https://github.com/nrkno/tv-automation-server-core/blob/master/meteor/CHANGELOG.md#120-2019-11-06)\_\_ |
-| [Blueprints API \( Core \)](https://www.npmjs.com/package/tv-automation-sofie-blueprints-integration) | 1.7.0 |  |
-| [Blueprints API \( TSR \)](https://www.npmjs.com/package/timeline-state-resolver-types) | 3.17.0 |  |
-| [Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) | 1.5.0 |  |
-| [Mos Gateway](https://github.com/nrkno/tv-automation-mos-gateway) | 1.1.0 |  |
-| [Media Manager](https://github.com/nrkno/tv-automation-media-management) | 1.1.0 |  |
+| [Blueprints API \( Core \)](https://www.npmjs.com/package/tv-automation-sofie-blueprints-integration) | 1.7.0 | \_\_[_Changelog_](https://github.com/nrkno/tv-automation-sofie-blueprints-integration/blob/master/CHANGELOG.md#170-2020-01-07)\_\_ |
+| [Blueprints API \( TSR \)](https://www.npmjs.com/package/timeline-state-resolver-types) | 3.17.0 | \_\_[_Changelog_](https://github.com/nrkno/tv-automation-state-timeline-resolver/blob/master/CHANGELOG.md#3170-2020-01-08)\_\_ |
+| [Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) | 1.5.0 | \_\_[_Changelog_](https://github.com/nrkno/tv-automation-playout-gateway/blob/master/CHANGELOG.md#150-2020-01-24)\_\_ |
+| [Mos Gateway](https://github.com/nrkno/tv-automation-mos-gateway) | 1.1.0 | \_\_[_Changelog_](https://github.com/nrkno/tv-automation-mos-gateway/blob/master/CHANGELOG.md#1190-2020-01-24)\_\_ |
+| [Media Manager](https://github.com/nrkno/tv-automation-media-management) | 1.1.0 | \_\_[_Changelog_](https://github.com/nrkno/tv-automation-media-management/blob/master/CHANGELOG.md#110-2020-01-24)\_\_ |
 
 ## _Release 16_
 
