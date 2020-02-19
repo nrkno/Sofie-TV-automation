@@ -8,7 +8,8 @@ description: >-
 
 | Release | Status |
 | :--- | :--- |
-| [Release 18](releases.md#release-18) | _In development_ |
+| [Release 19](releases.md#release-19) | _In development_ |
+| [Release 18](releases.md#release-18) | _In testing_ |
 | [Release 17](releases.md#release-17) | _Released 2020-01-24 **Current stable version**_ |
 | [Release 16](releases.md#release-16) | _Released 2020-01-02_ |
 | \_\_[Release 15](releases.md#release-15) | _Released 2019-11-25_ |
@@ -21,13 +22,39 @@ description: >-
 | [Release 8](releases.md#release-8) | Released 2019-04-08 |
 | [Release 7](releases.md#release-7) | Released 2019-03-15 |
 
+## _Release 19_
+
+Release date: to be released in March 2020
+
+### Main Features
+
+_Features are still in planning_
+
+See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/15) for details 
+
+### Components
+
+| Component | Version | Changelog |
+| :--- | :--- | :--- |
+| [Core](https://github.com/nrkno/tv-automation-server-core) | TBD | \_\_ |
+| [Blueprints API \( Core \)](https://www.npmjs.com/package/tv-automation-sofie-blueprints-integration) | TBD |  |
+| [Blueprints API \( TSR \)](https://www.npmjs.com/package/timeline-state-resolver-types) | TBD |  |
+| [Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) | TBD |  |
+| [Mos Gateway](https://github.com/nrkno/tv-automation-mos-gateway) | TBD |  |
+| [Media Manager](https://github.com/nrkno/tv-automation-media-management) | TBD |  |
+
 ## _Release 18_
 
 Release date: to be released in early February 2020
 
 ### Main Features
 
-_Features are still in planning_
+* [Improve UI performance](https://github.com/nrkno/tv-automation-server-core/pull/157)
+* [Adlibs can state to always be queued](https://github.com/nrkno/tv-automation-server-core/pull/184) \(Contribution from TV 2\)
+* [Segments can be hidden from the rundown and prompter views](https://github.com/nrkno/tv-automation-server-core/pull/174) \(Contribution from TV 2\)
+* [Animated unfocused window border](https://github.com/nrkno/tv-automation-server-core/pull/192)
+* Support action buttons \(eg Take\) in Dashboard layouts
+* [ATEM media pool config UI](https://github.com/nrkno/tv-automation-playout-gateway/pull/57)
 
 See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/14) for details 
 
@@ -35,12 +62,12 @@ See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/
 
 | Component | Version | Changelog |
 | :--- | :--- | :--- |
-| [Core](https://github.com/nrkno/tv-automation-server-core) | TBD | \_\_[_Changelog_](https://github.com/nrkno/tv-automation-server-core/blob/master/meteor/CHANGELOG.md#120-2019-11-06)\_\_ |
-| [Blueprints API \( Core \)](https://www.npmjs.com/package/tv-automation-sofie-blueprints-integration) | TBD |  |
-| [Blueprints API \( TSR \)](https://www.npmjs.com/package/timeline-state-resolver-types) | TBD |  |
-| [Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) | TBD |  |
-| [Mos Gateway](https://github.com/nrkno/tv-automation-mos-gateway) | TBD |  |
-| [Media Manager](https://github.com/nrkno/tv-automation-media-management) | TBD |  |
+| [Core](https://github.com/nrkno/tv-automation-server-core) | TBD \(~1.6.0\) | \_\_ |
+| [Blueprints API \( Core \)](https://www.npmjs.com/package/tv-automation-sofie-blueprints-integration) | TBD \(~1.8.0\) |  |
+| [Blueprints API \( TSR \)](https://www.npmjs.com/package/timeline-state-resolver-types) | TBD \(~3.18.0\) |  |
+| [Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) | TBD \(~1.6.0\) |  |
+| [Mos Gateway](https://github.com/nrkno/tv-automation-mos-gateway) | 1.1.0 |  |
+| [Media Manager](https://github.com/nrkno/tv-automation-media-management) | 1.1.0 |  |
 
 ## _Release 17_
 
