@@ -11,8 +11,8 @@ description: >-
 | Release | Status |
 | :--- | :--- |
 | [Release 20](https://github.com/nrkno/Sofie-TV-automation/issues/16) | In development |
-| [Release 19](releases.md#release-19) | _In testing_ |
-| [Release 18](releases.md#release-18) | _Released 2020-03-04 **Current stable version**_ |
+| [Release 19](releases.md#release-19) | _Released 2020-03-31_ **Current stable version** |
+| [Release 18](releases.md#release-18) | _Released 2020-03-04_ |
 | [Release 17](releases.md#release-17) | _Released 2020-01-24_ |
 | [Release 16](releases.md#release-16) | _Released 2020-01-02_ |
 | \_\_[Release 15](releases.md#release-15) | _Released 2019-11-25_ |
@@ -48,11 +48,13 @@ See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/
 
 ## _Release 19_
 
-Release date: to be released end of March 2020
+Release date: 2020-03-31
 
 ### Main Features
 
-_Features are still in planning_
+* Gap parts: parts that fill space within a show that is to be filled by other parts during playback. \([nrkno/tv-automation-server-core\#198](https://github.com/nrkno/tv-automation-server-core/pull/198)\)
+* Rundown playlists: break rundowns apart into rundowns and rundown playlists allowing effective continuous rundowns \([nrkno/tv-automation-server-core\#98](https://github.com/nrkno/tv-automation-server-core/pull/98)\) \(Contribution from TV 2\)
+* First phase of Part Instances: a first step towards a more solid understanding of parts that are on-air and what is to be aired. \([nrkno/tv-automation-server-core\#150](https://github.com/nrkno/tv-automation-server-core/pull/150)\)
 
 See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/15) for details 
 
