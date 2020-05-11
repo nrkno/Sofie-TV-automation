@@ -10,7 +10,8 @@ description: >-
 
 | Release | Status |
 | :--- | :--- |
-| [Release 20](https://github.com/nrkno/Sofie-TV-automation/issues/16) | In development |
+| [Release 21](https://github.com/nrkno/Sofie-TV-automation/issues/17) | In development |
+| [Release 20](https://github.com/nrkno/Sofie-TV-automation/issues/16) | In testing |
 | [Release 19](releases.md#release-19) | _Released 2020-03-31_ **Current stable version** |
 | [Release 18](releases.md#release-18) | _Released 2020-03-04_ |
 | [Release 17](releases.md#release-17) | _Released 2020-01-24_ |
@@ -27,11 +28,9 @@ description: >-
 
 ## _Release 20_
 
-Release date: to be released in April 2020
+Release date: to be released in May 2020
 
 ### Main Features
-
-_Features are still in planning_
 
 See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/16) for details 
 
@@ -39,12 +38,12 @@ See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/
 
 | Component | Version | Changelog |
 | :--- | :--- | :--- |
-| [Core](https://github.com/nrkno/tv-automation-server-core) | TBA |  |
-| [Blueprints API \( Core \)](https://www.npmjs.com/package/tv-automation-sofie-blueprints-integration) | TBA |  |
-| [Blueprints API \( Core \)](https://www.npmjs.com/package/tv-automation-sofie-blueprints-integration) | TBA |  |
-| [Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) | TBA |  |
-| [Mos Gateway](https://github.com/nrkno/tv-automation-mos-gateway) | TBA |  |
-| [Media Manager](https://github.com/nrkno/tv-automation-media-management) | TBA |  |
+| [Core](https://github.com/nrkno/tv-automation-server-core) | 1.8.0 |  |
+| [Blueprints API \( Core \)](https://www.npmjs.com/package/tv-automation-sofie-blueprints-integration) | 1.11.0 |  |
+| [Blueprints API \( Core \)](https://www.npmjs.com/package/tv-automation-sofie-blueprints-integration) | 3.20.0 |  |
+| [Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) | 1.7.0 |  |
+| [Mos Gateway](https://github.com/nrkno/tv-automation-mos-gateway) | 1.2.0 |  |
+| [Media Manager](https://github.com/nrkno/tv-automation-media-management) | 1.1.0 | Unchanged |
 
 ## _Release 19_
 
