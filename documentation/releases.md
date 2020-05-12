@@ -11,8 +11,8 @@ description: >-
 | Release | Status |
 | :--- | :--- |
 | [Release 21](https://github.com/nrkno/Sofie-TV-automation/issues/17) | In development |
-| [Release 20](https://github.com/nrkno/Sofie-TV-automation/issues/16) | In testing |
-| [Release 19](releases.md#release-19) | _Released 2020-03-31_ **Current stable version** |
+| [Release 20](https://github.com/nrkno/Sofie-TV-automation/issues/16) | _Released 2020-05-12_ **Current stable version** |
+| [Release 19](releases.md#release-19) | _Released 2020-03-31_ |
 | [Release 18](releases.md#release-18) | _Released 2020-03-04_ |
 | [Release 17](releases.md#release-17) | _Released 2020-01-24_ |
 | [Release 16](releases.md#release-16) | _Released 2020-01-02_ |
