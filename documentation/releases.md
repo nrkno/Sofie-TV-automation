@@ -28,7 +28,7 @@ description: >-
 
 ## _Release 20_
 
-Release date: 2020-05-12
+Release dates: 2020-05-12 \(1.8.0\), 2020-05-13 \(1.8.1\)
 
 ### Main Features
 
@@ -38,7 +38,7 @@ See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/
 
 | Component | Version | Changelog |
 | :--- | :--- | :--- |
-| [Core](https://github.com/nrkno/tv-automation-server-core) | 1.8.0 | [Changelog](https://github.com/nrkno/tv-automation-server-core/blob/64d0b4f31c95bc8eb820d5dd7a0f0bc3cb5e5b34/meteor/CHANGELOG.md) |
+| [Core](https://github.com/nrkno/tv-automation-server-core) | 1.8.1 | [Changelog](https://github.com/nrkno/tv-automation-server-core/blob/11723ac1af5f986a7dee78d754cab05eb2020d94/meteor/CHANGELOG.md) |
 | [Blueprints API \( Core \)](https://www.npmjs.com/package/tv-automation-sofie-blueprints-integration) | 1.11.0 | [Changelog](https://github.com/nrkno/tv-automation-sofie-blueprints-integration/blob/40c38a3805de5bc8794cf020c78fddc2eb674f9e/CHANGELOG.md) |
 | [Blueprints API \( TSR \)](https://www.npmjs.com/package/timeline-state-resolver) | 3.20.0 | [Changelog](https://github.com/nrkno/tv-automation-state-timeline-resolver/blob/cadcde8a54008e8b9597a2622c18487b53833b80/CHANGELOG.md) |
 | [Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) | 1.7.0 | [Changelog](https://github.com/nrkno/tv-automation-playout-gateway/blob/8807ca4250fb68629eb6c161522ccf984ac6fcf4/CHANGELOG.md) |
