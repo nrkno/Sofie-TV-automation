@@ -1,64 +1,42 @@
-# Installing Sofie Server Core
+# Quick install
 
-## Linux, using Docker
+## Installing for testing \(or production\)
 
-_Prerequisites: Install_ [_docker_](https://docs.docker.com/install/linux/docker-ce/ubuntu/) _and_ [_docker-compose_](https://www.digitalocean.com/community/tutorials/how-to-install-docker-compose-on-ubuntu-18-04)\_\_
+### **Prerequisites**
 
-First create a new directory for Sofie and copy _docker-compose.yaml_ \(link below\) into it.
+**\(Linux\)** Install [Docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/) and [docker-compose](https://www.digitalocean.com/community/tutorials/how-to-install-docker-compose-on-ubuntu-18-04).  
+**\(Windows\)** Install [Docker for Windows](https://hub.docker.com/editions/community/docker-ce-desktop-windows) \(you will need to be running either _Windows 10 Pro_ or _Windows 10 Enterprise_ version\)
 
-```bash
-mkdir Sofie
-cd Sofie
-```
+### Installation
 
-{% file src="../../.gitbook/assets/docker-compose.yaml" %}
-
-Then run `sudo docker-compose up`to install Sofie Core.
-
-Now open up your browser and go to [http://127.0.0.1:3000](http://127.0.0.1:3000)   
-You should be presented with the Sofie GUI. Head over to [Getting started](../getting-started.md) for more instructions
-
-## Windows, using Docker
-
-{% hint style="info" %}
-Please note: Docker requires Windows 10 Pro/Enterprise
-{% endhint %}
-
-_Prerequisites: Install_ [_Docker_](https://hub.docker.com/editions/community/docker-ce-desktop-windows)_._
-
-Create a new a folder for Sofie and copy _docker-compose.yaml_ \(link below\) into it.
+This docker-compose file automates the basic setup of the [Sofie-Core application](../under-the-hood/libraries.md#main-application), the backend database and different Gateway options.
 
 {% file src="../../.gitbook/assets/docker-compose.yaml" %}
 
-Open PowerShell and navigate to the folder you created earlier.  
-Then run `docker-compose up` to install Server Core.
+After you've downloaded the file, open it in a text editor and navigate to the _ingest-gateway_ section, and select which type of _ingest-gateway_ you'd like installed by commenting out the others.
 
-Now open up your browser and go to [http://127.0.0.1:3000](http://127.0.0.1:3000)   
-You should be presented with the Sofie GUI. Head over to [Getting started](../getting-started.md) for more instructions
+Create a `Sofie` folder and copy the docker-compose-file into it.
 
-## Manual installation \(for developers\)
+Then open a terminal, `cd your-sofie-folder` and `sudo docker-compose up` \(just `docker-compose up` on windows\).
 
-1. Install [Meteor](https://www.meteor.com/)
-2. Install [Node.js](https://nodejs.org/), version 8 \(LTS\)
-3. If on windows, install the build tools by running `npm install --global --production windows-build-tools`
-4. Install **yarn** \(package manager, similar to **npm**\) by running `npm install --global yarn`
-5. Clone the [tv-automation-server-core](https://github.com/nrkno/tv-automation-server-core) repository
-6. `cd` into the `tv-automation-server-core/meteor` directory
-7. Run `meteor npm install` in the `tv-automation-server-core`
+Once the installation is done, Sofie should be running on [http://localhost:3000](http://localhost:3000)
 
-   directory.
+Next, you will need to install a Rundown Gateway. Visit [Rundowns & Newsroom Systems](installing-a-gateway/rundown-or-newsroom-system-connection/) to see which _Rundown Gateway_ is best suited for ~~_your_~~ production environment. 
 
-8. Run `meteor`
-9. `cd ..` out of the `tv-automation-server-core` directory
+### Tips for running in production
 
-The web interface is available at [http://127.0.0.1:3000](http://127.0.0.1:3000), if you need to access the database \(MongoDB\) directly \(we recommend [Robomongo](https://robomongo.org/)\), it'll be accessible at the meteor port +1, i.e. `3001`.  
+There are some things not covered in this guide needed to run Sofie in a production environment:
 
+* Logging: Collect, store and track error messages. [Kibana ](https://www.elastic.co/kibana)and [logstash](https://www.elastic.co/logstash) is one way to do it.
+* NGINX: It is customary to put a load-balancer in front of Sofie-Core.
+* Memory and CPU usage monitoring.
 
-After Server Core is installed, check out the Getting started guide on how set it up!
+## Installing for Development
 
-{% page-ref page="../getting-started.md" %}
+Installation instructions for installing Sofie-Core or the various gateways are available in the README-file in their respective github-repos. 
 
+Common prerequisites are [Node.js](https://nodejs.org/) and [Yarn](https://yarnpkg.com/).  
+Links to the repos are listed at [Applications & Libraries](../under-the-hood/libraries.md).
 
-
-
+[Sofie Core GitHub Page for Developers](https://github.com/nrkno/tv-automation-server-core)
 

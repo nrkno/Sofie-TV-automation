@@ -6,7 +6,6 @@ services:
     hostname: mongo
     image: mongo:3.4
     restart: always
-    # command: --replSet mock-repl
 
     ports:
       - "3001:27017" # Expose mongo on the same port as dev meteor does
@@ -24,8 +23,6 @@ services:
     environment:
       PORT: "3000"
       MONGO_URL: "mongodb://db:27017/meteor"
-      # TODO - what is the impact of not having MONGO_OPLOG_URL set?
-      # MONGO_OPLOG_URL: "mongodb://db:27017/local"
       ROOT_URL: "http://localhost:3000"
     networks:
       - sofie
@@ -45,8 +42,9 @@ services:
 
   ingest-gateway:
     # Choose one of the following images, depending on which ingest gateway is wanted
-    image: superflytv/sofie-spreadsheet-gateway:develop
-    # image: sofietv/tv-automation-mos-gateway:develop
+    image: superflytv/sofie-spreadsheet-gateway:develop # Spreadsheet Gateway
+    # image: sofietv/tv-automation-mos-gateway:develop # MOS Gateway
+    # image: olzzon/tv2-inews-ftp-gateway:develop # iNews Gateway
     restart: always
     command: yarn start -host core -port 3000
     networks:

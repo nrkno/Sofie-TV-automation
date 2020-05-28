@@ -6,8 +6,6 @@ description: >-
 
 # Releases
 
-
-
 | Release | Status |
 | :--- | :--- |
 | [Release 21](https://github.com/nrkno/Sofie-TV-automation/issues/17) | In development |

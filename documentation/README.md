@@ -4,7 +4,7 @@
 
 ### Web-based GUI
 
-![Producer&apos;s view](https://raw.githubusercontent.com/nrkno/Sofie-TV-automation/master/images/Sofie_GUI_example.jpg)
+![Producer&apos;s / Director&apos;s  View](https://raw.githubusercontent.com/nrkno/Sofie-TV-automation/master/images/Sofie_GUI_example.jpg)
 
 ![Warnings and notifications are displayed to the user in the GUI](../.gitbook/assets/image%20%283%29.png)
 
@@ -13,7 +13,7 @@
 ![The prompter view](../.gitbook/assets/image%20%282%29.png)
 
 {% hint style="info" %}
-Tip: The different web views \(such as the host view and the prompter\) can easily be transmitted over an SDI signal using the HTML producer in [CasparCG](installation/casparcg-server-installation.md).
+Tip: The different web views \(such as the host view and the prompter\) can easily be transmitted over an SDI signal using the HTML producer in [CasparCG](installation/installing-connections-and-additional-hardware/casparcg-server-installation.md).
 {% endhint %}
 
 ### Modular Device Control
@@ -28,7 +28,7 @@ This allows the producer to skip ahead or move backwards in a show, without the 
 
 ### Modular Data Ingest
 
-Sofie features a modular ingest data-flow, allowing multiple types of input data to be used to base rundowns on. Currently there is support for [MOS-based](http://mosprotocol.com) systems and [Google Spreadsheets](installation/installing-sofie-with-google-spreadsheet-support.md), and more is in development.
+Sofie features a modular ingest data-flow, allowing multiple types of input data to base rundowns on. Currently there is support for [MOS-based](http://mosprotocol.com) systems, iNews, and [Google Spreadsheets](installation/installing-a-gateway/rundown-or-newsroom-system-connection/installing-sofie-with-google-spreadsheet-support.md), and more is in development.
 
 ### Blueprints
 
@@ -37,7 +37,7 @@ The blueprints are made different depending on how the input data \(rundowns\) l
 
 ## Documentation
 
-{% page-ref page="getting-started.md" %}
+{% page-ref page="getting-started/" %}
 
 {% page-ref page="faq.md" %}
 

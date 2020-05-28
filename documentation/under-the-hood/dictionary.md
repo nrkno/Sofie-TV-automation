@@ -5,7 +5,7 @@
 The main application in the Sofie system.  
 It is a web-server and serves the Web-GUI.  
 It is a [NodeJS](https://nodejs.org) process backed up by a [MongoDB](https://www.mongodb.com/) database and based on the framework [Meteor](http://meteor.com).  
-Read more: [_System architecture_](concepts-and-architecture.md#system-architecture)_,_ [_Getting Started_](../getting-started.md)\_\_
+Read more: [_System architecture_](concepts-and-architecture.md#system-architecture)_,_ [_Getting Started_](../getting-started/)\_\_
 
 ### Gateways
 
