@@ -12,7 +12,7 @@ The Sofie TV Automation system consists of the [**Sofie Server Core**](https://g
 
 Together with the _Server Core_ there are several _gateways_ which are separate applications, but which connect to _Server Core_ and are managed from within the Core's web UI.
 
-* \*\*\*\*[**Input Gateway**](https://github.com/nrkno/tv-automation-input-gateway) 
+* \*\*\*\*[**Input Gateway**](https://github.com/nrkno/tv-automation-input-gateway) **\(Work in progress\)** 
 * [**MOS Gateway**](https://github.com/nrkno/tv-automation-mos-gateway) ****Connects Sofie to a newsroom system and ingests rundowns via the [MOS protocol](http://mosprotocol.com/).
 * [**Spreadsheet Gateway**](https://github.com/SuperFlyTV/spreadsheet-gateway) ****Connects Sofie to a Google-Drive folder and ingests rundowns from spreadsheets.
 * [**Playout Gateway**](https://github.com/nrkno/tv-automation-playout-gateway) ****Handles the playout from Sofie. Connects to and controls a multitude of devices, such as vision mixers, graphics, light controllers, audio mixers etc..
@@ -28,18 +28,15 @@ There are a number of libraries used in the Sofie ecosystem:
 * [**CasparCG State**](https://github.com/superflytv/casparcg-state) ****developed by ****[_SuperFly.tv_](https://github.com/SuperFlyTV) ****Used in TSR to tracks the state of CasparCG Servers and generate commands to control them.
 * [**Ember+ Connection**](https://github.com/nrkno/tv-automation-emberplus-connection) ****Library to communicate with _Ember+_ control protocol 
 * [**HyperDeck Connection**](https://github.com/nrkno/tv-automation-hyperdeck-connection) Library for connecting to Blackmagic Design Hyperdeck recorders.
-* \*\*\*\*[**Lawo State**](https://github.com/nrkno/tv-automation-lawo-state) Library for communication with _Lawo_ audio mixers. 
 * [**MOS Connection**](https://github.com/nrkno/tv-automation-mos-connection/) ****A [_MOS protocol_](http://mosprotocol.com/) library for acting as a MOS device and connecting to an newsroom control system.
 * \*\*\*\*[**Quantel Gateway Client**](https://github.com/nrkno/tv-automation-quantel-gateway-client) An interface that talks to the Quantel-Gateway application.
 * [**Server Core Integration**](https://github.com/nrkno/tv-automation-server-core-integration) ****Used to connect to the [Sofie Server Core](https://github.com/nrkno/tv-automation-server-core) by the Gateways.
 * [**Sofie Blueprints Integration**](https://github.com/nrkno/tv-automation-sofie-blueprints-integration) Common types and interfaces used by both Sofie Server Core and the user-defined blueprints.
 * [**SuperFly-Timeline**](https://github.com/SuperFlyTV/supertimeline) ****developed by ****[_SuperFly.tv_](https://github.com/SuperFlyTV) ****Resolver and rules for placing objects on a virtual timeline.
-* \*\*\*\*[**Sisyfos Audio Controller**](https://github.com/nrkno/tv-automation-sisyfos-audio-controller) ****developed by ****[_olzzon_](https://github.com/olzzon/)
-* \*\*\*\*[**Sony Visca Connection**](https://github.com/nrkno/tv-automation-sony-visca-connection) Connection library for Sony Visca camera control.
 * [**ThreadedClass** ](https://github.com/nytamin/threadedClass)developed by ****[_Nytamin_](https://github.com/nytamin) Used in TSR to spawn device controllers in separate processes.
 * [**Timeline State Resolver**](https://github.com/nrkno/tv-automation-state-timeline-resolver) \(TSR\) ****The main driver in **Playout Gateway,** handles connections to playout-devices and sends commands based on a **Timeline** received from **Core**.
 
-\*\*\*\*
+
 
 There are also a few typings-only libraries that define interfaces between applications:
 
@@ -53,6 +50,7 @@ There are also a few typings-only libraries that define interfaces between appli
 * [**CasparCG Media Scanner** \(NRK fork\)](https://github.com/nrkno/tv-automation-casparcg-server) Sofie-specific fork of CasparCG Server 2.2 Media Scanner.
 * [**Media Manager**](https://github.com/nrkno/tv-automation-media-management) ****Handles media transfer and media file management for pulling new files and deleting expired files on playout devices.
 * \*\*\*\*[**Quantel Browser plugin**](https://github.com/nrkno/tv-automation-quantel-browser-plugin) MOS-compatible Quantel video clip browser for use with Sofie.
+* \*\*\*\*[**Sisyfos Audio Controller**](https://github.com/nrkno/tv-automation-sisyfos-audio-controller) ****developed by ****[_olzzon_](https://github.com/olzzon/)
 
 
 
