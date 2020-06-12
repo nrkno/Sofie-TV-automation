@@ -30,11 +30,11 @@ The blueprints are custom-made and changes depending on the show style, type of 
 
 Read more: [_System architecture_](concepts-and-architecture.md#system-architecture)\_\_
 
-## Playing things
+## Playing Things
 
 ![](../../.gitbook/assets/takenext%20%281%29.png)
 
-### TAKE-point
+### Take Point
 
 The Take point is currently playing [Part](dictionary.md#part) in the rundown, indicated by the "On Air" line in the GUI.  
 What's played on air is calculated from the timeline objects in the Pieces in the currently playing part.
@@ -43,19 +43,19 @@ What's played on air is calculated from the timeline objects in the Pieces in th
 You can TAKE the next [Part](dictionary.md#part) by pressing F12 or the rightmost Enter key.
 {% endhint %}
 
-### NEXT-point
+### Next Point
 
-The Next point is the next queued Part in the rundown. When the user clicks TAKE, the Next Part becomes the currently playing part, and the Next-point is also moved.
+The Next point is the next queued Part in the rundown. When the user clicks _Take_, the Next Part becomes the currently playing part, and the Next point is also moved.
 
 {% hint style="info" %}
-Change the NEXT-point by right-clicking in the GUI, or by pressing \(shift+\) F9 & F10.
+Change the Next point by right-clicking in the GUI, or by pressing \(shift+\) F9 & F10.
 {% endhint %}
 
 ### Lookahead
 
-Elements in the [Next-point ](dictionary.md#next-point)\(or beyond\) might be pre-loaded or "put on preview", depending on the blueprints and play-out devices used. This feature is called "Lookahead".
+Elements in the [Next point ](dictionary.md#next-point)\(or beyond\) might be pre-loaded or "put on preview", depending on the blueprints and play-out devices used. This feature is called "Lookahead".
 
-## Sofie setup
+## Sofie Setup
 
 ### System
 
@@ -125,16 +125,16 @@ The Pieces inside of a Part determines what's going to happen, the could be indi
 Inside of the pieces are the [timeline-objects](dictionary.md#timeline-object) which controls the play-out on a technical level.
 
 {% hint style="info" %}
-Tip! If you want to manually play a certain piece, you can at any time double-click it in the GUI, and it will be copied and played at your play head, just like an [AdLib](dictionary.md#adlib-pieces) would!
+Tip! If you want to manually play a certain _Graphics_ piece, you can at any time double-click it in the GUI, and it will be copied and played at your play head, just like an [AdLib](dictionary.md#adlib-pieces) would!
 {% endhint %}
 
 See also: [Showstyle](dictionary.md#showstyle)
 
-### Timeline-object
+### Timeline Object
 
 The timeline-objects are stored inside of the [Pieces](dictionary.md#piece) and they control what's going to be played out on a technical level. When a [Part](dictionary.md#part) starts playing, all the timeline-objects from it's [Pieces ](dictionary.md#piece)are added to the [Timeline](dictionary.md#timeline) and played out by the Playout Gateway.
 
-### AdLib pieces
+### AdLib Pieces
 
 The AdLib pieces are Pieces that isn't programmed to fire at a specific time, but instead intended to be manually triggered by the user.
 

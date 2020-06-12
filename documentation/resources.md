@@ -13,7 +13,7 @@ description: This guide has a lot of links. Here they are all listed by section.
 
 ## Installation & Setup
 
-* [Slack Channel](https://join.slack.com/t/sofietv/shared_invite/enQtNTk2Mzc3MTQ1NzAzLTJkZjMyMDg3OGM0YWU3MmU4YzBhZDAyZWI1YmJmNmRiYWQ1OTZjYTkzOTkzMTA2YTE1YjgxMmVkM2U1OGZlNWI)
+* [Slack Channel](https://sofietv.slack.com)
 
 ### Installing Sofie Core
 
