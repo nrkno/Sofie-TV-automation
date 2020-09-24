@@ -8,8 +8,10 @@ description: >-
 
 | Release | Status |
 | :--- | :--- |
-| Release 24 | In Development |
-| [Release 23](releases.md#release-23) | In Testing |
+| Release 26 | In Planning |
+| [Release 25](releases.md#release-25) | Finishing Development |
+| [Release 24](releases.md#release-24) | In Testing |
+| [Release 23](releases.md#release-23-skipped) | Skipped |
 | [Release 22](releases.md#release-22) | Released 2020-08-17 **Current stable version** |
 | [Release 21](https://github.com/nrkno/Sofie-TV-automation/issues/17) | Skipped |
 | [Release 20](https://github.com/nrkno/Sofie-TV-automation/issues/16) | _Released 2020-05-12_ |
@@ -27,24 +29,55 @@ description: >-
 | [Release 8](releases.md#release-8) | Released 2019-04-08 |
 | [Release 7](releases.md#release-7) | Released 2019-03-15 |
 
-## _Release 23_
+## _Release 25_
 
 Release date: TBD
 
 ### Main Features
 
-See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/19) for details 
+This release contains GUI performance improvements and an update of the Meteor framework to version 1.11.
+
+See the [tracking issue on github](https://github.com/nrkno/tv-automation-server-core/pull/324) for details.
 
 ### Components
 
 | Component | Version |
 | :--- | :--- |
-| [Core](https://github.com/nrkno/tv-automation-server-core) | 1.11.0 \(TBD\) |
+| [Core](https://github.com/nrkno/tv-automation-server-core) | 1.13.0 \(TBD\) |
 | [Blueprints API \( Core \)](https://www.npmjs.com/package/tv-automation-sofie-blueprints-integration) | TBD |
 | [Blueprints API \( TSR \)](https://www.npmjs.com/package/timeline-state-resolver) | TBD |
 | [Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) | TBD |
 | [Mos Gateway](https://github.com/nrkno/tv-automation-mos-gateway) | TBD |
 | [Media Manager](https://github.com/nrkno/tv-automation-media-management) | TBD |
+
+## _Release 24_
+
+Release date: TBD
+
+### Main Features
+
+This release contains major bugfixes and performance improvements over the skipped Release 23. New major features include: Elastic APM tracing, Activation Cache & Single Object Timeline for improving playout mutation performance \(takes, AdLibs, AdLib Actions\) & Route Sets.
+
+See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/20) for details.
+
+### Components
+
+| Component | Version |
+| :--- | :--- |
+| [Core](https://github.com/nrkno/tv-automation-server-core) | 1.12.0 \(TBD\) |
+| [Blueprints API \( Core \)](https://www.npmjs.com/package/tv-automation-sofie-blueprints-integration) | TBD |
+| [Blueprints API \( TSR \)](https://www.npmjs.com/package/timeline-state-resolver) | TBD |
+| [Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) | TBD |
+| [Mos Gateway](https://github.com/nrkno/tv-automation-mos-gateway) | TBD |
+| [Media Manager](https://github.com/nrkno/tv-automation-media-management) | TBD |
+
+## _Release 23 \(skipped\)_
+
+Release date: _unreleased_
+
+### Main Features
+
+See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/19) for details 
 
 ## _Release 22_
 
