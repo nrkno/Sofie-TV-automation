@@ -9,10 +9,10 @@ description: >-
 | Release | Status |
 | :--- | :--- |
 | Release 26 | In Planning |
-| [Release 25](releases.md#release-25) | In testing |
-| [Release 24](releases.md#release-24) | _Released 2020-09-28 **Current stable version**_ |
+| [Release 25](releases.md#release-25) | Finishing Development |
+| [Release 24](releases.md#release-24) | In Testing |
 | [Release 23](releases.md#release-23-skipped) | Skipped |
-| [Release 22](releases.md#release-22) | Released 2020-08-17 |
+| [Release 22](releases.md#release-22) | Released 2020-08-17 **Current stable version** |
 | [Release 21](https://github.com/nrkno/Sofie-TV-automation/issues/17) | Skipped |
 | [Release 20](https://github.com/nrkno/Sofie-TV-automation/issues/16) | _Released 2020-05-12_ |
 | [Release 19](releases.md#release-19) | _Released 2020-03-31_ |
@@ -52,24 +52,11 @@ See the [tracking issue on github](https://github.com/nrkno/tv-automation-server
 
 ## _Release 24_
 
-Release date: 2020-09-28
+Release date: TBD
 
 ### Main Features
 
-* **Major performance improvements** Response times of 200-300 ms before have been reduced to about 100 ms, and some situations \(such as when adlibbing 100+ elements\) that was hurting before now have been greatly improved.
-* **Adlib Actions** Adlibs now call a generic function in the blueprints, which can do various things \(think macros\).
-* **Infinites Pieces** Introducing the new infinite types 
-  * OutOnRundownEnd, OutOnSegmentEnd Which follows the planned shows
-  * OutOnSegmentChange, OutOnRundownChange Which follows the playhead
-* **Routing** Output-layers can now be routed through RouteSets \(in the Settings/studio\), allowing an output to be mirrored to multiple output devices, switch between Main and Backup, or switch between which set of hardware to control.
-
-### Notable features
-
-* **Elastic APM tracing** Used by the developers to in detail trace performance reports in development and in prod.
-* **Single-object timeline** Instead of an array of timeline-objects, a single object is now sent over the wire to the Playout Gateway, which increases responsiveness.
-* **Accounts & security** \(opt-in through settings file\) Enable user accounts, log in and access control. Note that this is an experimental feature that might contain bugs.
-
-_Note that when upgrading to this version, there are breaking changes from release 23._
+This release contains major bugfixes and performance improvements over the skipped Release 23. New major features include: Elastic APM tracing, Activation Cache & Single Object Timeline for improving playout mutation performance \(takes, AdLibs, AdLib Actions\) & Route Sets.
 
 See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/20) for details.
 
@@ -77,12 +64,12 @@ See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/
 
 | Component | Version |
 | :--- | :--- |
-| [Core](https://github.com/nrkno/tv-automation-server-core) | 1.12.0 |
-| [Blueprints API \( Core \)](https://www.npmjs.com/package/tv-automation-sofie-blueprints-integration) | 2.2.1 |
-| [Blueprints API \( TSR \)](https://www.npmjs.com/package/timeline-state-resolver) | 5.0.0 |
-| [Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) | 1.10.1 |
-| [Mos Gateway](https://github.com/nrkno/tv-automation-mos-gateway) | 1.5.0 |
-| [Media Manager](https://github.com/nrkno/tv-automation-media-management) | 1.2.1 |
+| [Core](https://github.com/nrkno/tv-automation-server-core) | 1.12.0 \(TBD\) |
+| [Blueprints API \( Core \)](https://www.npmjs.com/package/tv-automation-sofie-blueprints-integration) | TBD |
+| [Blueprints API \( TSR \)](https://www.npmjs.com/package/timeline-state-resolver) | TBD |
+| [Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) | TBD |
+| [Mos Gateway](https://github.com/nrkno/tv-automation-mos-gateway) | TBD |
+| [Media Manager](https://github.com/nrkno/tv-automation-media-management) | TBD |
 
 ## _Release 23 \(skipped\)_
 
