@@ -10,9 +10,9 @@ description: >-
 | :--- | :--- |
 | Release 26 | In Planning |
 | [Release 25](releases.md#release-25) | In testing |
-| [Release 24](releases.md#release-24) | _Released 2020-09-28_ |
+| [Release 24](releases.md#release-24) | _Released 2020-09-28 **Current stable version**_ |
 | [Release 23](releases.md#release-23-skipped) | Skipped |
-| [Release 22](releases.md#release-22) | Released 2020-08-17 **Current stable version** |
+| [Release 22](releases.md#release-22) | Released 2020-08-17 |
 | [Release 21](https://github.com/nrkno/Sofie-TV-automation/issues/17) | Skipped |
 | [Release 20](https://github.com/nrkno/Sofie-TV-automation/issues/16) | _Released 2020-05-12_ |
 | [Release 19](releases.md#release-19) | _Released 2020-03-31_ |
