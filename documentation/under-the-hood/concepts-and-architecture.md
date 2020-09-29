@@ -2,12 +2,12 @@
 
 ## System architecture
 
-![](../../.gitbook/assets/frame%20%285%29.png)
+![Example of a Sofie setup with a Playout Gateway and a Spreadsheet Gateway](../../.gitbook/assets/frame%20%285%29.png)
 
 \*\*\*\*[**Sofie Core**](dictionary.md#sofie-core) is a web-server and communicates with the web GUI.  
-[Gateways](dictionary.md#gateways) are connected to Sofie Core and exchanges data; such as rundown-data for ingest or the [timeline ](dictionary.md#timeline)for play-out.
+[Gateways](dictionary.md#gateways) are applications that are connected to Sofie Core and exchanges data; such as rundown-data for ingest or the [timeline ](dictionary.md#timeline)for play-out.
 
-The rundown-data is fed into Sofie Core via the **Spreadsheet Gateway** \(in this example, it could also be a MOS Gateway or some other ingest-type Gateway\).  
+The rundown-data is fed into Sofie Core via the **Ingest Gateway** \(in this example it's a Spreadsheet Gateway, it could also be a MOS Gateway or some other ingest-type Gateway\).  
 The rundown-data is then interpreted by the Blueprints and stored in the Core database.
 
 The end user controls the show via the web-interface. A show is mainly driven by the user [Take](dictionary.md#take-point):ing the next [Part](dictionary.md#part) in the Rundown.  
@@ -17,7 +17,7 @@ Read more: [Timeline](concepts-and-architecture.md#timeline)
 
 ## Blueprints
 
-Shorter description: [Dictionary: Blueprints](dictionary.md#blueprints)
+See also [Dictionary: Blueprints](dictionary.md#blueprints)
 
 Blueprints are plug-ins that run in Sofie Core. They interpret the data coming in from the rundowns and transform them into a rich set of playable elements \(Segments, Parts, AdLibs etc\).
 
