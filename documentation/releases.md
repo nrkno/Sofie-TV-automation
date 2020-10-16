@@ -77,7 +77,7 @@ See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/
 
 | Component | Version |
 | :--- | :--- |
-| [Core](https://github.com/nrkno/tv-automation-server-core) | 1.12.0 _\(**Bugfix**: 1.12.1 - 2020/10/12\)_ |
+| [Core](https://github.com/nrkno/tv-automation-server-core) | 1.12.0 |
 | [Blueprints API \( Core \)](https://www.npmjs.com/package/tv-automation-sofie-blueprints-integration) | 2.2.1 |
 | [Blueprints API \( TSR \)](https://www.npmjs.com/package/timeline-state-resolver) | 5.0.0 |
 | [Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) | 1.10.1 |
