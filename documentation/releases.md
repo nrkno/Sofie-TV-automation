@@ -8,9 +8,9 @@ description: >-
 
 | Release | Status |
 | :--- | :--- |
-| Release 26 | In Planning |
-| [Release 25](releases.md#release-25) | In testing |
-| [Release 24](releases.md#release-24) | _Released 2020-09-28 **Current stable version**_ |
+| Release 26 | In Testing |
+| [Release 25](releases.md#release-25) | _Released 2020-10-19 **Current stable version**_ |
+| [Release 24](releases.md#release-24) | _Released 2020-09-28_ |
 | [Release 23](releases.md#release-23-skipped) | Skipped |
 | [Release 22](releases.md#release-22) | Released 2020-08-17 |
 | [Release 21](https://github.com/nrkno/Sofie-TV-automation/issues/17) | Skipped |
@@ -31,13 +31,17 @@ description: >-
 
 ## _Release 25_
 
-Release date: TBD
+Release date: 2020-10-19
 
 ### Main Features
 
-This release contains GUI performance improvements and a couple of extensions on the features introduced in [Release 24](releases.md#release-24).
-
-See the [tracking issue on github](https://github.com/nrkno/tv-automation-server-core/pull/324) for details.
+* **Updates the Meteor framework** in Core, to version 1.11 [\#328](https://github.com/nrkno/tv-automation-server-core/pull/328)
+* **AdLib Actions extended** [\#70](https://github.com/nrkno/tv-automation-sofie-blueprints-integration/pull/70) AdLib Actions can now also cause a "Take" to happen
+* **Complete the transition of timing properties from Parts to PartInstances** The split between Parts and PartInstances, that has been a large architectural refactoring that started with Release 23 has now been finished.
+* **Tally Tags to indicate if the effect of an action is currently On Air or Next** [\#74](https://github.com/nrkno/tv-automation-sofie-blueprints-integration/pull/70) With AdLib Actions, it has become difficult to display the "tally" state of a given action to the user. This is now facilitated using _Tally Tags_ on Pieces.
+* **Allows blueprints to act before any part is On Air** The blueprints are now called back when a rundown is activated, before any Part is On Air.
+* **CasparCG handling** is updated
+* **Various bugfixes and User Interface performance improvements**
 
 ### Components
 
