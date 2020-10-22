@@ -8,12 +8,13 @@ description: This guide has a lot of links. Here they are all listed by section.
 
 * [Sofie Core Layout](getting-started/#sofie-core-layout)
 * [Sofie Core Overview](getting-started/#sofie-core-overview)
+
   * [Gateways](getting-started/#gateways)
   * [Blueprints](getting-started/#blueprints)
 
-## Installation & Setup
+* Ask questions in the [Sofie Slack Channel](https://join.slack.com/t/sofietv/shared_invite/enQtNTk2Mzc3MTQ1NzAzLTJkZjMyMDg3OGM0YWU3MmU4YzBhZDAyZWI1YmJmNmRiYWQ1OTZjYTkzOTkzMTA2YTE1YjgxMmVkM2U1OGZlNWI) 
 
-* [Slack Channel](https://sofietv.slack.com)
+## Installation & Setup
 
 ### Installing Sofie Core
 
@@ -24,11 +25,13 @@ description: This guide has a lot of links. Here they are all listed by section.
 
 ### Installing a Gateway
 
-* [MOS Protocol Overview & Documentation](http://mosprotocol.com/)
-* [iNews on Avid's Website](https://www.avid.com/products/inews/how-to-buy)
-* [ENPS on The Associated Press' Website](https://www.ap.org/enps/support)
+#### Ingest gateways and NRCS
 
-#### Google Spreadsheet Gateway
+* [MOS Protocol Overview & Documentation](http://mosprotocol.com/)
+* Information about ENPS on [The Associated Press' Website](https://www.ap.org/enps/support)
+* Information about iNews: [Avid's Website](https://www.avid.com/products/inews/how-to-buy)
+
+**Google Spreadsheet Gateway**
 
 * [Demo Spreadsheet Blueprints](https://github.com/SuperFlyTV/sofie-blueprints-spreadsheet/releases) on GitHub's website.
 * [Example Rundown](https://docs.google.com/spreadsheets/d/1iyegRv5MxYYtlVu8uEEMkBYXsLL-71PAMrNW0ZfWRUw/edit?usp=sharing) provided by Sofie.
@@ -36,21 +39,21 @@ description: This guide has a lot of links. Here they are all listed by section.
 
 ### Additional Software & Hardware
 
-#### Playout & Recording 
-
-* [Vizrt's](https://www.vizrt.com/) website.
-* [Blackmagic's Hyperdeck](https://www.blackmagicdesign.com/products/hyperdeckstudio) on their website.
-
 #### Installing CasparCG Server for Sofie
 
-* [CasparCG Server Releases](https://github.com/nrkno/tv-automation-casparcg-server/releases) on GitHub.
-* [Media Scanner Releases](https://github.com/nrkno/tv-automation-casparcg-launcher/releases) on GitHub.
+* NRK's version of [CasparCG Server](https://github.com/nrkno/tv-automation-casparcg-server/releases) on GitHub.
+* [Media Scanner ](https://github.com/nrkno/tv-automation-casparcg-launcher/releases)on GitHub.
 * [CasparCG Launcher](https://github.com/nrkno/tv-automation-casparcg-launcher) on GitHub.
 * [Microsoft Visual C++ 2015 Redistributable](https://www.microsoft.com/en-us/download/details.aspx?id=52685) on Microsoft's website.
 * [Blackmagic Decklink Cards](https://www.blackmagicdesign.com/products/decklink/models) on Blackmagic's website. Check the [Decklink cards](installation/installing-connections-and-additional-hardware/casparcg-server-installation.md#decklink-cards) section for compatibility.
 * [Installing a  Decklink Card](https://documents.blackmagicdesign.com/UserManuals/DesktopVideoManual.pdf) as a PDF.
 * [Desktop Video Download Page](https://www.blackmagicdesign.com/support/family/capture-and-playback) on Blackmagic's website.
 * [CasparCG Configuration Validator](https://casparcg.net/validator/)
+
+**Additional resources**
+
+* Viz graphics through MSE, info on [Vizrt's](https://www.vizrt.com/) website.
+* Information about [Blackmagic's Hyperdeck](https://www.blackmagicdesign.com/products/hyperdeckstudio)
 
 ## FAQ, Progress, and Issues
 
