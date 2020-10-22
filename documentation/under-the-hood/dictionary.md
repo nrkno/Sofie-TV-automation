@@ -120,7 +120,7 @@ The Part in itself doesn't determine what's going to happen, that's handled by t
 
 ### Piece
 
-The Pieces inside of a Part determines what's going to happen, the could be indicating things like VT:s, cut to cameras, graphics, or what script the host is going to read.
+The Pieces inside of a Part determines what's going to happen, the could be indicating things like VT's, cut to cameras, graphics, or what script the host is going to read.
 
 Inside of the pieces are the [timeline-objects](dictionary.md#timeline-object) which controls the play-out on a technical level.
 
