@@ -57,6 +57,20 @@ To be honest, we don't aim to have the "absolute perfect documentation possible"
 
 Most of the sofie-projects have unit-tests with a fairly good coverage. While developing, make sure any existing tests pass before you push your code. `yarn test` or `yarn watch` are your friends.
 
+### Updating Dependencies
+
+When updating dependencies in a library, it is preferred to do so via `yarn upgrade-interactive --latest` whenever possible. This is so that the versions in package.json are also updated as we have no guarantee that the library will work with versions lower than that used in the yarn.lock file, even if it is compatible with the semver range in package.json. After this, a `yarn upgrade` can be used to update any child dependencies
+
+Be careful with bumping across major versions.
+
+Also, be aware that a couple of the libraries want to retain support for node8. Not all dependencies can be updated as doing so will cause things to break for node8.
+
+#### Resolutions
+
+We use the yarn resolutions property in package.json sometimes to fix security vulnerabilities in dependencies of libraries that haven't released a fix yet. If adding a new one, try to make it as specific as possible to ensure it doesn't have unintended side effects.
+
+When updating other dependencies, it is a good idea to make sure that the resolutions defined still apply and are correct
+
 {% hint style="info" %}
 We use Jest for running unit-tests. [Read more about its CLI here](https://jestjs.io/docs/en/cli).
 {% endhint %}
