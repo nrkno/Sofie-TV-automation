@@ -30,6 +30,14 @@ Things that should be covered:
 
 ![The Rundown view and naming conventions of components](../.gitbook/assets/sofie-naming-conventions.png)
 
+#### Rundown dividers
+
+When using a workflow and blueprints that combine multiple NRCS Rundowns into a single Sofie Rundown \(such as when using the "Ready To Air" functionality in AP ENPS\), information about these individual NRCS Rundowns will be inserted into the Rundown View at the point where each of these incoming Rundowns start.
+
+![Rundown divider between two NRCS Rundowns in a &quot;Ready To Air&quot; Rundown](../.gitbook/assets/obraz%20%283%29.png)
+
+For reference, these headers show the Name, Planned Start and Planned Duration of the individual NRCS Rundown.
+
 ### Shelf
 
 The shelf contains lists of AdLibs that can be played out.
