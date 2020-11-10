@@ -8,8 +8,9 @@ description: >-
 
 | Release | Status |
 | :--- | :--- |
-| [Release 26](releases.md#release-26) | In Testing |
-| [Release 25](releases.md#release-25) | _Released 2020-10-19 **Current stable version**_ |
+| [Release 27](releases.md#release-27) | In Testing |
+| [Release 26](releases.md#release-26) | _Released 2020-11-10 **Current stable version**_ |
+| [Release 25](releases.md#release-25) | _Released 2020-10-19_  |
 | [Release 24](releases.md#release-24) | _Released 2020-09-28_ |
 | [Release 23](releases.md#release-23-skipped) | Skipped |
 | [Release 22](releases.md#release-22) | Released 2020-08-17 |
@@ -29,7 +30,7 @@ description: >-
 | [Release 8](releases.md#release-8) | Released 2019-04-08 |
 | [Release 7](releases.md#release-7) | Released 2019-03-15 |
 
-## _Release 26_
+## _Release 27_
 
 Release date: TBD
 
@@ -47,6 +48,30 @@ _To be announced_
 | [Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) | TBD |
 | [Mos Gateway](https://github.com/nrkno/tv-automation-mos-gateway) | TBD |
 | [Media Manager](https://github.com/nrkno/tv-automation-media-management) | TBD |
+
+## _Release 26_
+
+Release date: 2020-11-10
+
+### Main Features
+
+* **Route Set** UI overhaul \([\#344](https://github.com/nrkno/tv-automation-server-core/issues/344)\)
+  * Allow for routing "no layer" into "some layer" \([\#345](https://github.com/nrkno/tv-automation-server-core/pull/345)\)
+* **Blueprints update policies** allows blueprints to selectively update pieceInstances from ingest updates \([\#355](https://github.com/nrkno/tv-automation-server-core/issues/355)\)
+* **Prompter maintains focus** with an AHK script and title refactoring \([\#352](https://github.com/nrkno/tv-automation-server-core/issues/352)\)
+* **Update gateway connection library** to be better tested and maintained \([core-integration\#34](https://github.com/nrkno/tv-automation-server-core-integration/pull/34)\)
+* **Various bugfixes and User Interface performance improvements**
+
+### Components
+
+| Component | Version |
+| :--- | :--- |
+| [Core](https://github.com/nrkno/tv-automation-server-core) | 1.14.0 |
+| [Blueprints API \( Core \)](https://www.npmjs.com/package/tv-automation-sofie-blueprints-integration) | 2.4.0 |
+| [Blueprints API \( TSR \)](https://www.npmjs.com/package/timeline-state-resolver) | 5.1.2 |
+| [Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) | 1.12.0 |
+| [Mos Gateway](https://github.com/nrkno/tv-automation-mos-gateway) | 1.6.0 |
+| [Media Manager](https://github.com/nrkno/tv-automation-media-management) | 1.2.1 |
 
 ## _Release 25_
 
