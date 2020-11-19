@@ -34,7 +34,7 @@ A page which automatically displays the currently active rundown. Can be useful 
 
 A page which automatically displays the currently active rundown, and shows the Shelf in full screen. Can be useful for the producer to have on a secondary screen.
 
-A shelf layout can be selected by modifying the query string, see [Shelf layout]().
+A shelf layout can be selected by modifying the query string, see [Shelf layout](rundown-view.md#shelf-layouts).
 
 ### Specific rundown - shelf
 

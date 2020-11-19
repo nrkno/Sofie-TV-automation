@@ -17,7 +17,7 @@ The prompter UI can be configured using query parameters:
 | `margin` | number | Set margin of screen \(used on monitors with overscan\), in %. | `0` |
 | `showmarker` | 0 / 1 | If the marker is not set to "hide", control if the marker is hidden or not | `1` |
 | `showscroll` | 0 / 1 | Whether the scroll bar should be shown | `1` |
-| `followtake` | 0 / 1 | Whether the prompter should automatically scroll to current segment when the operator TAKE:s it | `1` |
+| `followtake` | 0 / 1 | Whether the prompter should automatically scroll to current segment when the operator TAKEs it | `1` |
 
 Example: [http://mySofie/prompter/studio0/?mode=mouse&followTake=0&fontsize=20](http://mysofie/prompter/studio0/?mode=mouse&followTake=0&fontsize=20)
 
