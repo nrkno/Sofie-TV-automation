@@ -8,6 +8,8 @@ For the purpose of running the system in a studio environment, there are some vi
 
 ![](../../.gitbook/assets/zrzut-ekranu-2020-11-17-230954.png)
 
+A fullscreen page which displays the prompter text for the currently active rundown. The prompter can be controlled and configured in various ways, see more at the [Prompter](prompter.md) documentation. If no Rundown is active in a given studio, the [Screensaver](sofie-pages.md#screensaver) will be displayed. 
+
 A full-screen page which displays the prompter text for the currently active rundown. The prompter can be controlled and configured in various ways, see more at the [Prompter](prompter.md) documentation.
 
 ### Presenter screen
@@ -16,7 +18,7 @@ A full-screen page which displays the prompter text for the currently active run
 
 ![](../../.gitbook/assets/image%20%2813%29.png)
 
-A full-screen page, intended to be shown to the studio presenter. It displays countdown timers for the current and next items in the rundown.
+A full-screen page, intended to be shown to the studio presenter. It displays countdown timers for the current and next items in the rundown. If no Rundown is active in a given studio, the [Screensaver](sofie-pages.md#screensaver) will be shown.
 
 ### Active Rundown
 
@@ -41,6 +43,12 @@ A shelf layout can be selected by modifying the query string, see [Shelf layout]
 `/rundown/:rundownId/shelf`
 
 Displays the shelf in fullscreen for a rundown
+
+### Screensaver
+
+When big screen displays \(like Prompter and the Presenter screen\) do not have any meaningful content to show, an animated screensaver showing the current time and the next planned show will be displayed. If no Rundown is upcoming, the Studio name will be displayed.
+
+![A screensaver showing the next scheduled show](../../.gitbook/assets/obraz%20%284%29.png)
 
 
 
