@@ -2,7 +2,13 @@
 
 See [Sofie views](sofie-pages.md#prompter) for how to access the prompter page.
 
-![](../../.gitbook/assets/image%20%287%29.png)
+![Prompter screen before the first Part is taken](../../.gitbook/assets/zrzut-ekranu-2020-11-17-230954%20%281%29.png)
+
+The prompter will display the script for the Rundown currently active in the Studio. On Air and Next parts and segments are highlighted - in red and green, respectively - to aid in navigation. In top-right corner of the screen, a Diff clock is shown, showing the difference between planned playback and what has been actually produced. This allows the host to know how far behind/ahead they are in regards to planned execution.
+
+![Indicators for the On Air and Next part shown underneath the Diff clock](../../.gitbook/assets/zrzut-ekranu-2020-11-17-225849.png)
+
+If the user scrolls the prompter ahead or behind the On Air part, helpful indicators will be shown in the right-hand side of the screen. If the On Air or Next part's script is above the current viewport, arrows pointing up will be shown. If the On Air part's script is below the current viewport, a single arrow pointing down will be shown.
 
 ## Customize looks
 

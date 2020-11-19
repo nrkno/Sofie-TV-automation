@@ -45,7 +45,7 @@ description: This guide has a lot of links. Here they are all listed by section.
 * [Media Scanner ](https://github.com/nrkno/tv-automation-casparcg-launcher/releases)on GitHub.
 * [CasparCG Launcher](https://github.com/nrkno/tv-automation-casparcg-launcher) on GitHub.
 * [Microsoft Visual C++ 2015 Redistributable](https://www.microsoft.com/en-us/download/details.aspx?id=52685) on Microsoft's website.
-* [Blackmagic Decklink Cards](https://www.blackmagicdesign.com/products/decklink/models) on Blackmagic's website. Check the [Decklink cards](installation/installing-connections-and-additional-hardware/casparcg-server-installation.md#decklink-cards) section for compatibility.
+* [Blackmagic Decklink Cards](https://www.blackmagicdesign.com/products/decklink/models) on Blackmagic's website. Check the [Decklink cards](getting-started/installation/installing-connections-and-additional-hardware/casparcg-server-installation.md#decklink-cards) section for compatibility.
 * [Installing a  Decklink Card](https://documents.blackmagicdesign.com/UserManuals/DesktopVideoManual.pdf) as a PDF.
 * [Desktop Video Download Page](https://www.blackmagicdesign.com/support/family/capture-and-playback) on Blackmagic's website.
 * [CasparCG Configuration Validator](https://casparcg.net/validator/)
