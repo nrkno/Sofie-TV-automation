@@ -1,5 +1,7 @@
 # Sofie Documentation
 
+This is a test for gitbook git syncing. Does this do what we want.
+
 ## Key Features
 
 ### Web-based GUI
