@@ -65,7 +65,7 @@ Keyboard control is intended to be used when having a "keyboard"-device, such as
 
 #### Control using Contour ShuttleXpress or X-keys \(?mode=shuttlekeyboard\)
 
-This mode is intended to be used when having a Contour ShuttleXpress or X-keys device, configured to work as a keyboard device.
+This mode is intended to be used when having a Contour ShuttleXpress or X-keys device, configured to work as a keyboard device. These devices have jog/shuttle wheels, and their software/firmware allow them to map scroll movement to keystrokes from any key-combination. Since we only listen for key combinations, it effectively means that any device outputing keystrokes will work in this mode.
 
 | Key combination | Function |
 | :--- | :--- |
@@ -84,11 +84,13 @@ Configuration files that can be used in their respective driver software:
 * [Contour ShuttleXpress](https://github.com/nrkno/tv-automation-server-core/blob/release26/resources/prompter_layout_shuttlexpress.pref)
 * [X-keys](https://github.com/nrkno/tv-automation-server-core/blob/release26/resources/prompter_layout_xkeys.mw3)
 
+#### 
+
 #### Control using midi input \(?mode=pedal\)
 
-This mode listens to midi CC-note on channel 8, expecting a linear range like i.e. 0-127. Sutiable for use with expression pedals, but any midicontroller will do. The mode picks the first connected midi device, and supports hot-plugging \(you can remove and add the device without refreshing the browser\).
+This mode listens to midi CC-note on channel 8, expecting a linear range like i.e. 0-127. Sutiable for use with expression pedals, but any midicontroller will do. The mode picks the first connected midi device, and supports hot-swapping \(you can remove and add the device without refreshing the browser\).
 
-If you wanna use traditional analogue pedals with 5 volt TRS connection, a converter such as the _Beat Bars EX2M_ will work well.
+If you want to use traditional analogue pedals with 5 volt TRS connection, a converter such as the _Beat Bars EX2M_ will work well.
 
 | Query parameter | Type | Description | Default |
 | :--- | :--- | :--- | :--- |
@@ -96,14 +98,14 @@ If you wanna use traditional analogue pedals with 5 volt TRS connection, a conve
 | `reverseSpeedMap` | Array of numbers | Same as `speedMap` but for the backwards range. | `[10, 30, 50]` |
 | `rangeRevMin` | number | The end of the backwards-range, full speed backwards. | `0` |
 | `rangeNeutralMin` | number | The beginning of the backwards-range. | `35` |
-| `rangeNeutralMax` | number | The minimum input to run forward, the start of the forward-range \(min speed\). This is also the end of any "deadband" you wanna filter out before starting moving forwards. | `80` |
+| `rangeNeutralMax` | number | The minimum input to run forward, the start of the forward-range \(min speed\). This is also the end of any "deadband" you want filter out before starting moving forwards. | `80` |
 | `rangeFwdMax` | number | The maximum input, the end of the forward-range \(max speed\) | `127` |
 
 * `rangeNeutralMin` has to be bigger than `rangeRevMin`
 * `rangeNeutralMax` has to be bigger than `rangeNeutralMin`
 * `rangeFwdMax` has to be bigger than `rangeNeutralMax`
 
-![Yamaha FC7 mapped for both a forward \(80-127\) and backwards \(0-35\) range.](../../.gitbook/assets/image-1-%20%281%29.png)
+![Yamaha FC7 mapped for both a forward \(80-127\) and backwards \(0-35\) range.](../../.gitbook/assets/image-2.png)
 
 The default values allow for both going forwards and backwards. This matches the _Yamaha FC7_ expression pedal. The default values create a forward-range from 80-127, a neutral zone from 35-80 and a reverse-range from 0-35.
 
