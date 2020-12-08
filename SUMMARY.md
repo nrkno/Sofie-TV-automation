@@ -34,6 +34,7 @@
     * [Applications & Libraries](documentation/for-developers/libraries.md)
     * [Contribution Guidelines](documentation/for-developers/contribution-guidelines.md)
     * [For Blueprint developers](documentation/for-developers/for-blueprint-developers.md)
+  * [Supported playout devices](documentation/supported-playout-devices.md)
   * [Drafts \(ignore this\)](documentation/drafts-ignore-me.md)
   * [Further Reading](documentation/resources.md)
 
