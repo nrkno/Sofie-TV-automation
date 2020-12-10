@@ -45,6 +45,8 @@ Tested and developed against [a fork of version 2.1](https://github.com/nrkno/tv
 * Sending of integers, floats, strings, blobs
 * Tweening \(transitioning between\) values
 
+Can be configured in TCP or UDP mode.
+
 ## Panasonic PTZ cameras <a id="panasonic-ptz-cameras"></a>
 
 * Recalling presets
