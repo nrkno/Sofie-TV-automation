@@ -95,7 +95,7 @@ If you want to use traditional analogue pedals with 5 volt TRS connection, a con
 
 | Query parameter | Type | Description | Default |
 | :--- | :--- | :--- | :--- |
-| `speedMap` | Array of numbes | Speeds to scroll by \(px. pr. frame \(approx 60fps\) when scrolling forwards. The beginning of the forwards-range maps to the first number in this array, and thee end of the forwards-range map to the end of this array. All values in between are being interpolated in a spline curve. | `[1, 2, 3, 4, 5, 7, 9, 12, 17, 19, 30]` |
+| `speedMap` | Array of numbes | Speeds to scroll by \(px. pr. frame - approx 60fps\) when scrolling forwards. The beginning of the forwards-range maps to the first number in this array, and thee end of the forwards-range map to the end of this array. All values in between are being interpolated in a spline curve. | `[1, 2, 3, 4, 5, 7, 9, 12, 17, 19, 30]` |
 | `reverseSpeedMap` | Array of numbers | Same as `speedMap` but for the backwards range. | `[10, 30, 50]` |
 | `rangeRevMin` | number | The end of the backwards-range, full speed backwards. | `0` |
 | `rangeNeutralMin` | number | The beginning of the backwards-range. | `35` |
@@ -141,7 +141,7 @@ The Joycons can operate in 3 modes, the L-stick, the R-stick or both L+R sticks 
 
 | Query parameter | Type | Description | Default |
 | :--- | :--- | :--- | :--- |
-| `speedMap` | Array of numbes | Speeds to scroll by \(px. pr. frame \(approx 60fps\) when scrolling forwards. The beginning of the forwards-range maps to the first number in this array, and thee end of the forwards-range map to the end of this array. All values in between are being interpolated in a spline curve. | `[1, 2, 3, 4, 5, 8, 12, 30]` |
+| `speedMap` | Array of numbes | Speeds to scroll by \(px. pr. frame - approx 60fps\) when scrolling forwards. The beginning of the forwards-range maps to the first number in this array, and thee end of the forwards-range map to the end of this array. All values in between are being interpolated in a spline curve. | `[1, 2, 3, 4, 5, 8, 12, 30]` |
 | `reverseSpeedMap` | Array of numbers | Same as `speedMap` but for the backwards range. | `[1, 2, 3, 4, 5, 8, 12, 30]` |
 | `rangeRevMin` | number | The end of the backwards-range, full speed backwards. | `-1` |
 | `rangeNeutralMin` | number | The beginning of the backwards-range. | `-0.25` |
