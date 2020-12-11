@@ -39,6 +39,7 @@ The prompter can be controlled by different types of controllers. Which mode is 
 | `?mode=keyboard` | Controlled by keyboard only. [How to configure.](prompter.md#control-using-keyboard) |
 | `?mode=shuttlekeyboard` | Controlled by a Contour Design ShuttleXpress, X-keys Jog and Shuttle or any compatible, configured as keyboard-ish device. [How to configure.](prompter.md#control-using-contour-shuttlexpress-or-x-keys) |
 | `?mode=pedal` | Controlled by any mididevice outputing a midirange i.e. 0-127 of CC notes on channel 8. Analogue Expression pedals work well with TRS-USB midi-converters. [How to cofigure](prompter.md#control-using-midi-input-mode-pedal). |
+| `?mode=joycon` | Controlled by a \[pair of\] Nintendo Switch Joycons, over the HTML5 GamePad API. [How to configure](prompter.md#control-using-nintendo-joycon-gamepad). |
 
 #### Control using mouse \(scroll wheel\)
 
@@ -131,4 +132,50 @@ Any movement with in forward range will map to the _speedMap_ with interpolation
 | `rangeNeutralMin` | `0` |
 | `rangeNeutralMax` | `1` |
 | `rangeFwdMax` | `127` |
+
+#### Control using Nintendo Joycon \(gamepad\)
+
+This mode uses the browsers Gamapad API and polls connected Joycons for their states on button-presses and joystick inputs.
+
+The Joycons can operate in 3 modes, the L-stick, the R-stick or both L+R sticks together. Reconnections and jumping between modes works, with one known limitation: **Transition from L+R to a single stick blocks all input, and requires a reconnect of the sticks you want to use.** This seems to be a bug in either the Joycons themselves or in Bluetooth in general.
+
+| Query parameter | Type | Description | Default |
+| :--- | :--- | :--- | :--- |
+| `speedMap` | Array of numbes | Speeds to scroll by \(px. pr. frame \(approx 60fps\) when scrolling forwards. The beginning of the forwards-range maps to the first number in this array, and thee end of the forwards-range map to the end of this array. All values in between are being interpolated in a spline curve. | `[1, 2, 3, 4, 5, 8, 12, 30]` |
+| `reverseSpeedMap` | Array of numbers | Same as `speedMap` but for the backwards range. | `[1, 2, 3, 4, 5, 8, 12, 30]` |
+| `rangeRevMin` | number | The end of the backwards-range, full speed backwards. | `-1` |
+| `rangeNeutralMin` | number | The beginning of the backwards-range. | `-0.25` |
+| `rangeNeutralMax` | number | The minimum input to run forward, the start of the forward-range \(min speed\). This is also the end of any "deadband" you want filter out before starting moving forwards. | `0.25` |
+| `rangeFwdMax` | number | The maximum input, the end of the forward-range \(max speed\) | `1` |
+
+* `rangeNeutralMin` has to be bigger than `rangeRevMin`
+* `rangeNeutralMax` has to be bigger than `rangeNeutralMin`
+* `rangeFwdMax` has to be bigger than `rangeNeutralMax`
+
+![Nintendo Swith Joycons](../../.gitbook/assets/img_8804%20%281%29.png)
+
+You can turn on `?debug=1` to see how your input maps to an output.
+
+**Button map:**
+
+| **Button** | Acton |
+| :--- | :--- |
+| L2 / R2 | Go to the "On-air" story |
+| L / R | Go to the "Next" story |
+| Up / X | Go top the top |
+| Left / Y | Go to the previous story |
+| Right / A | Go to the following story |
+
+
+
+**Calibration guide:**
+
+| **Symptom** | Adjustment |
+| :--- | :--- |
+| _"The prompter drifts upwards when I'm not doing anything"_ | Decrease `rangeNeutralMin` |
+| _"The prompter drifts downwards when I'm not doing anything"_ | Increase `rangeNeutralMax` |
+| _"It starts out fine, but runs too fast if I move too far"_ | Add more weight to the lower part of the `speedMap / reverseSpeedMap` by adding more low values early in the map, compared to the large numbers in the end.  |
+| _"I can't reach max speed backwards"_ | Increase `rangeRevMin` |
+| _"I can't reach max speed forwards"_ | Decrease `rangeFwdMax` |
+| _"As I find a good speed, it varies a bit in speed up/down even if I hold my finger still"_ | Use `?debug=1` to see what speed is calculated in the position the presenter wants to rest the foot in. Add more of that number in a sequence in the `speedMap` i.e. `[1, 2, 3, 4, 4, 4, 4, 5, ...]` |
 
