@@ -52,7 +52,7 @@ _To be announced_
 
 ## _Release 27_
 
-Release date: TBD
+Release date: 2020-12-08
 
 ### Main Features
 
