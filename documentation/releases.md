@@ -6,11 +6,14 @@ description: >-
 
 # Releases
 
+
+
 | Release | Status |
 | :--- | :--- |
-| [Release 28](releases.md#release-27) | In Development |
-| [Release 27](releases.md#release-27) | In Testing |
-| [Release 26](releases.md#release-26) | _Released 2020-11-10 **Current stable version**_ |
+| [Release 29](releases.md#release-29) | In Development |
+| [Release 28](releases.md#release-27) | In Testing |
+| [Release 27](releases.md#release-27) | _Released 2020-12-08 **Current stable version**_ |
+| [Release 26](releases.md#release-26) | _Released 2020-11-10_ |
 | [Release 25](releases.md#release-25) | _Released 2020-10-19_  |
 | [Release 24](releases.md#release-24) | _Released 2020-09-28_ |
 | [Release 23](releases.md#release-23-skipped) | Skipped |
@@ -31,7 +34,7 @@ description: >-
 | [Release 8](releases.md#release-8) | Released 2019-04-08 |
 | [Release 7](releases.md#release-7) | Released 2019-03-15 |
 
-## _Release 28_
+## _Release 29_
 
 Release date: TBD
 
@@ -49,6 +52,65 @@ _To be announced_
 | [Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) | TBD |
 | [Mos Gateway](https://github.com/nrkno/tv-automation-mos-gateway) | TBD |
 | [Media Manager](https://github.com/nrkno/tv-automation-media-management) | TBD |
+
+## _Release 28_
+
+Release date: TBD
+
+### Main Features
+
+* The server-core repository is now a mono-repo having absorbed the [blueprints-integration](https://github.com/nrkno/tv-automation-sofie-blueprints-integration) and [server-core-integration](https://github.com/nrkno/tv-automation-server-core-integration) repositories. As part of this, they now publish to new npm package names [@sofie-automation/blueprints-integration](https://www.npmjs.com/package/@sofie-automation/blueprints-integration) and [@sofie-automation/server-core-integration](https://www.npmjs.com/package/@sofie-automation/server-core-integration). The new packages are versioned to match core.
+* Improvements to the blueprint-api to update the on-air/nexted part when ingest data changes \([\#380](https://github.com/nrkno/tv-automation-server-core/pull/380)\)
+* Buckets can now contain adlib-actions \([\#387](https://github.com/nrkno/tv-automation-server-core/pull/387)\)
+* Adlib-actions can populate a context menu with execution options, and can generate expected media items \([\#387](https://github.com/nrkno/tv-automation-server-core/pull/387)\)
+* Adlib items have a hoverscrub preview \([\#404](https://github.com/nrkno/tv-automation-server-core/pull/404)\)
+* ShowStyle Variant is shown in the lobby \([\#406](https://github.com/nrkno/tv-automation-server-core/pull/406)\)
+* Prompter can be controlled by a Joycon \([\#390](https://github.com/nrkno/tv-automation-server-core/pull/390)\)
+* Various ui, playout and ingest fixes
+
+### Components
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Component</th>
+      <th style="text-align:left">Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">
+        <p><a href="https://github.com/nrkno/tv-automation-server-core">Core</a>
+        </p>
+        <p><a href="https://www.npmjs.com/package/@sofie-automation/blueprints-integration">Blueprints API ( Core )</a>
+        </p>
+        <p><a href="https://www.npmjs.com/package/@sofie-automation/server-core-integration">Gateway API</a>
+        </p>
+      </td>
+      <td style="text-align:left">1.16</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://www.npmjs.com/package/timeline-state-resolver">Blueprints API ( TSR )</a>
+      </td>
+      <td style="text-align:left">5.3.0</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://github.com/nrkno/tv-automation-playout-gateway">Playout Gateway</a>
+      </td>
+      <td style="text-align:left">1.14.0</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://github.com/nrkno/tv-automation-mos-gateway">Mos Gateway</a>
+      </td>
+      <td style="text-align:left">1.8.0</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://github.com/nrkno/tv-automation-media-management">Media Manager</a>
+      </td>
+      <td style="text-align:left">1.4.0</td>
+    </tr>
+  </tbody>
+</table>
 
 ## _Release 27_
 
