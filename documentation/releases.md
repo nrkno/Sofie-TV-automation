@@ -9,8 +9,8 @@ description: >-
 | Release | Status |
 | :--- | :--- |
 | [Release 28](releases.md#release-27) | In Development |
-| [Release 27](releases.md#release-27) | In Testing |
-| [Release 26](releases.md#release-26) | _Released 2020-11-10 **Current stable version**_ |
+| [Release 27](releases.md#release-27) | _Released 2020-12-08 **Current stable version**_ |
+| [Release 26](releases.md#release-26) | _Released 2020-11-10_ |
 | [Release 25](releases.md#release-25) | _Released 2020-10-19_  |
 | [Release 24](releases.md#release-24) | _Released 2020-09-28_ |
 | [Release 23](releases.md#release-23-skipped) | Skipped |
