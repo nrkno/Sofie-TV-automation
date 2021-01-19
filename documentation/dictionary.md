@@ -30,6 +30,22 @@ Things that should be covered:
 
 ![The Rundown view and naming conventions of components](../.gitbook/assets/sofie-naming-conventions.png)
 
+#### Segment Header countdowns
+
+![Each Segment has two clocks - the Segment Time Budget and a Segment Countdown](../.gitbook/assets/obraz%20%285%29.png)
+
+{% tabs %}
+{% tab title="Left: Segment Time Budget" %}
+Clock on the left is an indicator of how much time has been spent playing Parts from that Segment in relation to how much time was planned for Parts in that Segment. If more time was spent playing than was planned for, this clock will turn red, there will be a **+** sign in front of it and will begin counting upwards.
+{% endtab %}
+
+{% tab title="Right: Segment Countdown" %}
+Clock on the right is a countdown to the beginning of a given segment. This takes into account unplayed time in the On Air Part and all unplayed Parts between the On Air Part and a given Segment. If there are no unplayed Parts between the On Air Part and the Segment, this counter will disappear.
+{% endtab %}
+{% endtabs %}
+
+In the illustration above, the first Segment \(_Ny Sak_\) has been playing for 4 minutes and 25 seconds longer than it was planned for. The second segment \(_Direkte Strømstad\)_ is planned to play for 4 minutes and 40 seconds. There are 5 minutes and 46 seconds worth of content between the current On Air line \(which is in the first Segment\) and the second Segment.
+
 #### Rundown dividers
 
 When using a workflow and blueprints that combine multiple NRCS Rundowns into a single Sofie Rundown \(such as when using the "Ready To Air" functionality in AP ENPS\), information about these individual NRCS Rundowns will be inserted into the Rundown View at the point where each of these incoming Rundowns start.
