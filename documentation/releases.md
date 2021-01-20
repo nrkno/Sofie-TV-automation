@@ -10,9 +10,9 @@ description: >-
 
 | Release | Status |
 | :--- | :--- |
-| [Release 29](releases.md#release-29) | In Development |
-| [Release 28](releases.md#release-27) | In Testing |
-| [Release 27](releases.md#release-27) | _Released 2020-12-08 **Current stable version**_ |
+| [Release 29](releases.md#release-29) | In Testing |
+| [Release 28](releases.md#release-27) | _Released 2021-01-19 **Current stable version**_ |
+| [Release 27](releases.md#release-27) | _Released 2020-12-08_ |
 | [Release 26](releases.md#release-26) | _Released 2020-11-10_ |
 | [Release 25](releases.md#release-25) | _Released 2020-10-19_  |
 | [Release 24](releases.md#release-24) | _Released 2020-09-28_ |
@@ -55,7 +55,7 @@ _To be announced_
 
 ## _Release 28_
 
-Release date: TBD
+Release date: 2021-01-19
 
 ### Main Features
 
