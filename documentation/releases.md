@@ -10,7 +10,7 @@ description: >-
 
 | Release | Status |
 | :--- | :--- |
-| [Release 29](releases.md#release-29) | In Testing |
+| [Release 29](releases.md#release-29) | _Released 2021-02-08_ In Testing |
 | [Release 28](releases.md#release-27) | _Released 2021-01-19 **Current stable version**_ |
 | [Release 27](releases.md#release-27) | _Released 2020-12-08_ |
 | [Release 26](releases.md#release-26) | _Released 2020-11-10_ |
@@ -36,22 +36,26 @@ description: >-
 
 ## _Release 29_
 
-Release date: TBD
+Release date: 2021-02-08
 
 ### Main Features
 
-_To be announced_
+* New freeze frame indicator & icon next to the countdown
+* **S**ome tweaks to the styling of the freeze frame countdown
+* Various ui and playout fixes
+
+
 
 ### Components
 
 | Component | Version |
 | :--- | :--- |
-| [Core](https://github.com/nrkno/tv-automation-server-core) | TBD |
-| [Blueprints API \( Core \)](https://www.npmjs.com/package/tv-automation-sofie-blueprints-integration) | TBD |
-| [Blueprints API \( TSR \)](https://www.npmjs.com/package/timeline-state-resolver) | TBD |
-| [Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) | TBD |
-| [Mos Gateway](https://github.com/nrkno/tv-automation-mos-gateway) | TBD |
-| [Media Manager](https://github.com/nrkno/tv-automation-media-management) | TBD |
+| [Core](https://github.com/nrkno/tv-automation-server-core) | 1.17.0 |
+| [Blueprints API \( Core \)](https://www.npmjs.com/package/tv-automation-sofie-blueprints-integration) | 1.17.0 |
+| [Blueprints API \( TSR \)](https://www.npmjs.com/package/timeline-state-resolver) | 5.5.1 |
+| [Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) | 1.15.0 |
+| [Mos Gateway](https://github.com/nrkno/tv-automation-mos-gateway) | 1.8.0 \(not updated, no changes\) |
+| [Media Manager](https://github.com/nrkno/tv-automation-media-management) | 1.4.0 \(not updated, no changes\) |
 
 ## _Release 28_
 
