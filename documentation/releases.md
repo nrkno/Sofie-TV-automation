@@ -36,7 +36,9 @@ description: >-
 
 ## _Release 29_
 
-Release date: 2021-02-08
+Release date: 2021-02-08 \(1.17.0\), 2021-02-09 \(1.17.1\)
+
+Note: 1.17.0 has a wrong version in a dependency of a dependency and should not be used.
 
 ### Main Features
 
@@ -50,8 +52,8 @@ Release date: 2021-02-08
 
 | Component | Version |
 | :--- | :--- |
-| [Core](https://github.com/nrkno/tv-automation-server-core) | 1.17.0 |
-| [Blueprints API \( Core \)](https://www.npmjs.com/package/tv-automation-sofie-blueprints-integration) | 1.17.0 |
+| [Core](https://github.com/nrkno/tv-automation-server-core) | 1.17.1 |
+| [Blueprints API \( Core \)](https://www.npmjs.com/package/tv-automation-sofie-blueprints-integration) | 1.17.1 |
 | [Blueprints API \( TSR \)](https://www.npmjs.com/package/timeline-state-resolver) | 5.5.1 |
 | [Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) | 1.15.0 |
 | [Mos Gateway](https://github.com/nrkno/tv-automation-mos-gateway) | 1.8.0 \(not updated, no changes\) |
