@@ -1,0 +1,81 @@
+# This is NOT recommended to be used for a production deployment. It aims to quickly get an evaluation version of sofie running and serve as a basis for how to setup a production deployment
+version: "3.3"
+services:
+
+  db:
+    hostname: mongo
+    image: mongo:4.2.8
+    restart: always
+
+    ports:
+      - "3001:27017" # Expose mongo on the same port as dev meteor does
+    volumes:
+      - db-data:/data/db
+    networks:
+      - sofie
+
+  core:
+    hostname: core
+    image: sofietv/tv-automation-server-core:master
+    restart: always
+    ports:
+      - "3000:3000" # Same port as meteor uses by default
+    environment:
+      PORT: "3000"
+      MONGO_URL: "mongodb://db:27017/meteor"
+      ROOT_URL: "http://localhost:3000"
+    networks:
+      - sofie
+    volumes:
+      - snapshots:/mnt/snapshots
+    depends_on:
+      - db
+
+  playout-gateway:
+    image: sofietv/tv-automation-playout-gateway:master
+    restart: always
+    command: yarn start -host core -port 3000
+    networks:
+      - sofie
+    depends_on:
+      - core
+
+  # Choose one of the following images, depending on which type of ingest gateway is wanted:
+
+  # spreadsheet-gateway:
+  #   image: superflytv/sofie-spreadsheet-gateway:develop
+  #   restart: always
+  #   command: yarn start -host core -port 3000
+  #   networks:
+  #     - sofie
+  #   depends_on:
+  #     - core
+
+  # mos-gateway:
+  #   image: sofietv/tv-automation-mos-gateway:master
+  #   restart: always
+  #   ports:
+  #     - "10540:10540" # MOS Lower port
+  #     - "10541:10541" # MOS Upper port
+  #     # - "10542:10542" # MOS query port - not used
+  #   command: yarn start -host core -port 3000
+  #   networks:
+  #     - sofie
+  #   depends_on:
+  #     - core
+
+  # inews-gateway:
+  #   image: olzzon/tv2-inews-ftp-gateway:master
+  #   restart: always
+  #   command: yarn start -host core -port 3000
+  #   networks:
+  #     - sofie
+  #   depends_on:
+  #     - core
+
+networks:
+  sofie:
+
+volumes:
+  db-data:
+  snapshots:
