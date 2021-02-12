@@ -10,6 +10,7 @@ description: >-
 
 | Release | Status |
 | :--- | :--- |
+| [Release 30](releases.md#release-30) | Released 2021-02-12 In Testing |
 | [Release 29](releases.md#release-29) | _Released 2021-02-08_ In Testing |
 | [Release 28](releases.md#release-27) | _Released 2021-01-19 **Current stable version**_ |
 | [Release 27](releases.md#release-27) | _Released 2020-12-08_ |
@@ -34,6 +35,66 @@ description: >-
 | [Release 8](releases.md#release-8) | Released 2019-04-08 |
 | [Release 7](releases.md#release-7) | Released 2019-03-15 |
 
+## _Release 30_
+
+Release date: 2021-02-12 \(1.18.0\)
+
+### Main Features
+
+* Translations for blueprint messages
+* Prompter: adds support for multiple midi inputs
+* PartInstances without Parts
+* Layer Mappings defined by manifest
+* Building with github actions, including sonarcloud 
+* Double click on AdLib in the Dashboard and Buckets to trigger
+* Support for looping rundowns 
+* Activation pop-up when doing a take on an inactive rundown
+* Some reductions in the number of Unsync messages shown during shows with rundown playlists.
+
+### Components
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Component</th>
+      <th style="text-align:left">Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">
+        <p><a href="https://github.com/nrkno/tv-automation-server-core">Core</a>
+        </p>
+        <p><a href="https://www.npmjs.com/package/@sofie-automation/blueprints-integration">Blueprints API ( Core )</a>
+        </p>
+        <p><a href="https://www.npmjs.com/package/@sofie-automation/server-core-integration">Gateway API</a>
+        </p>
+      </td>
+      <td style="text-align:left">1.18.0</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://www.npmjs.com/package/timeline-state-resolver">Blueprints API ( TSR )</a>
+      </td>
+      <td style="text-align:left">5.5.2</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://github.com/nrkno/tv-automation-playout-gateway">Playout Gateway</a>
+      </td>
+      <td style="text-align:left">1.16.0</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://github.com/nrkno/tv-automation-mos-gateway">Mos Gateway</a>
+      </td>
+      <td style="text-align:left">1.9.0</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://github.com/nrkno/tv-automation-media-management">Media Manager</a>
+      </td>
+      <td style="text-align:left">1.5.0</td>
+    </tr>
+  </tbody>
+</table>
+
 ## _Release 29_
 
 Release date: 2021-02-08 \(1.17.0\), 2021-02-09 \(1.17.1\)
@@ -43,21 +104,54 @@ Note: 1.17.0 has a wrong version in a dependency of a dependency and should not 
 ### Main Features
 
 * New freeze frame indicator & icon next to the countdown
-* **S**ome tweaks to the styling of the freeze frame countdown
+* Some tweaks to the styling of the freeze frame countdown
 * Various ui and playout fixes
 
 
 
 ### Components
 
-| Component | Version |
-| :--- | :--- |
-| [Core](https://github.com/nrkno/tv-automation-server-core) | 1.17.1 |
-| [Blueprints API \( Core \)](https://www.npmjs.com/package/tv-automation-sofie-blueprints-integration) | 1.17.1 |
-| [Blueprints API \( TSR \)](https://www.npmjs.com/package/timeline-state-resolver) | 5.5.1 |
-| [Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) | 1.15.0 |
-| [Mos Gateway](https://github.com/nrkno/tv-automation-mos-gateway) | 1.8.0 \(not updated, no changes\) |
-| [Media Manager](https://github.com/nrkno/tv-automation-media-management) | 1.4.0 \(not updated, no changes\) |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Component</th>
+      <th style="text-align:left">Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">
+        <p><a href="https://github.com/nrkno/tv-automation-server-core">Core</a>
+        </p>
+        <p><a href="https://www.npmjs.com/package/@sofie-automation/blueprints-integration">Blueprints API ( Core )</a>
+        </p>
+        <p><a href="https://www.npmjs.com/package/@sofie-automation/server-core-integration">Gateway API</a>
+        </p>
+      </td>
+      <td style="text-align:left">1.17.1</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://www.npmjs.com/package/timeline-state-resolver">Blueprints API ( TSR )</a>
+      </td>
+      <td style="text-align:left">5.5.1</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://github.com/nrkno/tv-automation-playout-gateway">Playout Gateway</a>
+      </td>
+      <td style="text-align:left">1.15.0</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://github.com/nrkno/tv-automation-mos-gateway">Mos Gateway</a>
+      </td>
+      <td style="text-align:left">1.8.0 (not updated, no changes)</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://github.com/nrkno/tv-automation-media-management">Media Manager</a>
+      </td>
+      <td style="text-align:left">1.4.0 (not updated, no changes)</td>
+    </tr>
+  </tbody>
+</table>
 
 ## _Release 28_
 
