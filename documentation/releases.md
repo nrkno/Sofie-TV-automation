@@ -12,8 +12,8 @@ description: >-
 | :--- | :--- |
 | [Release 31](releases.md#release-31) | In Testing |
 | [Release 30](releases.md#release-30) | Released 2021-02-12 In Testing |
-| [Release 29](releases.md#release-29) | _Released 2021-02-08_ In Testing |
-| [Release 28](releases.md#release-27) | _Released 2021-01-19 **Current stable version**_ |
+| [Release 29](releases.md#release-29) | _Released 2021-02-08_ _**Current Stable version**_ |
+| [Release 28](releases.md#release-27) | _Released 2021-01-19_  |
 | [Release 27](releases.md#release-27) | _Released 2020-12-08_ |
 | [Release 26](releases.md#release-26) | _Released 2020-11-10_ |
 | [Release 25](releases.md#release-25) | _Released 2020-10-19_  |
