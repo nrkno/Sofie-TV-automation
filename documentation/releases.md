@@ -10,6 +10,7 @@ description: >-
 
 | Release | Status |
 | :--- | :--- |
+| [Release 31](releases.md#release-31) | In Testing |
 | [Release 30](releases.md#release-30) | Released 2021-02-12 In Testing |
 | [Release 29](releases.md#release-29) | _Released 2021-02-08_ In Testing |
 | [Release 28](releases.md#release-27) | _Released 2021-01-19 **Current stable version**_ |
@@ -34,6 +35,62 @@ description: >-
 | [Release 9](releases.md#release-9) | Released 2019-05-16  |
 | [Release 8](releases.md#release-8) | Released 2019-04-08 |
 | [Release 7](releases.md#release-7) | Released 2019-03-15 |
+
+## _Release 31_
+
+Not released yet, target version: 1.19.0
+
+### Main Features
+
+* Segments are now rendered at separate zoom levels to fit the width of the viewport
+* Blueprint API improvements
+* Orphaned rundowns, segments and partInstances
+* Countdown panel in dahsboard to count down to the end of content on currently on-air pieces on selected SourceLayers
+* CasparCG restart cron job is now optional
+
+### Components
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Component</th>
+      <th style="text-align:left">Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">
+        <p><a href="https://github.com/nrkno/tv-automation-server-core">Core</a>
+        </p>
+        <p><a href="https://www.npmjs.com/package/@sofie-automation/blueprints-integration">Blueprints API ( Core )</a>
+        </p>
+        <p><a href="https://www.npmjs.com/package/@sofie-automation/server-core-integration">Gateway API</a>
+        </p>
+      </td>
+      <td style="text-align:left">1.19.0</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://www.npmjs.com/package/timeline-state-resolver">Blueprints API ( TSR )</a>
+      </td>
+      <td style="text-align:left">5.5.3</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://github.com/nrkno/tv-automation-playout-gateway">Playout Gateway</a>
+      </td>
+      <td style="text-align:left">1.17.0</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://github.com/nrkno/tv-automation-mos-gateway">Mos Gateway</a>
+      </td>
+      <td style="text-align:left">1.10.0</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://github.com/nrkno/tv-automation-media-management">Media Manager</a>
+      </td>
+      <td style="text-align:left">1.6.0</td>
+    </tr>
+  </tbody>
+</table>
 
 ## _Release 30_
 
