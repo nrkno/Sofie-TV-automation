@@ -68,6 +68,8 @@ Keyboard control is intended to be used when having a "keyboard"-device, such as
 
 This mode is intended to be used when having a Contour ShuttleXpress or X-keys device, configured to work as a keyboard device. These devices have jog/shuttle wheels, and their software/firmware allow them to map scroll movement to keystrokes from any key-combination. Since we only listen for key combinations, it effectively means that any device outputing keystrokes will work in this mode.
 
+From Release 30, the speedMap has a prefix: **shuttle\_** \(i.e. shuttle\_speedMap\)
+
 | Key combination | Function |
 | :--- | :--- |
 | `Ctrl` `Alt` `F1` ... `Ctrl` `Alt` `F7` | Set speed to +1 ... +7 \(Scroll down\) |
@@ -92,6 +94,8 @@ Configuration files that can be used in their respective driver software:
 This mode listens to MIDI CC-notes on channel 8, expecting a linear range like i.e. 0-127. Sutiable for use with expression pedals, but any MIDI controller can be used. The mode picks the first connected MIDI device, and supports hot-swapping \(you can remove and add the device without refreshing the browser\).
 
 If you want to use traditional analogue pedals with 5 volt TRS connection, a converter such as the _Beat Bars EX2M_ will work well.
+
+From Release 30, the parameters for the pedal have a prefix: **pedal\_** \(i.e. pedal\_speedMap, pedal\_reverseSpeedMap etc\)
 
 | Query parameter | Type | Description | Default |
 | :--- | :--- | :--- | :--- |
@@ -138,6 +142,8 @@ Any movement within forward range will map to the _speedMap_ with interpolation 
 This mode uses the browsers Gamapad API and polls connected Joycons for their states on button-presses and joystick inputs.
 
 The Joycons can operate in 3 modes, the L-stick, the R-stick or both L+R sticks together. Reconnections and jumping between modes works, with one known limitation: **Transition from L+R to a single stick blocks all input, and requires a reconnect of the sticks you want to use.** This seems to be a bug in either the Joycons themselves or in the Gamepad API in general.
+
+From Release 30, the parameters for the JoyCon have a prefix: **joycon\_** \(i.e. joycon\_speedMap, joycon\_reverseSpeedMap etc\)
 
 | Query parameter | Type | Description | Default |
 | :--- | :--- | :--- | :--- |
