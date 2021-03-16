@@ -45,6 +45,8 @@ In some \(most?\) studios, there are only ever one rundown in a playlist. In tho
 
 A Playlist is played out in the context of it's [Studio](../dictionary.md#studio), thereby only a single Playlist can be active at a time within each Studio.
 
+A playlist is normally played through and then ends but it is also possible to make looping playlists in which case the playlist will start over from the top after the last part has been played.
+
 ### Rundown
 
 The Rundown contains the content for a show. It contains Segments and Parts, which can be selected by the user to be played out.  
