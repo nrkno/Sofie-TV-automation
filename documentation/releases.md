@@ -11,8 +11,8 @@ description: >-
 | Release | Status |
 | :--- | :--- |
 | [Release 31](releases.md#release-31) | In Testing |
-| [Release 30](releases.md#release-30) | Released 2021-02-12 In Testing |
-| [Release 29](releases.md#release-29) | _Released 2021-02-08_ _**Current Stable version**_ |
+| [Release 30](releases.md#release-30) | Released 2021-03-22 _**Current stable version**_ |
+| [Release 29](releases.md#release-29) | _Released 2021-02-08_  |
 | [Release 28](releases.md#release-27) | _Released 2021-01-19_  |
 | [Release 27](releases.md#release-27) | _Released 2020-12-08_ |
 | [Release 26](releases.md#release-26) | _Released 2020-11-10_ |
@@ -72,7 +72,7 @@ Not released yet, target version: 1.19.0
     <tr>
       <td style="text-align:left"><a href="https://www.npmjs.com/package/timeline-state-resolver">Blueprints API ( TSR )</a>
       </td>
-      <td style="text-align:left">5.5.3</td>
+      <td style="text-align:left">5.6.0</td>
     </tr>
     <tr>
       <td style="text-align:left"><a href="https://github.com/nrkno/tv-automation-playout-gateway">Playout Gateway</a>
@@ -132,7 +132,7 @@ Release date: 2021-02-12 \(1.18.0\)
     <tr>
       <td style="text-align:left"><a href="https://www.npmjs.com/package/timeline-state-resolver">Blueprints API ( TSR )</a>
       </td>
-      <td style="text-align:left">5.5.2</td>
+      <td style="text-align:left">5.5.5</td>
     </tr>
     <tr>
       <td style="text-align:left"><a href="https://github.com/nrkno/tv-automation-playout-gateway">Playout Gateway</a>
@@ -148,6 +148,11 @@ Release date: 2021-02-12 \(1.18.0\)
       <td style="text-align:left"><a href="https://github.com/nrkno/tv-automation-media-management">Media Manager</a>
       </td>
       <td style="text-align:left">1.5.0</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://github.com/nrkno/tv-automation-quantel-gateway">Quantel Gateway</a>
+      </td>
+      <td style="text-align:left">1.1.0</td>
     </tr>
   </tbody>
 </table>
