@@ -10,6 +10,7 @@ description: >-
 
 | Release | Status |
 | :--- | :--- |
+| [Release 32](releases.md#release-32) | In Testing |
 | [Release 31](releases.md#release-31) | In Testing |
 | [Release 30](releases.md#release-30) | Released 2021-03-22 _**Current stable version**_ |
 | [Release 29](releases.md#release-29) | _Released 2021-02-08_  |
@@ -35,6 +36,62 @@ description: >-
 | [Release 9](releases.md#release-9) | Released 2019-05-16  |
 | [Release 8](releases.md#release-8) | Released 2019-04-08 |
 | [Release 7](releases.md#release-7) | Released 2019-03-15 |
+
+## _Release 32_
+
+Not released yet, target version: 1.32
+
+### Main Features
+
+* Experimental support for the new [package manager](https://github.com/nrkno/tv-automation-package-manager)
+* Work on allowing a playout and ingest operation to run in parallel, to help avoid ingest updates blocking takes.
+* Updated colour scheme for some piece types
+* Segments are reset upon leaving, meaning they will match what is shown in the NRCS after being played
+* Remove AsRunLog collection, and replace usages with the PartInstances and PieceInstances
+
+### Components
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Component</th>
+      <th style="text-align:left">Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">
+        <p><a href="https://github.com/nrkno/tv-automation-server-core">Core</a>
+        </p>
+        <p><a href="https://www.npmjs.com/package/@sofie-automation/blueprints-integration">Blueprints API ( Core )</a>
+        </p>
+        <p><a href="https://www.npmjs.com/package/@sofie-automation/server-core-integration">Gateway API</a>
+        </p>
+      </td>
+      <td style="text-align:left">1.32</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://www.npmjs.com/package/timeline-state-resolver">Blueprints API ( TSR )</a>
+      </td>
+      <td style="text-align:left">5.6</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://github.com/nrkno/tv-automation-playout-gateway">Playout Gateway</a>
+      </td>
+      <td style="text-align:left">1.32</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://github.com/nrkno/tv-automation-mos-gateway">Mos Gateway</a>
+      </td>
+      <td style="text-align:left">1.32</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://github.com/nrkno/tv-automation-media-management">Media Manager</a>
+      </td>
+      <td style="text-align:left">1.7</td>
+    </tr>
+  </tbody>
+</table>
 
 ## _Release 31_
 
