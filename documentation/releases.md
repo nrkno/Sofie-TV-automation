@@ -48,6 +48,7 @@ Not released yet, target version: 1.32
 * Updated colour scheme for some piece types
 * Segments are reset upon leaving, meaning they will match what is shown in the NRCS after being played
 * Remove AsRunLog collection, and replace usages with the PartInstances and PieceInstances
+* Improved segment header labels
 
 ### Components
 
