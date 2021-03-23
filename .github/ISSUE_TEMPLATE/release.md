@@ -19,8 +19,8 @@ The contents of this release is not planned yet, more updates will follow.
 
 ## Development status
 
-The development is expected to start in the beginning of September.
 <!--
+The development is expected to start in the beginning of September.
 Testing is expected to start 2019-01-01
 -->
 
@@ -40,10 +40,7 @@ _To be announced_
 ## Expected versions of components:
 | Component | Expected version |
 | -- | -- |
-| [Core](https://bit.ly/2yFZA9X) | TBD |
-| [Blueprints API ( Core )](https://bit.ly/2YtWk0L) | TBD |
+| [Core](https://bit.ly/2yFZA9X) <br/> [Blueprints API ( Core )](https://bit.ly/2Qyrcde) <br/> [Playout Gateway](https://bit.ly/2OKGbzn) <br/> [Mos Gateway](https://bit.ly/2Tc1wR1) | TBD |
 | [Blueprints API ( TSR )](https://bit.ly/2GTAmcF) | TBD |
-| [Playout Gateway](https://bit.ly/2OKGbzn) | TBD |
-| [Mos Gateway](https://bit.ly/2Tc1wR1) | TBD |
 | [Spreadsheet Gateway](https://bit.ly/2KB0iL9) | TBD |
 | [Media Manager](https://bit.ly/2ZDRjiD) | TBD |
