@@ -54,7 +54,7 @@ Documentation for this section is yet to be written.
 
 ### Playing things
 
-![](../.gitbook/assets/takenext%20%281%29.png)
+![](../.gitbook/assets/takenext%20%281%29%20%281%29.png)
 
 #### Take Point
 
