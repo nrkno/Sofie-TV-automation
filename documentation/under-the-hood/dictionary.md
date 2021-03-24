@@ -32,7 +32,7 @@ Read more: [_System architecture_](concepts-and-architecture.md#system-architect
 
 ## Playing Things
 
-![](../../.gitbook/assets/takenext%20%281%29.png)
+![](../../.gitbook/assets/takenext%20%281%29%20%281%29.png)
 
 ### Take Point
 
