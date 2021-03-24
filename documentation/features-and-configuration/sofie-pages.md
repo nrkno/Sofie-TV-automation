@@ -20,6 +20,14 @@ A full-screen page which displays the prompter text for the currently active run
 
 A full-screen page, intended to be shown to the studio presenter. It displays countdown timers for the current and next items in the rundown. If no Rundown is active in a given studio, the [Screensaver](sofie-pages.md#screensaver) will be shown.
 
+#### Presenter screen overlay
+
+`/countdowns/:studioId/overlay`
+
+![](../../.gitbook/assets/obraz%20%286%29.png)
+
+A full-screen page with transparent background, intended to be shown to the studio presenter as an overlay on top of the produced PGM signal. It displays a reduced amount of the information from the regular [Presenter screen](sofie-pages.md#presenter-screen): the countdown to the end of the current Part, a summary preview \(type and name\) of the next item in the Rundown and the current time of day. If no Rundown is active it will show the name of the Studio.
+
 ### Active Rundown
 
 `/activeRundown/:studioId`
