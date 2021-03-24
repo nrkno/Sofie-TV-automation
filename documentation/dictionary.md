@@ -86,7 +86,7 @@ Technically, the switchboard activates and deactivates Route Sets. The Route Set
 
 ### Playing things
 
-![](../.gitbook/assets/takenext%20%281%29.png)
+![](../.gitbook/assets/takenext%20%281%29%20%281%29.png)
 
 #### Take Point
 

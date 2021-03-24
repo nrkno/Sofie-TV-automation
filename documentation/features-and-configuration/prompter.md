@@ -2,7 +2,7 @@
 
 See [Sofie views](sofie-pages.md#prompter) for how to access the prompter page.
 
-![Prompter screen before the first Part is taken](../../.gitbook/assets/zrzut-ekranu-2020-11-17-230954%20%281%29.png)
+![Prompter screen before the first Part is taken](../../.gitbook/assets/zrzut-ekranu-2020-11-17-230954%20%281%29%20%281%29.png)
 
 The prompter will display the script for the Rundown currently active in the Studio. On Air and Next parts and segments are highlighted - in red and green, respectively - to aid in navigation. In top-right corner of the screen, a Diff clock is shown, showing the difference between planned playback and what has been actually produced. This allows the host to know how far behind/ahead they are in regards to planned execution.
 
@@ -152,7 +152,7 @@ The Joycons can operate in 3 modes, the L-stick, the R-stick or both L+R sticks 
 * `rangeNeutralMax` has to be greater than `rangeNeutralMin`
 * `rangeFwdMax` has to be greater than `rangeNeutralMax`
 
-![Nintendo Swith Joycons](../../.gitbook/assets/img_8804%20%281%29.png)
+![Nintendo Swith Joycons](../../.gitbook/assets/img_8804%20%281%29%20%281%29.png)
 
 You can turn on `?debug=1` to see how your input maps to an output.
 
