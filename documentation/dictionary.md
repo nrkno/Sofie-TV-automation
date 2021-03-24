@@ -107,6 +107,12 @@ The Next point is the next queued Part in the rundown. When the user clicks _Tak
 Change the Next point by right-clicking in the GUI, or by pressing \(Shift +\) F9 & F10.
 {% endhint %}
 
+#### Freeze-frame countdown
+
+![Part is 1 second heavy, LiveSpeak piece has 7 seconds of playback until it freezes](../.gitbook/assets/obraz%20%287%29.png)
+
+If a Piece has more or less content than the Part's expected duration allows, an additional counter with a Snowflake icon will be displayed, attached to the On Air line, counting down to the moment when content from that Piece will freeze-frame at the last frame. The time span in which the content from the Piece will be visible on the output, but will be frozen, is displayed with an overlay of icicles.
+
 #### Lookahead
 
 Elements in the [Next point ](dictionary.md#next-point)\(or beyond\) might be pre-loaded or "put on preview", depending on the blueprints and play-out devices used. This feature is called "Lookahead".
