@@ -52,7 +52,7 @@ How you will configure the CasparCG server will depend on the number of Decklink
 
 ### Installing CasparCG Media Scanner
 
-You can use the CasparCG Media Scanner to locate and add all of your media to the _Core_. To install the Media Scanner, you will go to the [project's Release page](https://github.com/nrkno/tv-automation-casparcg-launcher/releases) and download the `.zip` file under the latest release. Similar to the CasparCG Server, you want to use the NRK version. 
+You can use the CasparCG Media Scanner to locate and add all of your media to the _Core_. To install the Media Scanner, you will go to the [project's Release page](https://github.com/nrkno/tv-automation-media-scanner/releases) and download the `.zip` file under the latest release. Similar to the CasparCG Server, you want to use the NRK version.
 
 Once downloaded and extracted, move the `scanner.exe` file to the same folder as your `casparcg.exe` file. 
 
@@ -223,7 +223,7 @@ In the _Attached Sub Devices_ section, you should now see the status of the Casp
 ## Further Reading
 
 * [CasparCG Server Releases](https://github.com/nrkno/tv-automation-casparcg-server/releases) on GitHub.
-* [Media Scanner Releases](https://github.com/nrkno/tv-automation-casparcg-launcher/releases) on GitHub.
+* [Media Scanner Releases](https://github.com/nrkno/tv-automation-media-scanner/releases) on GitHub.
 * [CasparCG Launcher](https://github.com/nrkno/tv-automation-casparcg-launcher) on GitHub.
 * [Microsoft Visual C++ 2015 Redistributable](https://www.microsoft.com/en-us/download/details.aspx?id=52685) on Microsoft's website.
 * [Blackmagic Decklink Cards](https://www.blackmagicdesign.com/products/decklink/models) on Blackmagic's website. Check the [Decklink cards](casparcg-server-installation.md#decklink-cards) section for compatibility.
