@@ -6,19 +6,17 @@ description: >-
 
 # Releases
 
-
-
 | Release | Status |
 | :--- | :--- |
 | [Release 33](releases.md#release-33) | In Testing |
 | [Release 32](releases.md#release-32) | In Testing |
-| [Release 31](releases.md#release-31) | In Testing |
-| [Release 30](releases.md#release-30) | Released 2021-03-22 _**Current stable version**_ |
-| [Release 29](releases.md#release-29) | _Released 2021-02-08_  |
-| [Release 28](releases.md#release-27) | _Released 2021-01-19_  |
+| [Release 31](releases.md#release-31) | Released 2021-05-05 _**Current stable version**_ |
+| [Release 30](releases.md#release-30) | _Released 2021-03-22_ |
+| [Release 29](releases.md#release-29) | _Released 2021-02-08_ |
+| [Release 28](releases.md#release-27) | _Released 2021-01-19_ |
 | [Release 27](releases.md#release-27) | _Released 2020-12-08_ |
 | [Release 26](releases.md#release-26) | _Released 2020-11-10_ |
-| [Release 25](releases.md#release-25) | _Released 2020-10-19_  |
+| [Release 25](releases.md#release-25) | _Released 2020-10-19_ |
 | [Release 24](releases.md#release-24) | _Released 2020-09-28_ |
 | [Release 23](releases.md#release-23-skipped) | Skipped |
 | [Release 22](releases.md#release-22) | Released 2020-08-17 |
@@ -28,15 +26,15 @@ description: >-
 | [Release 18](releases.md#release-18) | _Released 2020-03-04_ |
 | [Release 17](releases.md#release-17) | _Released 2020-01-24_ |
 | [Release 16](releases.md#release-16) | _Released 2020-01-02_ |
-| \_\_[Release 15](releases.md#release-15) | _Released 2019-11-25_ |
+| [Release 15](releases.md#release-15) | _Released 2019-11-25_ |
 | [Release 14](releases.md#release-14) | _Released 2019-11-06_ |
-| [Release 13](releases.md#release-13) | _Released 2019-10-17_  |
+| [Release 13](releases.md#release-13) | _Released 2019-10-17_ |
 | [Release 12](releases.md#release-12) | _Released 2019-09-11_ |
-| [Release 11](releases.md#release-11) | _Released 2019-08-19_  |
-| [Release 10](releases.md#release-10) | Released 2019-07-05 |
-| [Release 9](releases.md#release-9) | Released 2019-05-16  |
-| [Release 8](releases.md#release-8) | Released 2019-04-08 |
-| [Release 7](releases.md#release-7) | Released 2019-03-15 |
+| [Release 11](releases.md#release-11) | _Released 2019-08-19_ |
+| [Release 10](releases.md#release-10) | _Released 2019-07-05_ |
+| [Release 9](releases.md#release-9) | _Released 2019-05-16_ |
+| [Release 8](releases.md#release-8) | _Released 2019-04-08_ |
+| [Release 7](releases.md#release-7) | _Released 2019-03-15_ |
 
 ## _Release 33_
 
@@ -44,16 +42,16 @@ Not released yet, target version: 1.33
 
 ### Main Features
 
- * Support of inputting basic arrays in settings
- * Filter out duplicate ad libs
- * Human readable layer names for use in UI's
- * Blueprints can now upload static assets to core to be used as icons and previews in the UI'
-    * Note that this introduces a breaking change in the blueprint ingest API
- * Translatable adlib actions
- * Various other Blueprint API improvements
- * Introduction of expected playout items
- * Staggered UI updates improving UI performance
- * Playout gateway can upload short clips to Blackmagic Atem Switchers
+* Support of inputting basic arrays in settings
+* Filter out duplicate ad libs
+* Human readable layer names for use in UI's
+* Blueprints can now upload static assets to core to be used as icons and previews in the UI'
+  * Note that this introduces a breaking change in the blueprint ingest API
+* Translatable adlib actions
+* Various other Blueprint API improvements
+* Introduction of expected playout items
+* Staggered UI updates improving UI performance
+* Playout gateway can upload short clips to Blackmagic Atem Switchers
 
 ### Components
 
@@ -158,7 +156,7 @@ Not released yet, target version: 1.32
 
 ## _Release 31_
 
-Not released yet, target version: 1.19.0
+Release date: 2021-05-05 \(1.19.1\)
 
 ### Main Features
 
@@ -187,7 +185,7 @@ Not released yet, target version: 1.19.0
         <p><a href="https://www.npmjs.com/package/@sofie-automation/server-core-integration">Gateway API</a>
         </p>
       </td>
-      <td style="text-align:left">1.19.0</td>
+      <td style="text-align:left">1.19.1</td>
     </tr>
     <tr>
       <td style="text-align:left"><a href="https://www.npmjs.com/package/timeline-state-resolver">Blueprints API ( TSR )</a>
@@ -288,8 +286,6 @@ Note: 1.17.0 has a wrong version in a dependency of a dependency and should not 
 * New freeze frame indicator & icon next to the countdown
 * Some tweaks to the styling of the freeze frame countdown
 * Various ui and playout fixes
-
-
 
 ### Components
 
@@ -584,7 +580,7 @@ Release date: _unreleased_
 
 ### Main Features
 
-See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/19) for details 
+See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/19) for details
 
 ## _Release 22_
 
@@ -594,7 +590,7 @@ Note: This is a big, BREAKING update, manual steps are required when upgrading.
 
 ### Main Features
 
-See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/18) for details 
+See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/18) for details
 
 ### Components
 
@@ -613,7 +609,7 @@ Release date: _Unreleased_
 
 ### Main Features
 
-See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/17) for details 
+See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/17) for details
 
 ## _Release 20_
 
@@ -621,7 +617,7 @@ Release dates: 2020-05-12 \(1.8.0\), 2020-05-13 \(1.8.1\), 2020-05-27 \(1.8.2\)
 
 ### Main Features
 
-See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/16) for details 
+See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/16) for details
 
 ### Components
 
@@ -644,7 +640,7 @@ Release date: 2020-03-31
 * Rundown playlists: break rundowns apart into rundowns and rundown playlists allowing effective continuous rundowns \([nrkno/tv-automation-server-core\#98](https://github.com/nrkno/tv-automation-server-core/pull/98)\) \(Contribution from TV 2\)
 * First phase of Part Instances: a first step towards a more solid understanding of parts that are on-air and what is to be aired. \([nrkno/tv-automation-server-core\#150](https://github.com/nrkno/tv-automation-server-core/pull/150)\)
 
-See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/15) for details 
+See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/15) for details
 
 ### Components
 
@@ -670,7 +666,7 @@ Release date: 2020-03-04
 * Support action buttons \(eg Take\) in Dashboard layouts
 * [ATEM media pool config UI](https://github.com/nrkno/tv-automation-playout-gateway/pull/57)
 
-See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/14) for details 
+See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/14) for details
 
 ### Components
 
@@ -696,7 +692,7 @@ Notable features:
 * Improve prompter performance
 * Various bugfixes
 
-See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/13) for details 
+See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/13) for details
 
 ### Components
 
@@ -723,7 +719,7 @@ Notable features:
 * Invalid Reason information on invalid parts \([\#129](https://github.com/nrkno/tv-automation-server-core/issues/129)\) \([b4f5126](https://github.com/nrkno/tv-automation-server-core/commit/b4f5126)\)
 * restart core from status view \([\#131](https://github.com/nrkno/tv-automation-server-core/issues/131)\) \([154f999](https://github.com/nrkno/tv-automation-server-core/commit/154f999)\)
 
-See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/11) for details 
+See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/11) for details
 
 ### Components
 
@@ -749,7 +745,7 @@ Notable features:
 * Basic Prompter, running in web window, controlled by Contour-Xpress, keyboard or mouse.
 * Various bug fixes
 
-See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/10) for details 
+See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/10) for details
 
 ### Components
 
@@ -777,7 +773,7 @@ Notable features:
 * Streamdeck view \([more info in PR](https://github.com/nrkno/tv-automation-server-core/pull/106)\)
 * Blueprint config parameter can now be a "table"
 
-See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/8) for details 
+See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/8) for details
 
 ### Components
 
@@ -807,7 +803,7 @@ This release features several bug fixes and a few features:
 * User is now able to undo a Hold \(by pressing Shift+H\)
 * User can now restart the Quantel-Gateway device
 
-See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/6) for details 
+See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/6) for details
 
 ### Components
 
@@ -835,8 +831,6 @@ This release features many bug fixes and support for a few new playout devoces:
 * Core: Support for shotbox-like buttons in the shelf
 * ..and fixes for many, many bugs introduced in R10 and R11.
 
-
-
 See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/5) for details
 
 ### Components
@@ -850,8 +844,6 @@ See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/
 | [Mos Gateway](https://github.com/nrkno/tv-automation-mos-gateway) | 1.0.0 |  |
 | [Media Manager](https://github.com/nrkno/tv-automation-media-management) | 1.0.0 |  |
 
-## 
-
 ## _Release 11_
 
 Release date: _2019-08-19_
@@ -863,8 +855,6 @@ This release is a maintenance release, with only minor features.
 * Core: Blueprint.onGenerateTimeline improvements
 * Core: REST API, a first version, allowing basic control of playout
 * Playout-gateway: CommandError callback: report to Core when a command fails
-
-
 
 See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/4) for details
 
