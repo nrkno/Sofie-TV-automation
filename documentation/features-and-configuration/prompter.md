@@ -2,7 +2,7 @@
 
 See [Sofie views](sofie-pages.md#prompter) for how to access the prompter page.
 
-![Prompter screen before the first Part is taken](../../.gitbook/assets/zrzut-ekranu-2020-11-17-230954%20%281%29%20%281%29%20%281%29.png)
+![Prompter screen before the first Part is taken](../../.gitbook/assets/zrzut-ekranu-2020-11-17-230954%20%281%29%20%281%29.png)
 
 The prompter will display the script for the Rundown currently active in the Studio. On Air and Next parts and segments are highlighted - in red and green, respectively - to aid in navigation. In top-right corner of the screen, a Diff clock is shown, showing the difference between planned playback and what has been actually produced. This allows the host to know how far behind/ahead they are in regards to planned execution.
 
@@ -110,7 +110,7 @@ From Release 30, the parameters for the pedal have a prefix: **pedal\_** \(i.e. 
 * `rangeNeutralMax` has to be greater than `rangeNeutralMin`
 * `rangeFwdMax` has to be greater than `rangeNeutralMax`
 
-![Yamaha FC7 mapped for both a forward \(80-127\) and backwards \(0-35\) range.](../../.gitbook/assets/image-2%20%282%29.png)
+![Yamaha FC7 mapped for both a forward \(80-127\) and backwards \(0-35\) range.](../../.gitbook/assets/image-2.png)
 
 The default values allow for both going forwards and backwards. This matches the _Yamaha FC7_ expression pedal. The default values create a forward-range from 80-127, a neutral zone from 35-80 and a reverse-range from 0-35.
 
@@ -158,7 +158,7 @@ From Release 30, the parameters for the JoyCon have a prefix: **joycon\_** \(i.e
 * `rangeNeutralMax` has to be greater than `rangeNeutralMin`
 * `rangeFwdMax` has to be greater than `rangeNeutralMax`
 
-![Nintendo Swith Joycons](../../.gitbook/assets/img_8804%20%281%29%20%281%29%20%281%29.png)
+![Nintendo Swith Joycons](../../.gitbook/assets/img_8804%20%281%29%20%281%29.png)
 
 You can turn on `?debug=1` to see how your input maps to an output.
 

@@ -6,7 +6,7 @@ For the purpose of running the system in a studio environment, there are some vi
 
 `/prompter/:studioId`
 
-![](../../.gitbook/assets/zrzut-ekranu-2020-11-17-230954%20%281%29%20%281%29.png)
+![](../../.gitbook/assets/zrzut-ekranu-2020-11-17-230954%20%281%29.png)
 
 A fullscreen page which displays the prompter text for the currently active rundown. The prompter can be controlled and configured in various ways, see more at the [Prompter](prompter.md) documentation. If no Rundown is active in a given studio, the [Screensaver](sofie-pages.md#screensaver) will be displayed. 
 
