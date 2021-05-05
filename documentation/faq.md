@@ -13,5 +13,5 @@ Everything needed to install and configure a fully functioning Sofie system is p
 
 ## When will feature _y_ become available?
 
-Check out the [issues-page](https://github.com/nrkno/Sofie-TV-automation/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3ARelease), where there are notes on current and upcoming releases.
+Check out the [issues page](https://github.com/nrkno/Sofie-TV-automation/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3ARelease), where there are notes on current and upcoming releases.
 
