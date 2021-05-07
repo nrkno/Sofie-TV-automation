@@ -8,9 +8,16 @@ description: >-
 
 | Release | Status |
 | :--- | :--- |
-| Release 26 | In Planning |
-| [Release 25](releases.md#release-25) | In testing |
-| [Release 24](releases.md#release-24) | _Released 2020-09-28 **Current stable version**_ |
+| [Release 33](releases.md#release-33) | In Testing |
+| [Release 32](releases.md#release-32) | In Testing |
+| [Release 31](releases.md#release-31) | Released 2021-05-05 _**Current stable version**_ |
+| [Release 30](releases.md#release-30) | _Released 2021-03-22_ |
+| [Release 29](releases.md#release-29) | _Released 2021-02-08_ |
+| [Release 28](releases.md#release-27) | _Released 2021-01-19_ |
+| [Release 27](releases.md#release-27) | _Released 2020-12-08_ |
+| [Release 26](releases.md#release-26) | _Released 2020-11-10_ |
+| [Release 25](releases.md#release-25) | _Released 2020-10-19_ |
+| [Release 24](releases.md#release-24) | _Released 2020-09-28_ |
 | [Release 23](releases.md#release-23-skipped) | Skipped |
 | [Release 22](releases.md#release-22) | Released 2020-08-17 |
 | [Release 21](https://github.com/nrkno/Sofie-TV-automation/issues/17) | Skipped |
@@ -19,25 +26,508 @@ description: >-
 | [Release 18](releases.md#release-18) | _Released 2020-03-04_ |
 | [Release 17](releases.md#release-17) | _Released 2020-01-24_ |
 | [Release 16](releases.md#release-16) | _Released 2020-01-02_ |
-| \_\_[Release 15](releases.md#release-15) | _Released 2019-11-25_ |
+| [Release 15](releases.md#release-15) | _Released 2019-11-25_ |
 | [Release 14](releases.md#release-14) | _Released 2019-11-06_ |
-| [Release 13](releases.md#release-13) | _Released 2019-10-17_  |
+| [Release 13](releases.md#release-13) | _Released 2019-10-17_ |
 | [Release 12](releases.md#release-12) | _Released 2019-09-11_ |
-| [Release 11](releases.md#release-11) | _Released 2019-08-19_  |
-| [Release 10](releases.md#release-10) | Released 2019-07-05 |
-| [Release 9](releases.md#release-9) | Released 2019-05-16  |
-| [Release 8](releases.md#release-8) | Released 2019-04-08 |
-| [Release 7](releases.md#release-7) | Released 2019-03-15 |
+| [Release 11](releases.md#release-11) | _Released 2019-08-19_ |
+| [Release 10](releases.md#release-10) | _Released 2019-07-05_ |
+| [Release 9](releases.md#release-9) | _Released 2019-05-16_ |
+| [Release 8](releases.md#release-8) | _Released 2019-04-08_ |
+| [Release 7](releases.md#release-7) | _Released 2019-03-15_ |
 
-## _Release 25_
+## _Release 33_
 
-Release date: TBD
+Not released yet, target version: 1.33
 
 ### Main Features
 
-This release contains GUI performance improvements and a couple of extensions on the features introduced in [Release 24](releases.md#release-24).
+* Support of inputting basic arrays in settings
+* Filter out duplicate ad libs
+* Human readable layer names for use in UI's
+* Blueprints can now upload static assets to core to be used as icons and previews in the UI'
+  * Note that this introduces a breaking change in the blueprint ingest API
+* Translatable adlib actions
+* Various other Blueprint API improvements
+* Introduction of expected playout items
+* Staggered UI updates improving UI performance
+* Playout gateway can upload short clips to Blackmagic Atem Switchers
 
-See the [tracking issue on github](https://github.com/nrkno/tv-automation-server-core/pull/324) for details.
+### Components
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Component</th>
+      <th style="text-align:left">Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">
+        <p><a href="https://github.com/nrkno/tv-automation-server-core">Core</a>
+        </p>
+        <p><a href="https://www.npmjs.com/package/@sofie-automation/blueprints-integration">Blueprints API ( Core )</a>
+        </p>
+        <p><a href="https://www.npmjs.com/package/@sofie-automation/server-core-integration">Gateway API</a>
+        </p>
+      </td>
+      <td style="text-align:left">1.33</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://www.npmjs.com/package/timeline-state-resolver">Blueprints API ( TSR )</a>
+      </td>
+      <td style="text-align:left">5.7</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://github.com/nrkno/tv-automation-playout-gateway">Playout Gateway</a>
+      </td>
+      <td style="text-align:left">1.33</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://github.com/nrkno/tv-automation-mos-gateway">Mos Gateway</a>
+      </td>
+      <td style="text-align:left">1.33</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://github.com/nrkno/tv-automation-media-management">Media Manager</a>
+      </td>
+      <td style="text-align:left">1.8</td>
+    </tr>
+  </tbody>
+</table>
+
+## _Release 32_
+
+Not released yet, target version: 1.32
+
+### Main Features
+
+* Experimental support for the new [package manager](https://github.com/nrkno/tv-automation-package-manager)
+* Work on allowing a playout and ingest operation to run in parallel, to help avoid ingest updates blocking takes.
+* Updated colour scheme for some piece types
+* Segments are reset upon leaving, meaning they will match what is shown in the NRCS after being played
+* Remove AsRunLog collection, and replace usages with the PartInstances and PieceInstances
+* Improved segment header labels
+
+### Components
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Component</th>
+      <th style="text-align:left">Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">
+        <p><a href="https://github.com/nrkno/tv-automation-server-core">Core</a>
+        </p>
+        <p><a href="https://www.npmjs.com/package/@sofie-automation/blueprints-integration">Blueprints API ( Core )</a>
+        </p>
+        <p><a href="https://www.npmjs.com/package/@sofie-automation/server-core-integration">Gateway API</a>
+        </p>
+      </td>
+      <td style="text-align:left">1.32</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://www.npmjs.com/package/timeline-state-resolver">Blueprints API ( TSR )</a>
+      </td>
+      <td style="text-align:left">5.6</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://github.com/nrkno/tv-automation-playout-gateway">Playout Gateway</a>
+      </td>
+      <td style="text-align:left">1.32</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://github.com/nrkno/tv-automation-mos-gateway">Mos Gateway</a>
+      </td>
+      <td style="text-align:left">1.32</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://github.com/nrkno/tv-automation-media-management">Media Manager</a>
+      </td>
+      <td style="text-align:left">1.7</td>
+    </tr>
+  </tbody>
+</table>
+
+## _Release 31_
+
+Release date: 2021-05-05 \(1.19.1\)
+
+### Main Features
+
+* Segments are now rendered at separate zoom levels to fit the width of the viewport
+* Blueprint API improvements
+* Orphaned rundowns, segments and partInstances
+* Countdown panel in dahsboard to count down to the end of content on currently on-air pieces on selected SourceLayers
+* CasparCG restart cron job is now optional
+
+### Components
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Component</th>
+      <th style="text-align:left">Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">
+        <p><a href="https://github.com/nrkno/tv-automation-server-core">Core</a>
+        </p>
+        <p><a href="https://www.npmjs.com/package/@sofie-automation/blueprints-integration">Blueprints API ( Core )</a>
+        </p>
+        <p><a href="https://www.npmjs.com/package/@sofie-automation/server-core-integration">Gateway API</a>
+        </p>
+      </td>
+      <td style="text-align:left">1.19.1</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://www.npmjs.com/package/timeline-state-resolver">Blueprints API ( TSR )</a>
+      </td>
+      <td style="text-align:left">5.6.0</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://github.com/nrkno/tv-automation-playout-gateway">Playout Gateway</a>
+      </td>
+      <td style="text-align:left">1.17.0</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://github.com/nrkno/tv-automation-mos-gateway">Mos Gateway</a>
+      </td>
+      <td style="text-align:left">1.10.0</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://github.com/nrkno/tv-automation-media-management">Media Manager</a>
+      </td>
+      <td style="text-align:left">1.6.0</td>
+    </tr>
+  </tbody>
+</table>
+
+## _Release 30_
+
+Release date: 2021-02-12 \(1.18.0\)
+
+### Main Features
+
+* Translations for blueprint messages
+* Prompter: adds support for multiple midi inputs
+* PartInstances without Parts
+* Layer Mappings defined by manifest
+* Building with github actions, including sonarcloud 
+* Double click on AdLib in the Dashboard and Buckets to trigger
+* Support for looping rundowns 
+* Activation pop-up when doing a take on an inactive rundown
+* Some reductions in the number of Unsync messages shown during shows with rundown playlists.
+
+### Components
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Component</th>
+      <th style="text-align:left">Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">
+        <p><a href="https://github.com/nrkno/tv-automation-server-core">Core</a>
+        </p>
+        <p><a href="https://www.npmjs.com/package/@sofie-automation/blueprints-integration">Blueprints API ( Core )</a>
+        </p>
+        <p><a href="https://www.npmjs.com/package/@sofie-automation/server-core-integration">Gateway API</a>
+        </p>
+      </td>
+      <td style="text-align:left">1.18.0</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://www.npmjs.com/package/timeline-state-resolver">Blueprints API ( TSR )</a>
+      </td>
+      <td style="text-align:left">5.5.5</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://github.com/nrkno/tv-automation-playout-gateway">Playout Gateway</a>
+      </td>
+      <td style="text-align:left">1.16.0</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://github.com/nrkno/tv-automation-mos-gateway">Mos Gateway</a>
+      </td>
+      <td style="text-align:left">1.9.0</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://github.com/nrkno/tv-automation-media-management">Media Manager</a>
+      </td>
+      <td style="text-align:left">1.5.0</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://github.com/nrkno/tv-automation-quantel-gateway">Quantel Gateway</a>
+      </td>
+      <td style="text-align:left">1.1.0</td>
+    </tr>
+  </tbody>
+</table>
+
+## _Release 29_
+
+Release date: 2021-02-08 \(1.17.0\), 2021-02-09 \(1.17.1\)
+
+Note: 1.17.0 has a wrong version in a dependency of a dependency and should not be used.
+
+### Main Features
+
+* New freeze frame indicator & icon next to the countdown
+* Some tweaks to the styling of the freeze frame countdown
+* Various ui and playout fixes
+
+### Components
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Component</th>
+      <th style="text-align:left">Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">
+        <p><a href="https://github.com/nrkno/tv-automation-server-core">Core</a>
+        </p>
+        <p><a href="https://www.npmjs.com/package/@sofie-automation/blueprints-integration">Blueprints API ( Core )</a>
+        </p>
+        <p><a href="https://www.npmjs.com/package/@sofie-automation/server-core-integration">Gateway API</a>
+        </p>
+      </td>
+      <td style="text-align:left">1.17.1</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://www.npmjs.com/package/timeline-state-resolver">Blueprints API ( TSR )</a>
+      </td>
+      <td style="text-align:left">5.5.1</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://github.com/nrkno/tv-automation-playout-gateway">Playout Gateway</a>
+      </td>
+      <td style="text-align:left">1.15.0</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://github.com/nrkno/tv-automation-mos-gateway">Mos Gateway</a>
+      </td>
+      <td style="text-align:left">1.8.0 (not updated, no changes)</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://github.com/nrkno/tv-automation-media-management">Media Manager</a>
+      </td>
+      <td style="text-align:left">1.4.0 (not updated, no changes)</td>
+    </tr>
+  </tbody>
+</table>
+
+## _Release 28_
+
+Release date: 2021-01-19
+
+### Main Features
+
+* The server-core repository is now a mono-repo having absorbed the [blueprints-integration](https://github.com/nrkno/tv-automation-sofie-blueprints-integration) and [server-core-integration](https://github.com/nrkno/tv-automation-server-core-integration) repositories. As part of this, they now publish to new npm package names [@sofie-automation/blueprints-integration](https://www.npmjs.com/package/@sofie-automation/blueprints-integration) and [@sofie-automation/server-core-integration](https://www.npmjs.com/package/@sofie-automation/server-core-integration). The new packages are versioned to match core.
+* Improvements to the blueprint-api to update the on-air/nexted part when ingest data changes \([\#380](https://github.com/nrkno/tv-automation-server-core/pull/380)\)
+* Buckets can now contain adlib-actions \([\#387](https://github.com/nrkno/tv-automation-server-core/pull/387)\)
+* Adlib-actions can populate a context menu with execution options, and can generate expected media items \([\#387](https://github.com/nrkno/tv-automation-server-core/pull/387)\)
+* Adlib items have a hoverscrub preview \([\#404](https://github.com/nrkno/tv-automation-server-core/pull/404)\)
+* ShowStyle Variant is shown in the lobby \([\#406](https://github.com/nrkno/tv-automation-server-core/pull/406)\)
+* Prompter can be controlled by a Joycon \([\#390](https://github.com/nrkno/tv-automation-server-core/pull/390)\)
+* Various ui, playout and ingest fixes
+
+### Components
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Component</th>
+      <th style="text-align:left">Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">
+        <p><a href="https://github.com/nrkno/tv-automation-server-core">Core</a>
+        </p>
+        <p><a href="https://www.npmjs.com/package/@sofie-automation/blueprints-integration">Blueprints API ( Core )</a>
+        </p>
+        <p><a href="https://www.npmjs.com/package/@sofie-automation/server-core-integration">Gateway API</a>
+        </p>
+      </td>
+      <td style="text-align:left">1.16</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://www.npmjs.com/package/timeline-state-resolver">Blueprints API ( TSR )</a>
+      </td>
+      <td style="text-align:left">5.3.0</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://github.com/nrkno/tv-automation-playout-gateway">Playout Gateway</a>
+      </td>
+      <td style="text-align:left">1.14.0</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://github.com/nrkno/tv-automation-mos-gateway">Mos Gateway</a>
+      </td>
+      <td style="text-align:left">1.8.0</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://github.com/nrkno/tv-automation-media-management">Media Manager</a>
+      </td>
+      <td style="text-align:left">1.4.0</td>
+    </tr>
+  </tbody>
+</table>
+
+## _Release 27_
+
+Release date: 2020-12-08
+
+### Main Features
+
+* Support for midi pedal as a prompter controller \([\#372](https://github.com/nrkno/tv-automation-server-core/issues/372)\) 
+* Rundown Playlist reordering UI \([335](https://github.com/nrkno/tv-automation-server-core/pull/335)\)
+* Hide the overflow time label, if the part is AutoNext, but not if the Piece is an AdLib \([\#371](https://github.com/nrkno/tv-automation-server-core/issues/371)\)
+* prompter over/under timer \([\#366](https://github.com/nrkno/tv-automation-server-core/issues/366)\)
+* segment budget timer \([\#374](https://github.com/nrkno/tv-automation-server-core/issues/374)\)
+* studio screens \(prompter and countdowns\) screensaver \([\#363](https://github.com/nrkno/tv-automation-server-core/issues/363)\)
+
+### Components
+
+| Component | Version |
+| :--- | :--- |
+| [Core](https://github.com/nrkno/tv-automation-server-core) | 1.15 |
+| [Blueprints API \( Core \)](https://www.npmjs.com/package/tv-automation-sofie-blueprints-integration) | 2.5.0 |
+| [Blueprints API \( TSR \)](https://www.npmjs.com/package/timeline-state-resolver) | 5.2.0 |
+| [Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) | 1.13.0 |
+| [Mos Gateway](https://github.com/nrkno/tv-automation-mos-gateway) | 1.7.0 |
+| [Media Manager](https://github.com/nrkno/tv-automation-media-management) | 1.3.0 |
+
+## _Release 26_
+
+Release date: 2020-11-10
+
+### Main Features
+
+* **Route Set** UI overhaul \([\#344](https://github.com/nrkno/tv-automation-server-core/issues/344)\)
+  * Allow for routing "no layer" into "some layer" \([\#345](https://github.com/nrkno/tv-automation-server-core/pull/345)\)
+* **Blueprints update policies** allows blueprints to selectively update pieceInstances from ingest updates \([\#355](https://github.com/nrkno/tv-automation-server-core/issues/355)\)
+* **Prompter maintains focus** with an AHK script and title refactoring \([\#352](https://github.com/nrkno/tv-automation-server-core/issues/352)\)
+* **Update gateway connection library** to be better tested and maintained \([core-integration\#34](https://github.com/nrkno/tv-automation-server-core-integration/pull/34)\)
+* **Various bugfixes and User Interface performance improvements**
+
+### Components
+
+| Component | Version |
+| :--- | :--- |
+| [Core](https://github.com/nrkno/tv-automation-server-core) | 1.14.0 |
+| [Blueprints API \( Core \)](https://www.npmjs.com/package/tv-automation-sofie-blueprints-integration) | 2.4.0 |
+| [Blueprints API \( TSR \)](https://www.npmjs.com/package/timeline-state-resolver) | 5.1.2 |
+| [Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) | 1.12.0 |
+| [Mos Gateway](https://github.com/nrkno/tv-automation-mos-gateway) | 1.6.0 |
+| [Media Manager](https://github.com/nrkno/tv-automation-media-management) | 1.2.1 |
+
+## _Release 25_
+
+Release date: 2020-10-19
+
+### Main Features
+
+This release mainly builds upon _Release 24_ with some bugfixes, tweaks and improvements.
+
+* **Updates the Meteor framework** in Core, to version 1.11 [\#328](https://github.com/nrkno/tv-automation-server-core/pull/328)
+* **AdLib Actions extended** [\#70](https://github.com/nrkno/tv-automation-sofie-blueprints-integration/pull/70) AdLib Actions can now also cause a "Take" to happen
+* **Complete the transition of timing properties from Parts to PartInstances** The split between Parts and PartInstances, that has been a large architectural refactoring that started with Release 23 has now been finished.
+* **Tally Tags to indicate if the effect of an action is currently On Air or Next** [\#74](https://github.com/nrkno/tv-automation-sofie-blueprints-integration/pull/70) With AdLib Actions, it has become difficult to display the "tally" state of a given action to the user. This is now facilitated using _Tally Tags_ on Pieces.
+* **Allows blueprints to act before any part is On Air** The blueprints are now called back when a rundown is activated, before any Part is On Air.
+* **CasparCG handling** is updated
+* **Various bugfixes and User Interface performance improvements**
+
+### Components
+
+| Component | Version |
+| :--- | :--- |
+| [Core](https://github.com/nrkno/tv-automation-server-core) | 1.13.0 |
+| [Blueprints API \( Core \)](https://www.npmjs.com/package/tv-automation-sofie-blueprints-integration) | 2.3.1 |
+| [Blueprints API \( TSR \)](https://www.npmjs.com/package/timeline-state-resolver) | 5.1.0 |
+| [Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) | 1.11.0 |
+| [Mos Gateway](https://github.com/nrkno/tv-automation-mos-gateway) | 1.5.1 |
+| [Media Manager](https://github.com/nrkno/tv-automation-media-management) | 1.2.1 |
+
+## _Release 25_
+
+Release date: 2020-10-19
+
+### Main Features
+
+* **Updates the Meteor framework** in Core, to version 1.11 [\#328](https://github.com/nrkno/tv-automation-server-core/pull/328)
+* **AdLib Actions extended** [\#70](https://github.com/nrkno/tv-automation-sofie-blueprints-integration/pull/70) AdLib Actions can now also cause a "Take" to happen
+* **Complete the transition of timing properties from Parts to PartInstances** The split between Parts and PartInstances, that has been a large architectural refactoring that started with Release 23 has now been finished.
+* **Tally Tags to indicate if the effect of an action is currently On Air or Next** [\#74](https://github.com/nrkno/tv-automation-sofie-blueprints-integration/pull/70) With AdLib Actions, it has become difficult to display the "tally" state of a given action to the user. This is now facilitated using _Tally Tags_ on Pieces.
+* **Allows blueprints to act before any part is On Air** The blueprints are now called back when a rundown is activated, before any Part is On Air.
+* **CasparCG handling** is updated
+* **Various bugfixes and User Interface performance improvements**
+
+### Components
+
+| Component | Version |
+| :--- | :--- |
+| [Core](https://github.com/nrkno/tv-automation-server-core) | 1.13.0 |
+| [Blueprints API \( Core \)](https://www.npmjs.com/package/tv-automation-sofie-blueprints-integration) | 2.3.1 |
+| [Blueprints API \( TSR \)](https://www.npmjs.com/package/timeline-state-resolver) | 5.1.0 |
+| [Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) | 1.11.0 |
+| [Mos Gateway](https://github.com/nrkno/tv-automation-mos-gateway) | 1.5.1 |
+| [Media Manager](https://github.com/nrkno/tv-automation-media-management) | 1.2.1 |
+
+## _Release 25_
+
+Release date: 2020-10-19
+
+### Main Features
+
+* **Updates the Meteor framework** in Core, to version 1.11 [\#328](https://github.com/nrkno/tv-automation-server-core/pull/328)
+* **AdLib Actions extended** [\#70](https://github.com/nrkno/tv-automation-sofie-blueprints-integration/pull/70) AdLib Actions can now also cause a "Take" to happen
+* **Complete the transition of timing properties from Parts to PartInstances** The split between Parts and PartInstances, that has been a large architectural refactoring that started with Release 23 has now been finished.
+* **Tally Tags to indicate if the effect of an action is currently On Air or Next** [\#74](https://github.com/nrkno/tv-automation-sofie-blueprints-integration/pull/70) With AdLib Actions, it has become difficult to display the "tally" state of a given action to the user. This is now facilitated using _Tally Tags_ on Pieces.
+* **Allows blueprints to act before any part is On Air** The blueprints are now called back when a rundown is activated, before any Part is On Air.
+* **CasparCG handling** is updated
+* **Various bugfixes and User Interface performance improvements**
+
+### Components
+
+| Component | Version |
+| :--- | :--- |
+| [Core](https://github.com/nrkno/tv-automation-server-core) | 1.13.0 |
+| [Blueprints API \( Core \)](https://www.npmjs.com/package/tv-automation-sofie-blueprints-integration) | 2.3.1 |
+| [Blueprints API \( TSR \)](https://www.npmjs.com/package/timeline-state-resolver) | 5.1.0 |
+| [Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway) | 1.11.0 |
+| [Mos Gateway](https://github.com/nrkno/tv-automation-mos-gateway) | 1.5.1 |
+| [Media Manager](https://github.com/nrkno/tv-automation-media-management) | 1.2.1 |
+
+## _Release 25_
+
+Release date: 2020-10-19
+
+### Main Features
+
+* **Updates the Meteor framework** in Core, to version 1.11 [\#328](https://github.com/nrkno/tv-automation-server-core/pull/328)
+* **AdLib Actions extended** [\#70](https://github.com/nrkno/tv-automation-sofie-blueprints-integration/pull/70) AdLib Actions can now also cause a "Take" to happen
+* **Complete the transition of timing properties from Parts to PartInstances** The split between Parts and PartInstances, that has been a large architectural refactoring that started with Release 23 has now been finished.
+* **Tally Tags to indicate if the effect of an action is currently On Air or Next** [\#74](https://github.com/nrkno/tv-automation-sofie-blueprints-integration/pull/70) With AdLib Actions, it has become difficult to display the "tally" state of a given action to the user. This is now facilitated using _Tally Tags_ on Pieces.
+* **Allows blueprints to act before any part is On Air** The blueprints are now called back when a rundown is activated, before any Part is On Air.
+* **CasparCG handling** is updated
+* **Various bugfixes and User Interface performance improvements**
 
 ### Components
 
@@ -90,7 +580,7 @@ Release date: _unreleased_
 
 ### Main Features
 
-See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/19) for details 
+See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/19) for details
 
 ## _Release 22_
 
@@ -100,7 +590,7 @@ Note: This is a big, BREAKING update, manual steps are required when upgrading.
 
 ### Main Features
 
-See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/18) for details 
+See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/18) for details
 
 ### Components
 
@@ -119,7 +609,7 @@ Release date: _Unreleased_
 
 ### Main Features
 
-See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/17) for details 
+See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/17) for details
 
 ## _Release 20_
 
@@ -127,7 +617,7 @@ Release dates: 2020-05-12 \(1.8.0\), 2020-05-13 \(1.8.1\), 2020-05-27 \(1.8.2\)
 
 ### Main Features
 
-See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/16) for details 
+See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/16) for details
 
 ### Components
 
@@ -150,7 +640,7 @@ Release date: 2020-03-31
 * Rundown playlists: break rundowns apart into rundowns and rundown playlists allowing effective continuous rundowns \([nrkno/tv-automation-server-core\#98](https://github.com/nrkno/tv-automation-server-core/pull/98)\) \(Contribution from TV 2\)
 * First phase of Part Instances: a first step towards a more solid understanding of parts that are on-air and what is to be aired. \([nrkno/tv-automation-server-core\#150](https://github.com/nrkno/tv-automation-server-core/pull/150)\)
 
-See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/15) for details 
+See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/15) for details
 
 ### Components
 
@@ -176,7 +666,7 @@ Release date: 2020-03-04
 * Support action buttons \(eg Take\) in Dashboard layouts
 * [ATEM media pool config UI](https://github.com/nrkno/tv-automation-playout-gateway/pull/57)
 
-See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/14) for details 
+See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/14) for details
 
 ### Components
 
@@ -202,7 +692,7 @@ Notable features:
 * Improve prompter performance
 * Various bugfixes
 
-See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/13) for details 
+See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/13) for details
 
 ### Components
 
@@ -229,7 +719,7 @@ Notable features:
 * Invalid Reason information on invalid parts \([\#129](https://github.com/nrkno/tv-automation-server-core/issues/129)\) \([b4f5126](https://github.com/nrkno/tv-automation-server-core/commit/b4f5126)\)
 * restart core from status view \([\#131](https://github.com/nrkno/tv-automation-server-core/issues/131)\) \([154f999](https://github.com/nrkno/tv-automation-server-core/commit/154f999)\)
 
-See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/11) for details 
+See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/11) for details
 
 ### Components
 
@@ -255,7 +745,7 @@ Notable features:
 * Basic Prompter, running in web window, controlled by Contour-Xpress, keyboard or mouse.
 * Various bug fixes
 
-See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/10) for details 
+See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/10) for details
 
 ### Components
 
@@ -283,7 +773,7 @@ Notable features:
 * Streamdeck view \([more info in PR](https://github.com/nrkno/tv-automation-server-core/pull/106)\)
 * Blueprint config parameter can now be a "table"
 
-See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/8) for details 
+See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/8) for details
 
 ### Components
 
@@ -313,7 +803,7 @@ This release features several bug fixes and a few features:
 * User is now able to undo a Hold \(by pressing Shift+H\)
 * User can now restart the Quantel-Gateway device
 
-See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/6) for details 
+See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/6) for details
 
 ### Components
 
@@ -341,8 +831,6 @@ This release features many bug fixes and support for a few new playout devoces:
 * Core: Support for shotbox-like buttons in the shelf
 * ..and fixes for many, many bugs introduced in R10 and R11.
 
-
-
 See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/5) for details
 
 ### Components
@@ -356,8 +844,6 @@ See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/
 | [Mos Gateway](https://github.com/nrkno/tv-automation-mos-gateway) | 1.0.0 |  |
 | [Media Manager](https://github.com/nrkno/tv-automation-media-management) | 1.0.0 |  |
 
-## 
-
 ## _Release 11_
 
 Release date: _2019-08-19_
@@ -369,8 +855,6 @@ This release is a maintenance release, with only minor features.
 * Core: Blueprint.onGenerateTimeline improvements
 * Core: REST API, a first version, allowing basic control of playout
 * Playout-gateway: CommandError callback: report to Core when a command fails
-
-
 
 See the [tracking issue on github](https://github.com/nrkno/Sofie-TV-automation/issues/4) for details
 
