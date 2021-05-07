@@ -4,7 +4,7 @@ services:
 
   db:
     hostname: mongo
-    image: mongo:4.2.8
+    image: mongo:4.2.14
     restart: always
 
     ports:
@@ -16,7 +16,7 @@ services:
 
   core:
     hostname: core
-    image: sofietv/tv-automation-server-core:master
+    image: sofietv/tv-automation-server-core:release33
     restart: always
     ports:
       - "3000:3000" # Same port as meteor uses by default
@@ -32,7 +32,7 @@ services:
       - db
 
   playout-gateway:
-    image: sofietv/tv-automation-playout-gateway:master
+    image: sofietv/tv-automation-playout-gateway:release33
     restart: always
     command: yarn start -host core -port 3000
     networks:
@@ -43,7 +43,7 @@ services:
   # Choose one of the following images, depending on which type of ingest gateway is wanted:
 
   # spreadsheet-gateway:
-  #   image: superflytv/sofie-spreadsheet-gateway:master
+  #   image: superflytv/sofie-spreadsheet-gateway:release33
   #   restart: always
   #   command: yarn start -host core -port 3000
   #   networks:
@@ -52,7 +52,7 @@ services:
   #     - core
 
   # mos-gateway:
-  #   image: sofietv/tv-automation-mos-gateway:master
+  #   image: sofietv/tv-automation-mos-gateway:release33
   #   restart: always
   #   ports:
   #     - "10540:10540" # MOS Lower port
@@ -65,7 +65,7 @@ services:
   #     - core
 
   # inews-gateway:
-  #   image: olzzon/tv2-inews-ftp-gateway:master
+  #   image: olzzon/tv2-inews-ftp-gateway:v20210407_2
   #   restart: always
   #   command: yarn start -host core -port 3000
   #   networks:
