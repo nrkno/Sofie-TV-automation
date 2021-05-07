@@ -18,17 +18,17 @@ Before you select the Device, you want to add it to the current _Studio_ you are
 
 Now you can select the _Device_ from the _Devices menu_ and click the link provided to enable your Google Drive API to send files to the _Sofie Core_. The page that opens will look similar to the image below.
 
-![Google Drive API Developers Page](../../../../../.gitbook/assets/settings-page-full-spreadsheet-gateway-2.jpg)
+![](../../../../../.gitbook/assets/screenshot-2021-05-07-154534.png)
 
-Next click the button labeled _Enable the Drive API_ and a popup window will open.
+Make sure to follow the steps in **Create a project and enable the API** and enable the **Google Drive API** as well as the **Google Sheets API**. Your "API's and services" Dashboard should now look as follows:
 
-![Google Drive API Page - Popup Step 1](../../../../../.gitbook/assets/settings-page-full-spreadsheet-gateway-3.jpg)
+![](../../../../../.gitbook/assets/screenshot-2021-05-07-154935.png)
 
-In the drop down menu, select _Desktop app_ and then you can click the _Create_ button to move to the next page.
+Now follow the steps in **Create credentials** and make sure to create an **OAuth Client ID** for a **Desktop App** and download the credentials file.
 
-![Google Drive API - Popup Page 2](../../../../../.gitbook/assets/settings-page-full-spreadsheet-gateway-4.jpg)
+![](../../../../../.gitbook/assets/screenshot-2021-05-07-155351.png)
 
-On the second page in the popup window you are presented with your client ID and secret. Use the button to download the configuration to a file and navigate back to _Sofie Core's Settings page_. Select the Spreadsheet Gateway, then click the _Browse_ button and upload the configuration file you just downloaded. A new link will appear to confirm access to your google drive account. Select the link and in the new window, select the Google account you would like to use. Currently, the Sofie Core Application is not verified with Google so you will need to acknowledge this and proceed passed the unverified page. Click the _Advanced_ button and then click _Go to QuickStart \( Unsafe \)_. 
+Use the button to download the configuration to a file and navigate back to _Sofie Core's Settings page_. Select the Spreadsheet Gateway, then click the _Browse_ button and upload the configuration file you just downloaded. A new link will appear to confirm access to your google drive account. Select the link and in the new window, select the Google account you would like to use. Currently, the Sofie Core Application is not verified with Google so you will need to acknowledge this and proceed passed the unverified page. Click the _Advanced_ button and then click _Go to QuickStart \( Unsafe \)_. 
 
 After navigating through the prompts you are presented with your verification code. Copy this code into the input field on the _Settings page_ and the field should be removed. A message confirming the access token was saved will appear.
 

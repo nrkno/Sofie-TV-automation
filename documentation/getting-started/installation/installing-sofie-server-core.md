@@ -5,13 +5,13 @@
 ### **Prerequisites**
 
 **\(Linux\)** Install [Docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/) and [docker-compose](https://www.digitalocean.com/community/tutorials/how-to-install-docker-compose-on-ubuntu-18-04).  
-**\(Windows\)** Install [Docker for Windows](https://hub.docker.com/editions/community/docker-ce-desktop-windows) \(you will need to be running either _Windows 10 Pro_ or _Windows 10 Enterprise_ version\)
+**\(Windows\)** Install [Docker for Windows](https://hub.docker.com/editions/community/docker-ce-desktop-windows) \(Please note that Docker for Windows using WSL2 may come with severe performance issues\)
 
 ### Installation
 
 This docker-compose file automates the basic setup of the [Sofie-Core application](../../for-developers/libraries.md#main-application), the backend database and different Gateway options.
 
-{% file src="../../../.gitbook/assets/docker-compose \(3\).yaml" %}
+{% file src="../../../.gitbook/assets/docker-compose \(2\).yaml" %}
 
 After you've downloaded the file, open it in a text editor and navigate to the _ingest-gateway_ section, and select which type of _ingest-gateway_ you'd like installed by commenting out the others.
 
