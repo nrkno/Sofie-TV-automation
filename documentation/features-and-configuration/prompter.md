@@ -2,7 +2,7 @@
 
 See [Sofie views](sofie-pages.md#prompter) for how to access the prompter page.
 
-![](../../.gitbook/assets/image%20%287%29.png)
+![](../../.gitbook/assets/image%20%287%29%20%281%29.png)
 
 ## Customize looks
 

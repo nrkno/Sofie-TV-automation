@@ -2,7 +2,7 @@
 
 ## System architecture
 
-![Example of a Sofie setup with a Playout Gateway and a Spreadsheet Gateway](../../.gitbook/assets/frame%20%287%29%20%285%29.png)
+![Example of a Sofie setup with a Playout Gateway and a Spreadsheet Gateway](../../.gitbook/assets/frame%20%287%29%20%287%29%20%285%29.png)
 
 ### **Sofie Core**
 
