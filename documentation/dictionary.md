@@ -83,5 +83,5 @@ Elements in the [Next point ](dictionary.md#next-point)\(or beyond\) might be pr
 
 Sofie features a few separate views, such as the prompter, [read about them here](features-and-configuration/sofie-pages.md).
 
-![](../.gitbook/assets/image%20%287%29.png)
+![](../.gitbook/assets/image%20%287%29%20%281%29.png)
 
