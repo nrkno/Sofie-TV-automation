@@ -8,9 +8,8 @@ description: >-
 
 | Release | Status |
 | :--- | :--- |
-| [Release 34](releases.md#release-34) | Released 2021-06-29 _**Current stable version**_ |
-| [Release 33](releases.md#release-33) | Released 2021-06-16 |
-| Release 32 | Released 2021-05-05 |
+| [Release 33](releases.md#release-33) | In Testing |
+| [Release 32](releases.md#release-32) | Released 2021-05-05 _**Current stable version**_ |
 | [Release 31](releases.md#release-31) | Released 2021-05-05 |
 | [Release 30](releases.md#release-30) | _Released 2021-03-22_ |
 | [Release 29](releases.md#release-29) | _Released 2021-02-08_ |
@@ -37,57 +36,9 @@ description: >-
 | [Release 8](releases.md#release-8) | _Released 2019-04-08_ |
 | [Release 7](releases.md#release-7) | _Released 2019-03-15_ |
 
-## _Release 34_
-
-_Release date: 2021-06-29 \(1.34.0\)_
-
-### _Main features_
-
-* Rundown View: time of day countdowns & end of loop timer
-* Untimed parts
-* UI and performance improvements
-
-### Components
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Component</th>
-      <th style="text-align:left">Version</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">
-        <p><a href="https://github.com/nrkno/tv-automation-server-core">Core</a>
-        </p>
-        <p><a href="https://www.npmjs.com/package/@sofie-automation/blueprints-integration/v/1.34.0">Blueprints API</a>
-        </p>
-        <p><a href="https://www.npmjs.com/package/@sofie-automation/server-core-integration/v/1.34.0">Gateway API</a>
-        </p>
-        <p><a href="https://github.com/nrkno/tv-automation-server-core/tree/master/packages/mos-gateway">MOS gateway</a>
-        </p>
-        <p><a href="https://github.com/nrkno/tv-automation-server-core/tree/master/packages/playout-gateway">Playout gateway</a>
-        </p>
-      </td>
-      <td style="text-align:left">1.34.0</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="https://github.com/nrkno/tv-automation-state-timeline-resolver">TSR</a>
-      </td>
-      <td style="text-align:left">5.9.0</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="https://github.com/nrkno/tv-automation-media-management/">Media Manager</a>
-      </td>
-      <td style="text-align:left">1.9.0</td>
-    </tr>
-  </tbody>
-</table>
-
 ## _Release 33_
 
-Release date: 2021-06-16 \(1.33.0\)
+Not released yet, target version: 1.33
 
 ### Main Features
 
@@ -114,7 +65,8 @@ Release date: 2021-06-16 \(1.33.0\)
   <tbody>
     <tr>
       <td style="text-align:left">
-        <p>Core</p>
+        <p><a href="https://github.com/nrkno/tv-automation-server-core">Core</a>
+        </p>
         <p><a href="https://www.npmjs.com/package/@sofie-automation/blueprints-integration">Blueprints API ( Core )</a>
         </p>
         <p><a href="https://www.npmjs.com/package/@sofie-automation/server-core-integration">Gateway API</a>
