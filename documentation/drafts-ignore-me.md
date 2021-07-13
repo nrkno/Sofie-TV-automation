@@ -6,6 +6,8 @@ This page contains loose notes, which will be refactored, rewritten, removed or 
 Please ignore this page, or \(t\)read carefully :\)
 {% endhint %}
 
+This is a test for gitbook git syncing. Does this do what we want.
+
 🠹 🠸 🠻 🠺 - arrows to use, instead of \(dubious\) ASCII-art.
 
 ● - dingbat to separate Page titles and Headlines
