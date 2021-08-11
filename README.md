@@ -20,7 +20,7 @@ _**Sofie**_ is a web-based TV automation system for studios and live shows, used
 
 ## Code and Releases
 
-* [Under the Hood](https://sofie.gitbook.io/sofie-tv-automation/documentation/under-the-hood)
+* [For developers & integrators](https://sofie.gitbook.io/sofie-tv-automation/documentation/for-developers)
 * [Releases](https://sofie.gitbook.io/sofie-tv-automation/documentation/releases)
 
 
