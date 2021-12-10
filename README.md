@@ -16,7 +16,7 @@ _**Sofie**_ is a web-based TV automation system for studios and live shows, used
 
 ## Documentation
 
-[Sofie system documentation](https://nrkno.github.io/tv-automation-server-core/docs/main/intro)
+[Sofie system documentation](https://nrkno.github.io/tv-automation-server-core/)
 
 ## Code and Releases
 
