@@ -2,16 +2,16 @@
 
 ### Sofie Core
 
-The main application in the Sofie system.  
-It is a web-server and serves the Web-GUI.  
-It is a [NodeJS](https://nodejs.org) process backed up by a [MongoDB](https://www.mongodb.com/) database and based on the framework [Meteor](http://meteor.com).  
+The main application in the Sofie system.
+It is a web-server and serves the Web-GUI.
+It is a [NodeJS](https://nodejs.org) process backed up by a [MongoDB](https://www.mongodb.com/) database and based on the framework [Meteor](http://meteor.com).
 Read more: [_System architecture_](concepts-and-architecture.md#system-architecture)_,_ [_Getting Started_](../getting-started/)\_\_
 
 ### Gateways
 
-Gateways are NodeJS processes that connect to Sofie Core and provide different kinds of functionality.  
-Examples of Gateways are the [MOS Gateway](https://github.com/nrkno/tv-automation-mos-gateway), the [Spreadsheet Gateway](https://github.com/SuperFlyTV/spreadsheet-gateway) and the [Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway).  
-All gateways use the [Core-integration library](https://github.com/nrkno/tv-automation-server-core-integration) to communicate with Core.  
+Gateways are NodeJS processes that connect to Sofie Core and provide different kinds of functionality.
+Examples of Gateways are the [MOS Gateway](https://github.com/nrkno/tv-automation-mos-gateway), the [Spreadsheet Gateway](https://github.com/SuperFlyTV/spreadsheet-gateway) and the [Playout Gateway](https://github.com/nrkno/tv-automation-playout-gateway).
+All gateways use the [Core-integration library](https://github.com/nrkno/sofie-core-integration) to communicate with Core.
 Read more: [_System architecture_](concepts-and-architecture.md#system-architecture)\_\_
 
 ### Blueprints
@@ -22,9 +22,9 @@ The blueprints are webpacked javascript bundles which is uploaded into Sofie via
 
 There are 3 types of Blueprints, and all 3 must be uploaded into Sofie before the system works.
 
-* **System Blueprints** Handle things on the _System level_
-* **Studio Blueprints** Handle things on the _Studio level_, like "which showstyle to use for this rundown"
-* **Showstyle Blueprints** Handle things on the _Showstyle level_, like generating _Segments_, _Parts_ and _Timelines_ in a rundown.
+- **System Blueprints** Handle things on the _System level_
+- **Studio Blueprints** Handle things on the _Studio level_, like "which showstyle to use for this rundown"
+- **Showstyle Blueprints** Handle things on the _Showstyle level_, like generating _Segments_, _Parts_ and _Timelines_ in a rundown.
 
 The blueprints are custom-made and changes depending on the show style, type of input data and the controlled devices. A generic [blueprint for rundowns based on spreadsheets is available here](https://github.com/SuperFlyTV/sofie-blueprints-spreadsheet).
 
@@ -36,7 +36,7 @@ Read more: [_System architecture_](concepts-and-architecture.md#system-architect
 
 ### Take Point
 
-The Take point is currently playing [Part](dictionary.md#part) in the rundown, indicated by the "On Air" line in the GUI.  
+The Take point is currently playing [Part](dictionary.md#part) in the rundown, indicated by the "On Air" line in the GUI.
 What's played on air is calculated from the timeline objects in the Pieces in the currently playing part.
 
 {% hint style="info" %}
@@ -63,33 +63,33 @@ The _System_ settings are settings for this installation of Sofie. In here goes 
 
 ### Studio
 
-A _Studio_ in Sofie-terms is a physical location, with a specific set of devices and equipment. Only one show can be on air in a studio at the same time.  
+A _Studio_ in Sofie-terms is a physical location, with a specific set of devices and equipment. Only one show can be on air in a studio at the same time.
 The \_studio\_ settings are settings for that specific studio, and contains settings related to hardware and play-out, such as:
 
-* **Attached devices**; the Gateways related to this studio
-* **Blueprint configuration**; ****custom config option defined by the blueprints
-* **Layer Mappings**; Maps the logical _timeline layers_ to physical devices and outputs
+- **Attached devices**; the Gateways related to this studio
+- **Blueprint configuration**; \*\*\*\*custom config option defined by the blueprints
+- **Layer Mappings**; Maps the logical _timeline layers_ to physical devices and outputs
 
 The Studio uses a studio-blueprint, which handles things like mapping up an incoming rundown to a Showstyle.
 
 ### Showstyle
 
-A _Showstyle_ is related to the looks and logic of a _show_, which in contrast to the _studio_ is not directly related to the hardware.  
+A _Showstyle_ is related to the looks and logic of a _show_, which in contrast to the _studio_ is not directly related to the hardware.
 The Showstyle contains settings like
 
-* **Source Layers**; Groups different types of content in the GUI
-* **Output Channels**; Indicates different output targets \(such as the _Program_ or _back-screen in the studio_\)
-* **Blueprint configuration**; ****custom config option defined by the blueprints
+- **Source Layers**; Groups different types of content in the GUI
+- **Output Channels**; Indicates different output targets \(such as the _Program_ or _back-screen in the studio_\)
+- **Blueprint configuration**; \*\*\*\*custom config option defined by the blueprints
 
 {% hint style="warning" %}
-Please note the difference between S_ource Layers_ and _timeline-layers:_
+Please note the difference between S*ource Layers* and _timeline-layers:_
 
 [Pieces ](dictionary.md#piece)are put onto _Source layers_, to group different types of content \(such as a VT or Camera\), they are therefore intended only as something to indicate to the user what is going to be played, not what is actually going to happen on the technical level.
 
-[Timeline-objects](dictionary.md#timeline-object) \(inside of the [Pieces](dictionary.md#piece)\) are put onto timeline-layers, which are \(through the Mappings in the studio\) mapped to physical devices and outputs.  
+[Timeline-objects](dictionary.md#timeline-object) \(inside of the [Pieces](dictionary.md#piece)\) are put onto timeline-layers, which are \(through the Mappings in the studio\) mapped to physical devices and outputs.
 The exact timeline-layer is never exposed to the user, but instead used on the technical level to control play-out.
 
-An example of the difference could be when playing a VT \(that's a Source Layer\), which could involve all of the timeline-layers _video\_player0_, _audio\_fader\_video_, _audio\_fader\_host_ and _mixer\_pgm._
+An example of the difference could be when playing a VT \(that's a Source Layer\), which could involve all of the timeline-layers _video_player0_, _audio_fader_video_, _audio_fader_host_ and _mixer_pgm._
 {% endhint %}
 
 ### Migrations
@@ -102,12 +102,12 @@ It is mandatory to run migrations when you've upgraded Sofie Core to a new versi
 
 ## Rundown
 
-A Rundown is what starts playing when you start a show. It contains Segments and Parts, which can be selected by the user to be played out.  
+A Rundown is what starts playing when you start a show. It contains Segments and Parts, which can be selected by the user to be played out.
 A Rundown always has a [showstyle](dictionary.md#showstyle) and is played out in the context of a [Studio](dictionary.md#studio).
 
 Only a single Rundown can be active at a time within each Studio.
 
-![The Producer&apos;s view and naming conventions of components](../../.gitbook/assets/sofie-naming-conventions.png)
+![The Producer's view and naming conventions of components](../../.gitbook/assets/sofie-naming-conventions.png)
 
 ### Segment
 
@@ -115,7 +115,7 @@ The Segment is the horizontal line in the GUI. It is intended to be used as a "c
 
 ### Part
 
-The Part is the playable element inside of a [Segment](dictionary.md#segment). This is the thing that starts playing when the user does a [TAKE](dictionary.md#take-point).  
+The Part is the playable element inside of a [Segment](dictionary.md#segment). This is the thing that starts playing when the user does a [TAKE](dictionary.md#take-point).
 The Part in itself doesn't determine what's going to happen, that's handled by the [Pieces](dictionary.md#piece) in it.
 
 ### Piece
@@ -154,12 +154,11 @@ You can open the shelf either by clicking the handle at the bottom of the GUI, t
 
 The Baseline is a timeline with timeline-objects that works as "fallback" during play-out. The baseline is generated by the Blueprints. There are different types of Baselines:
 
-* **The Studio Baseline**; this is activated whenever there is no rundown active in a studio. This is used for controlling things like turning off the lights, or start the coffee-machine after a show. This is generated by the [Studio Blueprints](dictionary.md#blueprints).
-* **The Rundown Baseline**; is merged together with the timeline in a running rundown. This is used for controlling things like pulling down audio faders with a nice transition, etc. This is generated by the [Showstyle Blueprints](dictionary.md#blueprints).
+- **The Studio Baseline**; this is activated whenever there is no rundown active in a studio. This is used for controlling things like turning off the lights, or start the coffee-machine after a show. This is generated by the [Studio Blueprints](dictionary.md#blueprints).
+- **The Rundown Baseline**; is merged together with the timeline in a running rundown. This is used for controlling things like pulling down audio faders with a nice transition, etc. This is generated by the [Showstyle Blueprints](dictionary.md#blueprints).
 
 ## Timeline
 
 The timeline is used to control all play-out.
 
 _Read more at_ [_Concepts and Architecture_](concepts-and-architecture.md#timeline)\_\_
-

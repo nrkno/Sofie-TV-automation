@@ -2,11 +2,11 @@
 
 A variety of access levels can be set via the URL. Some of the access levels provide additional administrative pages or helpful tool tips for new users. These modes are persistent between sessions and will need to be manually disabled by replacing the _1_ with a _0_ in the URL. Below is a quick reference to the modes and what they have access to.
 
-| Ability | Basic Mode | Configuration Mode | Studio Mode | Admin Mode |
-| :--- | :--- | :--- | :--- | :--- |
-| Access Rundown | View Only | No | Yes | Yes |
-| Access Studios | View Only | Yes \( Settings Only \) | Yes | Yes |
-| Access Settings | No | Yes | No | Yes |
+| Ability         | Basic Mode | Configuration Mode      | Studio Mode | Admin Mode |
+| :-------------- | :--------- | :---------------------- | :---------- | :--------- |
+| Access Rundown  | View Only  | No                      | Yes         | Yes        |
+| Access Studios  | View Only  | Yes \( Settings Only \) | Yes         | Yes        |
+| Access Settings | No         | Yes                     | No          | Yes        |
 
 ### Standard Access Levels
 
@@ -46,5 +46,4 @@ A set of testing tools can be found by adding ?testing=1 to the URL and navigati
 
 ### Additional Modes & More Details
 
-For more information: [https://github.com/nrkno/tv-automation-server-core\#studio-mode](https://github.com/nrkno/tv-automation-server-core#studio-mode)
-
+For more information: [https://github.com/nrkno/sofie-core\#studio-mode](https://github.com/nrkno/sofie-core#studio-mode)
