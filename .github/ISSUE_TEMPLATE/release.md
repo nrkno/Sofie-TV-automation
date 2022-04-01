@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-_In the Sofie-project at NRK we work in sprints, generally 2-3 weeks long and we'll communicate the status of each release here. The releases are also documented [here](https://sofie.gitbook.io/sofie-tv-automation/documentation/releases)._
+_In the Sofie-project at NRK we work in sprints, generally 2-3 weeks long and we'll communicate the status of each release here. The releases are also documented [here](https://nrkno.github.io/sofie-core/docs/releases)._
 
 _Note: This issue is subject to change and will be updated as development progresses._
 
@@ -18,6 +18,10 @@ The contents of this release is not planned yet, more updates will follow.
 -->
 
 ## Development status
+
+This release is planned to start YYYY-MM-DD.
+This release is planned to be frozen YYYY-MM-DD.
+Please note that the dates above are preliminary and might be adjusted a few days.
 
 <!--
 The development is expected to start in the beginning of September.
