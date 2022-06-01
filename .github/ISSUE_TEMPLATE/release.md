@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-_In the Sofie-project at NRK we work in sprints, generally 2-3 weeks long and we'll communicate the status of each release here. The releases are also documented [here](https://nrkno.github.io/sofie-core/docs/releases)._
+_In the Sofie-project at NRK we work in sprints, generally 2-3 weeks long and we'll communicate the status of each release here. The releases are also documented [here](https://nrkno.github.io/sofie-core/releases)._
 
 _Note: This issue is subject to change and will be updated as development progresses._
 
