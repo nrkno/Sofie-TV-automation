@@ -22,5 +22,6 @@ _**Sofie**_ is a web-based TV automation system for studios and live shows, used
 
 - [For developers & integrators](https://nrkno.github.io/sofie-core/docs/for-developers/intro/)
 - [Releases](https://nrkno.github.io/sofie-core/releases)
+- The main repository is the [Sofie Core monorepo](https://github.com/nrkno/sofie-core)
 
 _The NRK logo is a registered trademark of Norsk rikskringkasting AS. The license does not grant any right to use, in any way, any trademarks, service marks or logos of Norsk rikskringkasting AS._
