@@ -47,4 +47,4 @@ _To be announced_
 | [Core](https://bit.ly/2yFZA9X) <br/> [Blueprints API ( Core )](https://bit.ly/2Qyrcde) <br/> [Playout Gateway](https://bit.ly/2OKGbzn) <br/> [Mos Gateway](https://bit.ly/2Tc1wR1) | TBD |
 | [Blueprints API ( TSR )](https://bit.ly/2GTAmcF) | TBD |
 | [Spreadsheet Gateway](https://bit.ly/2KB0iL9) | TBD |
-| [Media Manager](https://bit.ly/2ZDRjiD) | TBD |
+| [Package Manager](https://github.com/nrkno/sofie-package-manager) | TBD |
