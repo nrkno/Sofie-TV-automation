@@ -48,3 +48,4 @@ _To be announced_
 | [Blueprints API ( TSR )](https://bit.ly/2GTAmcF) | TBD |
 | [Spreadsheet Gateway](https://bit.ly/2KB0iL9) | TBD |
 | [Package Manager](https://github.com/nrkno/sofie-package-manager) | TBD |
+| [Input Gateway](https://github.com/nrkno/sofie-input-gateway) | TBD |
